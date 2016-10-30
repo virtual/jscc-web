@@ -1,0 +1,45 @@
+/* -------------------------------------------- Styles for LAZY LOADER ----------------------------------------------- */
+.infinite-container div.infinite-item {
+    display: none;
+}
+#snapshot-infinite img { max-width: none; width:100%;}
+
+/* Snapshot */
+#snapshot{ 
+  padding-bottom:25px;
+  a.infinite-more-link { @extend .morelink; text-transform: uppercase; }
+ // a.infinite-more-link:hover {color:$color-gold;}
+}
+
+.infinite-container > div {padding: 10px;}
+
+#snapshot {
+  .column { position:relative;}
+  .credit { position: absolute; z-index: 30; bottom: 10px;   min-height:20px; padding: 3px 8px; display:inline-block; color:#000;background: $color-gold; font-size:.95em; color:#333; }
+  .credit a { color:#000;}
+  .credit-date {color: #484848; font-size: 10px;}
+}
+
+#snapshot-infinite .instagram .instafect { overflow:hidden;}
+
+#snapshot-infinite .instagram img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+#snapshot-infinite .instagram img:hover {
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
+}
+
+
+@media (max-width: $screen-ts-max) {
+#snapshot .credit-date { display:none;}
+}
+

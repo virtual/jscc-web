@@ -1,0 +1,104 @@
+#header {
+    background-color: $color-header-bg;
+    width: 100%;
+    padding: 0;
+    * {
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        border-radius: 0 !important;
+    }
+    a:hover {
+        cursor: pointer;
+    }
+    svg { display: block;}
+}
+#mobile_search input,
+#search input {
+    background-color: #e4e4e4;
+}
+#mobile_search input:focus,
+#search input:focus {
+    background-color: #fefefe;
+}
+button#searchformboxgo {
+    color: $color-blue;
+    text-transform: uppercase;
+    border: solid 1px #f0ad00;
+    font-size: 12px;
+    width: 37px;
+    padding: 2px 5px 2px 4px;
+    margin-left: 3px;
+    background: #f4c240;
+    line-height: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #f6d473;
+    cursor: pointer;
+}
+#banner {
+    @include clearfix;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    color: #fff;
+    padding: 15px 15px 10px 15px;
+    .navbar-toggle {
+        background: #449ffa;
+    }
+    a {
+        color: #fff;
+    }
+}
+@media (min-width: $screen-sm) {
+    header .sitelogo .sm {
+        max-width: 580px;
+        margin: 0 auto;
+    }
+    #header.wrapper { line-height: 1rem; color:$brand-primary;}
+    header h1 { margin: 0; padding:0; line-height: 1rem;}
+}
+.sitelogo {
+    padding: 35px 30px;
+}
+#header-tools {
+    padding-top: 30px;
+    nav {
+        padding-top: 5px;
+    }
+}
+#search input.form-control,
+#search .btn {
+    height: 24px;
+    padding: 2px 13px;
+}
+.btn.btn-search {
+    color: #fff;
+    background-color: $color-green;
+    border-color: $color-green;
+}
+#banner {
+    padding-bottom: 0;
+    position: relative;
+}
+#banner.container {
+    padding-top: 0;
+    margin-top: 0;
+}
+@media (max-width: $screen-xs-max) {
+    #header {
+        display: none;
+    }
+}
+#searchbox {
+    .btn.btn-search:hover {
+        background-color: darken( $color-green, 10%);
+        border-color: darken( $color-green, 10%);
+    }
+}
+@media (min-width: $screen-md) {
+    #searchbox {
+        padding-top: 10px
+    }
+}

@@ -1,0 +1,138 @@
+/* Adam's CMS UI Emulating Classes */
+.ou-btn {
+  margin-right: 5px;
+  color: #FFF;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-repeat: repeat-x;
+  border: 1px solid #ccc;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2),0 1px 2px rgba(0,0,0,.05);
+}
+.ou-btn-warning {
+  background-color: #faa732;
+  background-image: linear-gradient(to bottom,#fbb450,#f89406);
+}
+.ou-btn-warning:hover {
+  background-color: #f89406;
+}
+.ou-btn-primary {
+  background-color: #006dcc;
+  background-image: linear-gradient(to bottom,#08c,#04c);
+}
+.ou-btn-primary:hover {
+  background-color: #04c;
+}
+.ou-btn-success {
+  background-color: #5bb75b;
+  background-image: linear-gradient(to bottom,#62c462,#51a351);
+}
+.ou-btn-success:hover {
+  background-color: #51a351;
+}
+.ou-btn-danger {
+  background-color: #da4f49;
+  background-image: linear-gradient(to bottom,#ee5f5b,#bd362f);
+}
+.ou-btn-danger:hover {
+  background-color: #bd362f;
+}
+.ou-btn-info {
+  background-color: #49AFCD;
+  background-image: linear-gradient(to bottom, #5BC0DE, #2F96B4);
+}
+.ou-btn-info:hover {
+  background-color: #2F96B4;
+}
+.ou-btn-default {
+  color: #333;
+  text-shadow:none;
+  background-color: #f5f5f5;
+  background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+}
+.ou-btn-default:hover,.ou-btn-default:focus {
+  color: #333 !important;
+  text-shadow:none;
+  background-color: #e6e6e6;
+}
+.ou-btn:hover,.ou-btn:focus {
+  color:#FFF;
+  background-image:none;
+}
+a.ou-btn-warning:hover,a.ou-btn-primary:hover,a.ou-btn-success:hover,a.ou-btn-danger:hover,a.ou-btn-info:hover {
+    color:#FFF;
+}
+a.ou-btn-default:hover {
+    color:#333;
+}
+a.ou-btn-warning:visited,a.ou-btn-primary:visited,a.ou-btn-success:visited,a.ou-btn-danger:visited,a.ou-btn-info:visited {
+    color:#FFF;
+}
+a.ou-btn-default:visited {
+    color:#333;
+}
+a.ou-btn-warning:focus,a.ou-btn-primary:focus,a.ou-btn-success:focus,a.ou-btn-danger:focus,a.ou-btn-info:focus {
+    color:#FFF;
+}
+a.ou-btn-default:focus {
+    color:#333;
+}
+div.ou-modal {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+div.ou-modal .bg-primary {
+  color: #fff;
+  background-color: #337ab7;
+}
+div.ou-modal .bg-success {
+  background-color: #dff0d8;
+}
+div.ou-modal .bg-info {
+  background-color: #d9edf7;
+}
+div.ou-modal .bg-warning {
+  background-color: #fcf8e3;
+}
+div.ou-modal .bg-danger {
+  background-color: #f2dede;
+}
+div.ou-modal .ou-btn-warning,div.ou-modal .ou-btn-primary,div.ou-modal .ou-btn-success,div.ou-modal .ou-btn-danger,div.ou-modal .ou-btn-info {
+  font-weight: bold;
+}
+div.ou-modal .modal-title,div.ou-modal h2,div.ou-modal h3,div.ou-modal h4,div.ou-modal h5 {
+  color:initial;
+}
+div.ou-modal form fieldset.clean+fieldset.clean {
+  border-top: 1px solid #ddd;
+  padding-top: 18px;
+}
+div.ou-modal form fieldset.clean h5 {
+  margin: 0 10px 10px;
+}
+div.ou-modal form fieldset h5 {
+  margin: 40px 20px 20px;
+  font-size: 15px;
+  color:initial;
+}
+div.ou-modal .help-block {
+  font-size: 13px;
+  font-style: italic;
+}
+div.ou-modal .char-counter {
+  float: right;
+  color: #08c;
+}
+div.ou-modal a.help-link {
+  margin: 2px 6px 0 0;
+  float:right;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.5em;
+  color: #999;
+}
+div.ou-modal a.help-link:hover {
+  color:#555;
+}

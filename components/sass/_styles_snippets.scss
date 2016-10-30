@@ -1,0 +1,60 @@
+.panel-title { border-bottom: 1px solid $gray-lighter;}
+.panel-title .fa { padding-right:5px;}
+
+
+/* Tabbed Module (Widget) */
+.widgetcontainer { 
+  width: 100%; padding: 0; margin: 0; text-align: left; background: #ccc; border-bottom: 1px solid #ccc; float: right; margin-left: 3%; 
+  
+  .tabs { width: 100%; text-align: center; 
+    ul { list-style: none; padding: 0; margin: 0; }
+    ul li { width: 45%; padding: 4px 2.5%; margin: 0; display: inline-block; list-style: none; background: #ccc; font-size: 11px; text-transform: uppercase; }
+    ul li a { cursor:pointer; padding: 2px 5%; display: block; color: #333; text-decoration: none; font-weight: bold; 
+      &.active {background: #003f7f; color: #fff; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+    }
+  }
+  
+  .panel { display: none; background: #f0f0f0; padding: 10px 5%; margin: 0; 
+      ul, ul li { padding: 0; margin: 0; list-style: none; }
+      ul li { border-bottom: 1px solid #ccc; padding: 3px 0; }
+      ul li a { text-decoration: none; }
+    }
+}
+
+/* item box with description */
+.item-box { margin-bottom:15px;}
+.item-box-additional {float:left;width:30%;}
+.item-image img {width:100%;max-width:inherit;height:auto; border:1px solid $color-halloween;}
+.item-box-description { width: 70%; float:left; padding-left:15px;}
+.item-box-subtitle p, .item-box-title h3{padding:0 0 2px 0;margin:0; float:left;clear:both; width:100%;}
+.item-box-subtitle p { font-size: 1.06em; color: #333;}
+
+
+
+@media (min-width:$screen-md-min) {
+  .ou-item-box-small {
+    .item-box-additional { width:15%;}
+    .item-box-description { width: 85%; }
+      
+  }
+    .item-box-6 .item-box { width:50%; float:left;clear:right;}
+    .item-box-6 .item-box:nth-of-type(2n+1) { clear:both; padding-right:15px;}
+}
+@media (max-width:$screen-ts-max) {
+    .item-box-additional {
+    float: none;
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom:15px;
+    padding-top:15px;
+    }
+    .item-box-description { width: 100%; padding-left:0;float:none;}
+}
+
+
+/* Bootstrap Button */
+.btn-container {
+    .btn + .btn {
+    margin-left: 5px;
+    }
+} 

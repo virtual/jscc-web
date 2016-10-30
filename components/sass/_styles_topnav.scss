@@ -1,0 +1,184 @@
+.topnav {
+    background: $color-grey;
+    padding: 15px 0;
+    a {
+        color: $color-blue;
+        text-decoration: none;
+        font-size: 1rem;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    ul {
+        list-style: none;
+        display: inline-block;
+        padding: 0;
+        li {
+            display: inline;
+        }
+        a {
+            font-family: $font-family-bold;
+            padding: 2px 12px;
+            margin: 0;
+            border-right: 1px solid $color-halloween;
+        }
+        li:last-child a {
+            border-right: 0;
+        }
+    }
+    .toggle-drop .dropdown-menu {
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+        top: 32px;
+        z-index: 3;
+        clear: both;
+        float: none;
+        display: none;
+        width: 100%;
+    }
+    .toggle-drop .open .dropdown-menu {
+        display: block;
+    }
+}
+// MOBILE 
+@media (max-width: $screen-xs-max) {
+    .topnav {
+        //text-align: left;
+        padding: 0;
+        margin: 0;
+        background: $brand-primary;
+        color: #fff;
+        a {
+            color: inherit;
+        }
+        .btn {
+            text-align: left;
+            &:hover, &:focus, &.focus {
+                box-shadow: none;
+                color: $color-halloween;
+            }
+        }
+        .container-fluid {
+            padding: 0;
+        }
+        ul {
+            display: block;
+        }
+        ul a {
+            display: block;
+            width: 100%;
+            border-right: 0
+        }
+        .target-aud-link a {
+            font-family: $font-family-sans-serif;
+        }
+        .custom-inline-input .fa.fa-search {
+            font-size: 1.7rem;
+        }
+        .toggle-drop {
+            .dropdown-menu {
+                top: auto;
+                left: 0;
+                right: 0;
+                bottom: auto;
+                position: relative;
+                background-color: transparent;
+                li a {
+                    background-color: transparent;
+                    border: 0;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .topnav-action {
+        width: 100%;
+        clear: both;
+        background: #19557a;
+        width: 100%;
+        margin: 0;
+        padding: 10px 0;
+        display: none;
+        .input-group .form-control {
+            margin-bottom: 10px;
+        }
+    }
+    .mobile-heading {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 8px 15px;
+        .sm {
+            width: 220px;
+            float: left;
+            svg { max-height: 38px;}
+        }
+        > div { padding-left:0;padding-right:0;}
+    }
+    //.target-aud-link { border:0;}
+}
+// DESKTOP
+@media (min-width: $screen-sm) {
+    .custom-inline-input .fa.fa-search {
+        margin-top: 3px;
+    }
+    .toggle-drop-container {
+        text-align: right;
+    }
+    .mobile-heading {
+        display: none;
+    }
+    .topnav {
+        padding-top: 10px;
+        padding-bottom: 8px;
+        input.form-query.form-control {
+            border: 0;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            height: 30px;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+        .target-aud-link {
+            ul {
+                margin-bottom: 0;
+                margin-top: 3px;
+            }
+            ul li a {
+                float: left;
+                line-height: 1rem;
+            }
+        }
+        .toggle-drop {
+            margin-right: -23px;
+            margin-bottom: 0;
+            background: #fff;
+            color: #000;
+            a {
+                color: #000;
+                font-size: 1rem;
+            }
+            .btn {
+                font-weight: 300;
+                font-size: .9rem;
+                padding: 5px 10px;
+            }
+        }
+        .toggle-drop .dropdown-menu {
+            li a {
+                background: #a6a8aa;
+                border: 1px solid #fff;
+                color: #fff;
+                text-decoration: none;
+                font-weight: 400;
+                padding: 8px 14px;
+                &:hover {
+                    background: $color-halloween;
+                }
+            }
+        }
+        .input-group-btn a {
+            font-size: 1rem;
+        }
+    }
+}

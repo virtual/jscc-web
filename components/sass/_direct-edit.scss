@@ -1,0 +1,19 @@
+// Skin the OU Direct edit link appropriately
+
+#oudirectedit {
+  display: block;
+  position: absolute;
+  background-color: $direct-edit;
+  width: 7px;
+  height: 7px;
+  
+  -webkit-border-radius: 0 0 12px 0 !important;
+  -moz-border-radius: 0 0 12px 0 !important;
+  border-radius: 0 0 12px 0 !important;
+
+  top: 0px;
+  left: 0px;
+  padding: 0 7px 7px 0;
+  border-right: 5px solid $footer-background;
+  border-bottom: 5px solid $footer-background;
+}

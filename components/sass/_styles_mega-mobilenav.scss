@@ -1,0 +1,83 @@
+ @media (max-width: $screen-xs-max) {
+     #yamm-placeholder { display:none;}
+     .nav .open > a,
+     .nav .open > a:hover,
+     .nav .open > a:focus {
+         color: $color-halloween;
+         background-color: transparent;
+     }
+     .topnav {
+         .toggle-drop {
+             margin-bottom: 0;
+             .fa {
+                 display: none;
+             }
+             ul li a {
+                 font-size: 1.3rem;
+                 padding-left: 30px;
+             }
+         }
+         a,
+         .btn {
+             font-size: 1.5rem;
+         }
+         ul a {
+             padding: 8px;
+             border: 0;
+         }
+         .yamm {
+             clear: both;
+             padding: 0;
+             .fa-caret-down {
+                 float: right;
+             }
+             .yamm-fw {
+                 .dropdown-menu {
+                     display: none;
+                     //  li a { display: block;}
+                     > li > a:hover, >li > a:focus {
+                         background: transparent;
+                         color: inherit;
+                         text-decoration: underline;
+                     }
+                 }
+             }
+             .yamm-fw.open {
+                 .dropdown-menu {
+                     display: block;
+                 }
+             }
+         }
+         #navbar-collapse-1 .nav {
+             width: 100%;
+             margin: 0;
+             border: 0;
+         }
+     }
+     .target-aud-link a:hover {
+         color: $color-halloween;
+     }
+     .yamm {
+         .yamm-fw a > .fa {
+             display: none;
+         }
+         .yamm-fw a:hover {
+             color: $color-halloween;
+         }
+         .yamm-content {
+             padding: 0;
+             a {
+                 font-size: 1.3rem;
+                 padding-left: 30px;
+             }
+             a:focus,
+             a:hover {
+                 color: inherit;
+                 text-decoration: underline;
+             }
+         }
+     }
+     .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus { text-decoration: underline; }
+     .nav > li > a:hover, .nav > li > a:focus { text-decoration: underline;  }
+     .nav > #menu-nav > a:hover, .nav > #menu-nav > a:focus { text-decoration: none;}
+ }
