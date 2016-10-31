@@ -4095,49 +4095,32 @@ span + span { padding-left: 5px; }
 /* line 23, ../components/sass/_styles_header.scss */
 button#searchformboxgo { color: #00355A; text-transform: uppercase; border: solid 1px #f0ad00; font-size: 12px; width: 37px; padding: 2px 5px 2px 4px; margin-left: 3px; background: #f4c240; line-height: 16px; font-weight: bold; text-shadow: 1px 1px 1px #f6d473; cursor: pointer; }
 
-/* line 37, ../components/sass/_styles_header.scss */
-#banner { text-align: center; margin: auto; position: relative; left: 0; top: 0; background-color: white; color: #fff; padding: 15px 15px 10px 15px; }
-/* line 14, ../components/sass/mixins/_clearfix.scss */
-#banner:before, #banner:after { content: " "; display: table; }
-/* line 19, ../components/sass/mixins/_clearfix.scss */
-#banner:after { clear: both; }
-/* line 47, ../components/sass/_styles_header.scss */
-#banner .navbar-toggle { background: #449ffa; }
-/* line 50, ../components/sass/_styles_header.scss */
-#banner a { color: #fff; }
-
-@media (min-width: 768px) { /* line 55, ../components/sass/_styles_header.scss */
+@media (min-width: 768px) { /* line 39, ../components/sass/_styles_header.scss */
   header .sitelogo .sm { max-width: 580px; margin: 0 auto; }
-  /* line 59, ../components/sass/_styles_header.scss */
+  /* line 43, ../components/sass/_styles_header.scss */
   #header.wrapper { line-height: 1rem; color: #1c7c3e; }
-  /* line 60, ../components/sass/_styles_header.scss */
+  /* line 44, ../components/sass/_styles_header.scss */
   header h1 { margin: 0; padding: 0; line-height: 1rem; } }
-/* line 62, ../components/sass/_styles_header.scss */
+/* line 46, ../components/sass/_styles_header.scss */
 .sitelogo { position: relative; width: 150px; z-index: 4; top: -80px; }
 
-/* line 68, ../components/sass/_styles_header.scss */
+/* line 52, ../components/sass/_styles_header.scss */
 #header-tools { padding-top: 30px; }
-/* line 70, ../components/sass/_styles_header.scss */
+/* line 54, ../components/sass/_styles_header.scss */
 #header-tools nav { padding-top: 5px; }
 
-/* line 74, ../components/sass/_styles_header.scss */
+/* line 58, ../components/sass/_styles_header.scss */
 #search input.form-control, #search .btn { height: 24px; padding: 2px 13px; }
 
-/* line 79, ../components/sass/_styles_header.scss */
+/* line 63, ../components/sass/_styles_header.scss */
 .btn.btn-search { color: #fff; background-color: #1c7c3e; border-color: #1c7c3e; }
 
-/* line 84, ../components/sass/_styles_header.scss */
-#banner { padding-bottom: 0; position: relative; }
-
-/* line 88, ../components/sass/_styles_header.scss */
-#banner.container { padding-top: 0; margin-top: 0; }
-
-@media (max-width: 767px) { /* line 93, ../components/sass/_styles_header.scss */
+@media (max-width: 767px) { /* line 70, ../components/sass/_styles_header.scss */
   #header { display: none; } }
-/* line 98, ../components/sass/_styles_header.scss */
+/* line 75, ../components/sass/_styles_header.scss */
 #searchbox .btn.btn-search:hover { background-color: #135229; border-color: #135229; }
 
-@media (min-width: 992px) { /* line 104, ../components/sass/_styles_header.scss */
+@media (min-width: 992px) { /* line 81, ../components/sass/_styles_header.scss */
   #searchbox { padding-top: 10px; } }
 /* line 2, ../components/sass/_styles_footer.scss */
 footer a:visited { color: inherit; }

@@ -34,23 +34,7 @@ button#searchformboxgo {
     text-shadow: 1px 1px 1px #f6d473;
     cursor: pointer;
 }
-#banner {
-    @include clearfix;
-    text-align: center;
-    margin: auto;
-    position: relative;
-    left: 0;
-    top: 0;
-    background-color: $color-header-bg;
-    color: #fff;
-    padding: 15px 15px 10px 15px;
-    .navbar-toggle {
-        background: #449ffa;
-    }
-    a {
-        color: #fff;
-    }
-}
+
 @media (min-width: $screen-sm) {
     header .sitelogo .sm {
         max-width: 580px;
@@ -81,14 +65,7 @@ button#searchformboxgo {
     background-color: $color-green;
     border-color: $color-green;
 }
-#banner {
-    padding-bottom: 0;
-    position: relative;
-}
-#banner.container {
-    padding-top: 0;
-    margin-top: 0;
-}
+
 @media (max-width: $screen-xs-max) {
     #header {
         display: none;

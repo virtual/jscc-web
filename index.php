@@ -36,19 +36,7 @@
 </head>
 <body>
     <?php include ('include-header.php'); ?>
-    <div class="container-fluid">
-        <div class="row clearfix hidden-print">
-            <div id="yamm-placeholder">
-                <div class=" yamm">
-                    <div class="container">
-                        <nav role="navigation" id="navbar-collapse-1">
-                            <?php include ('include-megamenu.php'); ?>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     <?php include ('include-slider.php'); ?>
     
