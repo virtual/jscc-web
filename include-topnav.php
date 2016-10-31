@@ -25,14 +25,8 @@
         <div class="container-fluid">
             <div class="row mobile-heading">
                 <div class="col-sm-12">
-                    <a href="#">
-                        <div class="sm">
-                            <div class="svg-icon">
-                                <div class="svg-container">
-                                    <?php //include('images/structure/logos/spc.svg'); ?>
-                                </div>
-                            </div>
-                        </div>
+                    <a href="#"> 
+                                    <img src="_resources/images/logo/logo-j.png" alt="Jackson State Community College"/> 
                     </a>
                     <ul id="mobile_buttons" class="visible-xs nav pull-right text-left navbar-nav">
 
@@ -50,7 +44,7 @@
                                     <form action="#" method="get">
                                         <input type="hidden" value="#" name="cx">
                                         <input type="hidden" value="FORID:11" name="cof">
-                                        <input class="form-query form-control" placeholder="Search SPC" type="text" name="q" id="q"> <span class="input-group-btn"> <label for="q" class="sr-only">Search</label> <button class="btn"><span class="fa fa-search"><span class="sr-only">Search</span></span>
+                                        <input class="form-query form-control" placeholder="Search JSCC" type="text" name="q" id="q"> <span class="input-group-btn"> <label for="q" class="sr-only">Search</label> <button class="btn"><span class="fa fa-search"><span class="sr-only">Search</span></span>
                                         </button>
                                         </span>
                                     </form>
@@ -59,29 +53,13 @@
                         </div>
                         <div class="col-ts-12 col-xs-12 col-sm-5 toggle-drop-container">
 
-
-                            <ul class="toggle-drop">
-                                <li class="dropdown"> <a href="#"><span class="color-orange fa fa-user" aria-hidden="false"><span class="sr-only">User</span></span> Login to&hellip;
-                        </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">MySPC</a></li>
-                                        <li><a href="#">Blackboard</a></li>
-                                        <li><a href="#">Email</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                            <a class="btn btn-primary" onclick="ga('send', 'event', 'apply now', 'click');" href="/admissions/apply.html">Apply Now</a>
                         </div>
 
                     </div>
                 </div>
 
-                <div class="col-ts-12 col-xs-12 col-sm-7 col-md-6 target-aud-link">
-                    <ul class="cf ">
-                        <li><a href="#">Parents &amp; Families</a></li>
-                        <li><a href="#">Community &amp; Business</a></li>
-                        <li><a href="#">Virtual Tour</a></li>
-                    </ul>
-                </div>
+                
 
 
             </div>

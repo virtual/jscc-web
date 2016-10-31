@@ -1,7 +1,6 @@
 <ul class="nav navbar navbar-nav navbar-right">
 
-    <li class="dropdown yamm-fw">
-        <a href="#"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Degrees &amp; Programs</a>
+    <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Degrees &amp; Programs</a>
         <ul class="dropdown-menu">
             <li class="container">
                 <!-- Content container to add padding -->
@@ -18,8 +17,7 @@
             </li>
         </ul>
     </li>
-    <li class="dropdown yamm-fw">
-        <a href="#"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Student Services</a>
+    <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Student Services</a>
         <ul class="dropdown-menu">
             <li class="container">
                 <!-- Content container to add padding -->
@@ -55,8 +53,7 @@
             </li>
         </ul>
     </li>
-    <li class="dropdown yamm-fw">
-        <a href="#"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Campus Life &amp; Housing</a>
+    <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Campus Life &amp; Housing</a>
         <ul class="dropdown-menu">
             <li class="container"> 
                 <div class="yamm-content">
@@ -88,8 +85,7 @@
             </li>
         </ul>
     </li>
-    <li class="dropdown yamm-fw">
-        <a href="#"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>About</a>
+    <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>About</a>
         <ul class="dropdown-menu">
             <li class="container">
                 <!-- Content container to add padding -->
@@ -122,13 +118,11 @@
             </li>
         </ul>
     </li>
-    <li class="dropdown yamm-fw">
-        <a href="#"><span class="fa fa-caret-right" aria-hidden="true"></span>Alumni &amp; Giving</a>
+    <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="fa fa-caret-right" aria-hidden="true"></span>Alumni &amp; Giving</a>
 
     </li>
 
-    <li class="dropdown yamm-fw">
-        <a href="#"><span class="fa fa-caret-right" aria-hidden="true"></span>Athletics</a>
+    <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="fa fa-caret-right" aria-hidden="true"></span>Athletics</a>
 
     </li>
 

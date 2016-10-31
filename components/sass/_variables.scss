@@ -14,10 +14,11 @@ $bootstrap-sass-asset-helper: (twbs-font-path("") != unquote('twbs-font-path("")
 $color-green:       #1c7c3e;
 $color-blue:        #00355A;
 $color-dark-blue:   #003f7f;
-$color-header-bg:   #fff;
+
 $color-black:       #000000;
 $color-heathergrey: #898378;
 $color-grey:        #ddddd5;
+$color-header-bg:   lighten($color-grey, 40);
 $color-lightblue:   #2e8eb5;
 $color-skyblue:     $color-lightblue;
 $color-gold:        #f9bc24;

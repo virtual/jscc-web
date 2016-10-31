@@ -41,7 +41,7 @@ button#searchformboxgo {
     position: relative;
     left: 0;
     top: 0;
-    background-color: #fff;
+    background-color: $color-header-bg;
     color: #fff;
     padding: 15px 15px 10px 15px;
     .navbar-toggle {
@@ -60,7 +60,10 @@ button#searchformboxgo {
     header h1 { margin: 0; padding:0; line-height: 1rem;}
 }
 .sitelogo {
-    padding: 35px 30px;
+    position: relative;
+    width: 150px;
+    z-index: 4;
+    top: -80px;
 }
 #header-tools {
     padding-top: 30px;

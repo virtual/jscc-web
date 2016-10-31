@@ -1,5 +1,5 @@
 //= require bootstrap
-$(document).ready(function() {
+$(document).ready(function() { 
     
     /* Menu accessibility for Enter */
     $('.dropdown > a[tabindex]').keydown(function(event) {
