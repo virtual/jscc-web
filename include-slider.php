@@ -1,51 +1,23 @@
 <div class="wrapper clearfix background-grey">
-    <div class="container-fluid main-banner">
+    <div class="container main-banner">
         <div class="row">
             <div class="slick-slider">
-                <div class="vid">
-                    <object class="embed-responsive" >
-                        <img src="images/slider/SAM_0763.jpg" alt="horses" />
-                        <div class="video-container"  data-video-src="images/slider/SAM_0763.mp4" data-poster-frame="images/slider/SAM_0763.jpg" >
-                            <video autoplay loop muted onloadedmetadata="this.muted = true" width="720" height="240" poster="images/slider/SAM_0763.jpg" >
-                                <source src="images/slider/SAM_0763.mp4"    />
-                                <source src="images/slider/SAM_0763.webm"  />
-                            </video>
-                        </div>
-                    </object>
-                    <div class="caption">
-                        <div><a href="#">Winter retreat!</a></div>
-                    </div>
+                <div class="slide">
+                    <a href="http://www.jscc.edu/news/news-article.html?newsid=maxwell-leadership-conference-to-be-hosted-by-jscc">
+                        <img src="./_resources/images/slider/live2lead.jpg" alt="Live2Lead with John C. Maxwell, Simon Sinek, Dan Cathy and Liz Wiseman" />                
+                    </a>    
                 </div>
-                <div>
-                    <img src="images/slider/students-on-lawn.jpg" alt="students sitting on campus lawn working on a project" />
-                    <div class="caption">
-                        <div><a>Prepare yourself.</a></div>
-                    </div>
+                <div class="slide">
+                    <a href="http://www.jscc.edu/news/news-article.html?newsid=fafsa-frenzy-to-begin-at-jscc">
+                        <img src="./_resources/images/slider/fafsa1.jpg" alt="FAFSA Frenzy to begin at JSCC" />                
+                    </a>    
                 </div>
-                <div class="vid">
-                    <object class="embed-responsive" >
-                        <img src="images/slider/SAM_0763.jpg" alt="horses" />
-                        <div class="video-container"  data-video-src="images/slider/SAM_0763.mp4" data-poster-frame="images/slider/SAM_0763.jpg" >
-                            <video autoplay loop muted onloadedmetadata="this.muted = true" width="720" height="240" poster="images/slider/SAM_0763.jpg" >
-                                <source src="images/slider/SAM_0763.mp4"    />
-                                <source src="images/slider/SAM_0763.webm"  />
-                            </video>
-                        </div>
-                    </object>
-                    <div class="caption">
-                        <div><a href="#">Winter retreat!</a></div>
-                    </div>
+                <div class="slide">
+                    <a href="https://www.youtube.com/watch?v=KMm6F0lYTLw">
+                        <img src="./_resources/images/slider/fresh.jpg" alt="Get a fresh start on your career: Jackson State Deferred Payment - Open House" />                
+                    </a>    
                 </div>
-                <div>
-                    <img src="images/slider/cabo-vacation.jpg" alt="take time to swim in Cabo" />
-                    <div class="caption">
-                        <div><a>For 2 slides.</a></div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
-</div>
-
- 
+</div> 

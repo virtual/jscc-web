@@ -1,0 +1,73 @@
+div#hottopics {font-size:1.1em;margin:0;}
+div#hottopics p {font-size:1.2em;line-height:1.5em;margin:0;padding:0;}
+
+
+
+div#hottopics {
+    width: 960px;
+	height: 160px;
+    margin: 30px 20px;
+
+}
+
+
+/* --------------------------------------------- */
+/*  Hot Topics                                   */
+/* --------------------------------------------- */
+
+
+
+div.hottopic {
+    font-family: Arial, Helvetica, Tahoma, sans-serif;
+float: left;
+   
+    width: 226px;
+   height: 160px;
+margin-right: 12px;
+background: #fff;
+color: #000;
+background:#ddddd5 url('/_resources/images/hot-bottom.gif') no-repeat bottom;
+}
+
+	
+
+
+body#index div.hotcontent {padding:5px 10px;}
+
+body#index div.nopad {padding:0;}
+
+
+div.hottopic h2 {border-bottom:white 2px solid; background: no-repeat top;padding:5px 5px 5px 10px;color:white;font-size:1.5em;margin:0;font-family: Arial, Helvetica, Tahoma, sans-serif;}
+div.orange h2 {background-color:#ce812c; background-image:url('/_resources/images/hot-orange-top.gif');}
+div.yellow h2 {background-color:#e7b425; background-image:url('/_resources/images/hot-yellow-top.gif');}
+div.brown h2 {background-color:#808062; background-image:url('/_resources/images/hot-brown-top.gif');}
+div.athletics {background: url('/_resources/images/hot-athletics.jpg') no-repeat bottom;}
+div.survey {background: url('/_resources/images/hot-survey.jpg') no-repeat bottom;}
+div.fasttrack {background: url('/_resources/images/hot-fasttrack.jpg') no-repeat bottom;}
+div.schedule {background: url('/_resources/images/hot-schedule.png') no-repeat bottom;}
+div.photo {background: url('/_resources/images/hot-photo.jpg') no-repeat bottom;}
+#mycarousel div.photo a:link, div.photo a:visited {color:black;}
+body#index div.hottopic h2 a:link, body#index div.hottopic h2 a:visited {color:white;}
+body#index div.hottopic h2 a:hover, body#index div.hottopic h3 a:active {}
+
+li.hottopic .action {background-image: url(/_resources/images/hotarrow.png);}
+
+#hottopics div a:link, #mycarousel li a:visited {text-decoration:none;color:#808062;}
+#hottopics div a:hover {text-decoration:underline;color:#686848;}
+
+
+
+select#droplinks{
+list-style: none;
+margin-left: 0em;
+margin-top:0em;
+width:85%;
+}
+
+p#selectdroplink{
+padding:0;}
+
+p#onlinecamptext{vertical-align:middle;}
+img#onlinecampimg{}
+div.onlinecamparea{margin-top:1em;}
+
