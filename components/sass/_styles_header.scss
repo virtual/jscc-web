@@ -46,8 +46,10 @@ button#searchformboxgo {
 .sitelogo {
     position: relative;
     width: 150px;
+    padding-left:10px;
+    top: -40px;
     z-index: 4;
-    top: -80px;
+    float:left;
 }
 #header-tools {
     padding-top: 30px;
@@ -81,4 +83,15 @@ button#searchformboxgo {
     #searchbox {
         padding-top: 10px
     }
+}
+
+.flex-header {
+     display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+    
+}
+.site-logo, #yamm-placeholder {
+     flex-wrap: wrap;
+    align-self: flex-end;
 }

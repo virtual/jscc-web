@@ -1,3 +1,5 @@
+
+nav { top:0; position:relative;}
 .navbar {
     min-height: inherit;
 }
@@ -18,10 +20,13 @@
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-    background-color: transparent;
+    background-color: $color-grey;
 }
 .yamm {
+   // margin-left:150px;
+    color:#585858;
     .fa-caret-right {
+        display: none;
         color: #fff;
         font-size: 2rem;
         float: right;
@@ -104,7 +109,7 @@
                 
                  
                     > a { 
-                        &:hover,&:active,&:focus { background:rgba(255, 255, 255, 0.2);} 
+                      //  &:hover,&:active,&:focus { background:rgba(255, 255, 255, 0.2);} 
                     }
                 
             }
@@ -137,7 +142,7 @@
         a {
            // color: #fff;
             //font-family: $font-family-bold;
-            text-transform: uppercase;
+            //text-transform: uppercase;
         }
         .dropdown-submenu .dropdown-menu {
             left: auto;
@@ -163,7 +168,8 @@
     }
 }
 .yamm .dropdown-menu {
-    background: $brand-primary;
+    top: auto;
+    background: $color-grey;
     padding: 0;
     ul li ul {
         background: $color-lightblue;
