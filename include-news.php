@@ -8,7 +8,7 @@
                     <p>
                         <a href="/news/news-article.html?newsid=jscc-rad-students-to-celebrate-121st-anniversary-of-x-ray">
                 <h3>JSCC RAD students to celebrate 121st anniversary of x-ray</h3>
-                <img alt="" class="floatleft" src="/wp-news/wp-content/uploads/2016/10/Wilhelm-Conrad-Roentgen1-80x80.jpg">
+                <img alt="" class="floatleft" src="_resources/images/news/Wilhelm-Conrad-Roentgen1-80x80.jpg">
                 <p>The invisible energy we call "x-rays" was discovered on Nov. 8, 1895, by German physicist Wilhelm Conrad Roentgen. Each year, the profession of radiography/medical imaging celebrates Roentgen's discovery and the dedication of all those who use x-rays or similar energies by recognizing National Radiologic Technology Week, the week of November 8.</p>
             </a></p>
                 </div>

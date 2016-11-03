@@ -67,3 +67,6 @@
 
 /* line 169, ../components/sass/_styles_slickslider.scss */
 .slick-slider.slick-initialized .slick-list, .slick-slider.slick-initialized .slick-track { -moz-opacity: 1; -khtml-opacity: 1; opacity: 1; position: relative; -webkit-transition: opacity 0.5s ease-in; -moz-transition: opacity 0.5s ease-in; -o-transition: opacity 0.5s ease-in; -ms-transition: opacity 0.5s ease-in; transition: opacity 0.5s ease-in; }
+
+/* line 183, ../components/sass/_styles_slickslider.scss */
+.slick-slider a[href*="youtube.com/watch?"], .slick-slider a[href*="sevenload.com/videos/"], .slick-slider a[href*="metacafe.com/watch/"], .slick-slider a[href*="video.google.com"], .slick-slider a[href$='.mov'], .slick-slider a[href$='.wmv'], .slick-slider a[href$='.mp4'], .slick-slider a[href$='.avi'], .slick-slider a[href$='.mpg'] { padding: 0; }

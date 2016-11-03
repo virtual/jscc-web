@@ -3,8 +3,8 @@
   display: block;
   //width: 100%;
   position: relative; 
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* flex */
@@ -32,7 +32,7 @@
 .flex-items >.flex-item img { width:auto; max-width: 100%; height: auto;}
 
 .flex-items >.flex-item {
-   flex: 0 0 calc(100% - 20px);
+   flex: 0 0 calc(100% - 40px);
  // width: 100%; 
   min-height: 0;
   min-width: 0;
@@ -48,8 +48,8 @@
   -o-transition: background-color 300ms ease-in-out 300ms;
   transition: background-color 300ms ease-in-out 300ms;
     @include border-radius(10px);
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     
     >div { width:100%;}
   p {
@@ -82,14 +82,14 @@
 
 @media (min-width: $screen-xs-min) { 
 .flex-items >.flex-item {
-  flex: 0 0 calc(50% - 15px); 
+  flex: 0 0 calc(50% - 30px); 
 //  min-width: 0;
     
     }
 }
 @media (min-width: $screen-sm-min) { 
 .flex-items >.flex-item {
-  flex: 0 0 calc(25% - 12.5px);
+  flex: 0 0 calc(25% - 25px);
 //  min-width: 0;
  //   flex-wrap: nowrap;
     }

@@ -1,9 +1,9 @@
 .topnav {
     background: $color-grey;
-    padding: 25px 0;
     z-index:2;position: relative;
-    $border-topnav: darken($color-grey,40);
-    @include box-shadow(0 8px 4px -4px $border-topnav);
+   background-image: url('../_resources/images/backgrounds/top.jpg');
+    background-position: bottom;
+    background-repeat: repeat-x;
     
     a {
         //color: $color-blue;
@@ -30,6 +30,7 @@
             border-right: 0;
         }
     }
+    .topnav-action { padding: 17px 0 27px 0; }
     .toggle-drop .dropdown-menu {
         border: 0;
         border-radius: 0;
@@ -133,8 +134,7 @@
         display: none;
     }
     .topnav {
-        padding-top: 10px;
-        padding-bottom: 8px;
+       
         input.form-query.form-control {
             border: 0;
             padding-top: 4px;

@@ -178,3 +178,9 @@
     transition:  opacity 0.5s ease-in;
     
 }
+
+.slick-slider {
+    a[href*="youtube.com/watch?"], a[href*="sevenload.com/videos/"], a[href*="metacafe.com/watch/"], a[href*="video.google.com"], a[href$='.mov'], a[href$='.wmv'], a[href$='.mp4'], a[href$='.avi'], a[href$='.mpg'] {
+        padding:0;
+    }
+}

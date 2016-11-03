@@ -45,18 +45,7 @@
             <?php include ('include-subfeature.php'); ?>
         </div>
     </div>
-    <div class="wrapper background-inverse-feature clearfix">
-        <div class="container-fluid">
-            <div class="background-action-list"><img src="images/stock/DSC_8776%202.jpg" alt="A woman walking on campus with a backpack" /></div>
-            <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <?php //include ('include-action-list.php'); ?>
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
