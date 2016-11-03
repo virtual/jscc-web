@@ -5840,128 +5840,165 @@ button#searchformboxgo { color: #00355A; text-transform: uppercase; border: soli
 /* line 2, ../components/sass/_styles_footer.scss */
 footer a:visited { color: inherit; }
 
-/* line 6, ../components/sass/_styles_footer.scss */
-footer { background: #ddddd5; position: relative; }
 /* line 7, ../components/sass/_styles_footer.scss */
+footer { background: #ddddd5; position: relative; }
+/* line 8, ../components/sass/_styles_footer.scss */
 footer * { -webkit-border-radius: 0 !important; -moz-border-radius: 0 !important; border-radius: 0 !important; }
-/* line 15, ../components/sass/_styles_footer.scss */
+/* line 16, ../components/sass/_styles_footer.scss */
 footer ul { padding-left: 0; padding-right: 10px; margin-left: 0; list-style: none; }
-/* line 21, ../components/sass/_styles_footer.scss */
+/* line 22, ../components/sass/_styles_footer.scss */
 footer li { color: #1c7c3e; list-style: none; }
-/* line 24, ../components/sass/_styles_footer.scss */
+/* line 25, ../components/sass/_styles_footer.scss */
 footer li a { display: block; padding: 3px 0; color: inherit; display: block; font-family: "BrandonGrotesqueWeb-Bold", "Open Sans", Verdana, Geneva, sans-serif; text-decoration: none; }
-/* line 31, ../components/sass/_styles_footer.scss */
+/* line 32, ../components/sass/_styles_footer.scss */
 footer li a:hover { text-decoration: underline; }
-/* line 34, ../components/sass/_styles_footer.scss */
+/* line 35, ../components/sass/_styles_footer.scss */
 footer li a .fa { color: inherit !important; }
-/* line 38, ../components/sass/_styles_footer.scss */
+/* line 39, ../components/sass/_styles_footer.scss */
 footer li h3 { font-size: 15px; color: #fff; margin: 0 28px 6px 0; }
-/* line 44, ../components/sass/_styles_footer.scss */
+/* line 45, ../components/sass/_styles_footer.scss */
 footer > div { padding-top: 20px; padding-bottom: 20px; position: relative; }
-/* line 49, ../components/sass/_styles_footer.scss */
+/* line 50, ../components/sass/_styles_footer.scss */
 footer li.social-horizontal a { padding: 3px 0px; min-width: 30px; display: inline-block; text-align: center; font-size: 18px; }
-/* line 56, ../components/sass/_styles_footer.scss */
+/* line 57, ../components/sass/_styles_footer.scss */
 footer nav ul li h3, footer nav ul li h3 a { margin: 0; padding: 3px 0; }
-/* line 61, ../components/sass/_styles_footer.scss */
+/* line 62, ../components/sass/_styles_footer.scss */
 footer .btn { font-size: 1.1rem; font-family: "BrandonGrotesqueWeb-Bold", "Open Sans", Verdana, Geneva, sans-serif; background: #1c7c3e; color: #fff; text-transform: uppercase; padding: 1rem; width: 100%; border-color: #00080e; }
-/* line 70, ../components/sass/_styles_footer.scss */
+/* line 71, ../components/sass/_styles_footer.scss */
 footer .btn:hover { background: #ce812c; border-color: #8f5a1f; }
-/* line 75, ../components/sass/_styles_footer.scss */
+/* line 76, ../components/sass/_styles_footer.scss */
 footer .footer-attr { color: #898378; }
 
-@media (max-width: 767px) { /* line 83, ../components/sass/_styles_footer.scss */
+@media (max-width: 767px) { /* line 84, ../components/sass/_styles_footer.scss */
   footer .brand { margin-top: 15px; text-align: center; float: none !important; }
-  /* line 88, ../components/sass/_styles_footer.scss */
+  /* line 89, ../components/sass/_styles_footer.scss */
   footer ul { margin-bottom: 15px; margin-top: 15px; }
-  /* line 92, ../components/sass/_styles_footer.scss */
+  /* line 93, ../components/sass/_styles_footer.scss */
   footer .btn { max-width: 200px; } }
 /* pre footer social links */
-/* line 99, ../components/sass/_styles_footer.scss */
+/* line 100, ../components/sass/_styles_footer.scss */
 .pre-footer-social { padding: 5px; }
-/* line 101, ../components/sass/_styles_footer.scss */
+/* line 102, ../components/sass/_styles_footer.scss */
 .pre-footer-social ul { margin: 0; }
-/* line 104, ../components/sass/_styles_footer.scss */
+/* line 105, ../components/sass/_styles_footer.scss */
 .pre-footer-social a { color: #ce812c; padding: 0; margin: 0 5px; font-size: 40px; text-decoration: none; }
-/* line 111, ../components/sass/_styles_footer.scss */
+/* line 112, ../components/sass/_styles_footer.scss */
 .pre-footer-social .fa-facebook-square { color: inherit; }
-/* line 114, ../components/sass/_styles_footer.scss */
+/* line 115, ../components/sass/_styles_footer.scss */
 .pre-footer-social a:hover { color: #d9954b; }
-/* line 117, ../components/sass/_styles_footer.scss */
+/* line 118, ../components/sass/_styles_footer.scss */
 .pre-footer-social li img { position: relative; bottom: 8px; }
 
-@media (max-width: 767px) { /* line 123, ../components/sass/_styles_footer.scss */
+@media (max-width: 767px) { /* line 124, ../components/sass/_styles_footer.scss */
   .footer-small { display: block; width: 100%; }
-  /* line 127, ../components/sass/_styles_footer.scss */
+  /* line 128, ../components/sass/_styles_footer.scss */
   .footer-button, .footer-badge { width: 50%; float: right; padding: 20px; text-align: right; }
-  /* line 134, ../components/sass/_styles_footer.scss */
-  .footer-button { text-align: left; margin-top: 10px; }
   /* line 135, ../components/sass/_styles_footer.scss */
+  .footer-button { text-align: left; margin-top: 10px; }
+  /* line 136, ../components/sass/_styles_footer.scss */
   .footer-button .btn { max-width: 150px; }
-  /* line 137, ../components/sass/_styles_footer.scss */
+  /* line 138, ../components/sass/_styles_footer.scss */
   .footer-badge img { width: 100%; max-width: 100px; height: auto; }
-  /* line 143, ../components/sass/_styles_footer.scss */
+  /* line 144, ../components/sass/_styles_footer.scss */
   .footer-attr { clear: both; padding: 30px; } }
-@media (min-width: 768px) { /* line 149, ../components/sass/_styles_footer.scss */
+@media (min-width: 768px) { /* line 150, ../components/sass/_styles_footer.scss */
   .footer-large, .footer-small { display: inline-block; }
-  /* line 153, ../components/sass/_styles_footer.scss */
+  /* line 154, ../components/sass/_styles_footer.scss */
   .footer-large { width: 80%; }
-  /* line 156, ../components/sass/_styles_footer.scss */
+  /* line 157, ../components/sass/_styles_footer.scss */
   .footer-small { width: 20%; display: inline; }
-  /* line 160, ../components/sass/_styles_footer.scss */
+  /* line 161, ../components/sass/_styles_footer.scss */
   .footer-button { width: 20%; float: right; display: inline-block; }
-  /* line 165, ../components/sass/_styles_footer.scss */
+  /* line 166, ../components/sass/_styles_footer.scss */
   .footer-badge { clear: both; display: block; }
-  /* line 169, ../components/sass/_styles_footer.scss */
+  /* line 170, ../components/sass/_styles_footer.scss */
   .footer-badge { float: left; padding: 0 30px; max-width: 200px; } }
-@media (min-width: 992px) { /* line 176, ../components/sass/_styles_footer.scss */
+@media (min-width: 992px) { /* line 177, ../components/sass/_styles_footer.scss */
   .footer-badge { margin-left: 20%; float: left; display: block; width: 20%; }
-  /* line 182, ../components/sass/_styles_footer.scss */
+  /* line 183, ../components/sass/_styles_footer.scss */
   .footer-attr { margin-right: 20%; width: 40%; float: right; }
-  /* line 187, ../components/sass/_styles_footer.scss */
+  /* line 188, ../components/sass/_styles_footer.scss */
   footer .btn { font-size: 1.5rem; } }
-@media (min-width: 1200px) { /* line 192, ../components/sass/_styles_footer.scss */
+@media (min-width: 1200px) { /* line 193, ../components/sass/_styles_footer.scss */
   .footer-badge { margin-left: 10%; }
-  /* line 193, ../components/sass/_styles_footer.scss */
-  .footer-attr { margin-right: 10%; width: 60%; }
   /* line 194, ../components/sass/_styles_footer.scss */
+  .footer-attr { margin-right: 10%; width: 60%; }
+  /* line 195, ../components/sass/_styles_footer.scss */
   footer .btn { font-size: 2rem; } }
-/* line 2, ../components/sass/_styles_prefooter.scss */
-.pre-footer li { width: 20%; }
-/* line 4, ../components/sass/_styles_prefooter.scss */
-.pre-footer li img { float: left; }
-/* line 6, ../components/sass/_styles_prefooter.scss */
-.pre-footer li p { line-height: 1rem; }
-/* line 7, ../components/sass/_styles_prefooter.scss */
+/* line 201, ../components/sass/_styles_footer.scss */
+#footer { font-size: .8rem; text-align: left; }
+
+/* line 202, ../components/sass/_styles_footer.scss */
+#footer-menu ul li { padding: 0; }
+
+/* line 203, ../components/sass/_styles_footer.scss */
+#footer #copyright { width: inherit; }
+
+/* line 204, ../components/sass/_styles_footer.scss */
+ul#follow { width: 20%; }
+
+/* line 205, ../components/sass/_styles_footer.scss */
+ul#follow li { display: inline-block; }
+
+/* line 206, ../components/sass/_styles_footer.scss */
+ul#follow li a { background: transparent url("../_resources/images/icons/icons.png") no-repeat 0 0; }
+
+/* line 208, ../components/sass/_styles_footer.scss */
+a[href$='.pdf'] { background: transparent url("../_resources/images/icons/icon_pdf.gif") no-repeat center right; }
+
+/* line 1, ../components/sass/_styles_prefooter.scss */
+.pre-footer { padding-top: 20px; background-color: #f2f2e8; }
+/* line 3, ../components/sass/_styles_prefooter.scss */
+.pre-footer ul { display: -webkit-flex; display: -ms-flexbox; display: flex; flex-flow: row; flex-wrap: wrap; }
+/* line 10, ../components/sass/_styles_prefooter.scss */
+.pre-footer li { margin-bottom: 10px; flex: 0 0 calc(100%); padding-right: 20px; }
+/* line 11, ../components/sass/_styles_prefooter.scss */
+.pre-footer li img { float: left; margin-right: 7px; }
+/* line 13, ../components/sass/_styles_prefooter.scss */
+.pre-footer li p { line-height: 1rem; text-align: left; padding-top: 6px; line-height: 1.5rem; }
+/* line 14, ../components/sass/_styles_prefooter.scss */
 .pre-footer li p a { color: #000; text-decoration: none; }
 
+@media (min-width: 480px) { /* line 21, ../components/sass/_styles_prefooter.scss */
+  .pre-footer { font-size: .8rem; }
+  /* line 24, ../components/sass/_styles_prefooter.scss */
+  .pre-footer li { flex: 0 0 50%; } }
+@media (min-width: 600px) { /* line 31, ../components/sass/_styles_prefooter.scss */
+  .pre-footer li { flex: 0 0 33.33333%; } }
+@media (min-width: 992px) { /* line 38, ../components/sass/_styles_prefooter.scss */
+  .pre-footer li { flex: 0 0 20%; } }
 /* line 1, ../components/sass/_styles_subfeature.scss */
 .subfeature { clear: both; display: block; position: relative; margin-top: 25px; margin-bottom: 25px; }
 
 /* flex */
 /* line 11, ../components/sass/_styles_subfeature.scss */
-.subfeature .flex-items { color: #000; display: -webkit-flex; display: -ms-flexbox; display: flex; width: 100%; }
+.subfeature .flex-items { color: #000; width: 100%; display: -webkit-flex; display: -ms-flexbox; display: flex; flex-flow: row; flex-wrap: wrap; }
 
-/* line 22, ../components/sass/_styles_subfeature.scss */
+/* line 24, ../components/sass/_styles_subfeature.scss */
 .flex-items .flex-item h2 { color: #fff; background: #ce812c; display: block; padding: 5px 5px 5px 10px; border-bottom: white 2px solid; font-weight: normal; font-size: 1.1em; width: 100%; -moz-border-radius: 10px 10px 0 0; -webkit-border-radius: 10px; border-radius: 10px 10px 0 0; margin-bottom: 0; font-family: Arial, Helvetica, Tahoma, sans-serif; }
-/* line 23, ../components/sass/_styles_subfeature.scss */
+/* line 25, ../components/sass/_styles_subfeature.scss */
 .flex-items .flex-item:nth-child(2n+1) h2 { background: #808062; }
 
-/* line 26, ../components/sass/_styles_subfeature.scss */
+/* line 32, ../components/sass/_styles_subfeature.scss */
 .flex-items > .flex-item img { width: auto; max-width: 100%; height: auto; }
 
-/* line 28, ../components/sass/_styles_subfeature.scss */
-.flex-items > .flex-item { width: 25%; margin: 0; min-height: 0; min-width: 0; display: inherit; margin: 10px; background: #ccc; flex-wrap: wrap; -webkit-transition: background-color 300ms ease-in-out 300ms; -moz-transition: background-color 300ms ease-in-out 300ms; -o-transition: background-color 300ms ease-in-out 300ms; transition: background-color 300ms ease-in-out 300ms; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
-/* line 44, ../components/sass/_styles_subfeature.scss */
+/* line 34, ../components/sass/_styles_subfeature.scss */
+.flex-items > .flex-item { flex: 0 0 calc(100% - 20px); min-height: 0; min-width: 0; display: inherit; background: #ccc; flex-wrap: wrap; -webkit-align-items: top; -ms-flex-align: top; align-items: top; -webkit-transition: background-color 300ms ease-in-out 300ms; -moz-transition: background-color 300ms ease-in-out 300ms; -o-transition: background-color 300ms ease-in-out 300ms; transition: background-color 300ms ease-in-out 300ms; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; margin-left: 10px; margin-bottom: 10px; }
+/* line 54, ../components/sass/_styles_subfeature.scss */
 .flex-items > .flex-item > div { width: 100%; }
-/* line 45, ../components/sass/_styles_subfeature.scss */
+/* line 55, ../components/sass/_styles_subfeature.scss */
 .flex-items > .flex-item p { padding: 8px 10px 15px 10px; margin-bottom: 0 !important; font-size: 1.1rem; text-align: left; display: block; width: 100%; }
-/* line 53, ../components/sass/_styles_subfeature.scss */
+/* line 63, ../components/sass/_styles_subfeature.scss */
 .flex-items > .flex-item strong { font-size: 2.5rem; font-weight: 300; display: block; }
-/* line 58, ../components/sass/_styles_subfeature.scss */
+/* line 68, ../components/sass/_styles_subfeature.scss */
 .flex-items > .flex-item a { color: inherit; text-decoration: none !important; }
-/* line 61, ../components/sass/_styles_subfeature.scss */
+/* line 71, ../components/sass/_styles_subfeature.scss */
 .flex-items > .flex-item a:hover { color: #ffffa2; }
 
+@media (min-width: 480px) { /* line 84, ../components/sass/_styles_subfeature.scss */
+  .flex-items > .flex-item { flex: 0 0 calc(50% - 15px); } }
+@media (min-width: 768px) { /* line 91, ../components/sass/_styles_subfeature.scss */
+  .flex-items > .flex-item { flex: 0 0 calc(25% - 12.5px); } }
 /* line 2, ../components/sass/_styles_megamenu.scss */
 nav { top: 0; position: relative; }
 
@@ -6571,6 +6608,9 @@ a.readmore:hover { color: #8f5a1f; }
 .minimal-pagination .pagination > li.active a { background-color: transparent; color: #1c7c3e; text-decoration: none; color: #000; }
 /* line 192, ../components/sass/_styles_mainelements.scss */
 .minimal-pagination .disabled { display: none; }
+
+/* line 196, ../components/sass/_styles_mainelements.scss */
+table#indexcal { font-size: 1rem; }
 
 /* line 1, ../components/sass/_styles_tables.scss */
 td { padding: 3px; }

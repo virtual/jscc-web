@@ -27,14 +27,14 @@
     <!-- XOXO edits -->
     <div class="flex-items ">
         <!-- re -->
-        <div class="flex-item">
+        <div class="flex-item ">
             <div>
             <h2><a href="#">Plug in to jWeb</a></h2>
             <p>Portal for students and employees. Access online courses and mail.</p>
             <p><a class="action" href="https://lum5adminprod.jscc.edu:8443">Plug in to jWeb</a></p>
                 </div>
         </div>
-        <div class="flex-item">
+        <div class="flex-item ">
             <div>
                 <h2>Class Schedules</h2>
             <div class="background-img" style="background-image:url('//www.easternflorida.edu/foundation/images/feature/slide-5-golf-tourney.png');">
@@ -42,15 +42,15 @@
             </div>
                 </div>
         </div>
-        <div class="flex-item">
+        <div class="flex-item ">
             <div><h2><a href="#">JSCC Catalog</a></h2>
             <p><a class="action" href="https://lum5adminprod.jscc.edu:8443">Another image</a></p>
                 </div>
         </div>
-        <div class="flex-item">
+        <div class="flex-item ">
             <div>
             <h2><a href="#">Presidential Search</a></h2>
-            <p>This is just an image </p>
+            <p>This is just an image with a lil more texty text </p>
            </div>
         </div>
     </div>

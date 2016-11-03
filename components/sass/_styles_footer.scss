@@ -1,8 +1,9 @@
 footer {
     a:visited {
         color: inherit;
-    }
+    }    
 }
+
 footer {
     * {
         -webkit-border-radius: 0 !important;
@@ -194,4 +195,16 @@ footer {
     footer .btn {
         font-size: 2rem;
     }
+}
+
+
+#footer {font-size: .8rem; text-align: left;}
+#footer-menu ul li { padding:0;}
+#footer #copyright { width:inherit;}
+ul#follow{width:20%}
+ul#follow li { display:inline-block;}
+ul#follow li a{background:transparent url('../_resources/images/icons/icons.png') no-repeat 0 0;}
+ 
+a[href$='.pdf'] {
+        background: transparent url('../_resources/images/icons/icon_pdf.gif') no-repeat center right; 
 }
