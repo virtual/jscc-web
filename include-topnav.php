@@ -53,7 +53,7 @@
                         </div>
                         <div class="col-ts-12 col-xs-12 col-sm-5 toggle-drop-container">
 
-                            <a class="btn btn-primary" onclick="ga('send', 'event', 'apply now', 'click');" href="/admissions/apply.html">Apply Now</a>
+                            <a class="btn btn-primary applybtn" onclick="ga('send', 'event', 'apply now', 'click');" href="/admissions/apply.html">Apply Now</a>
                         </div>
 
                     </div>
