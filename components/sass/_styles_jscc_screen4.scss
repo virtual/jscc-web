@@ -91,9 +91,9 @@ p.required, span.required{color:red}
 #utilitybar a:link p,#utilitybar a:visited p{text-decoration:none;color:#000}
 #utilitybar a:hover p,#utilitybar a:active p{text-decoration:underline;color:gray}
 
-ul#follow{width:220px}
 
-ul#follow li a{display:block;outline:none;height:24px;background:transparent url(/_resources/images/icons.png) no-repeat 0 0;text-indent:-9999px;margin-left:10px}
+
+ul#follow li a{display:block;outline:none;height:24px;background:transparent url(/_resources/images/icons.png) no-repeat 0 0;text-indent:-9999px;}
 ul#follow li:first-child a{margin-left:0}
 
 ul#follow li#follow-twitter a{width:22px;background-position:0 0}

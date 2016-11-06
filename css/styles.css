@@ -4135,113 +4135,122 @@ button#searchformboxgo { color: #00355A; text-transform: uppercase; border: soli
 /* line 98, ../components/sass/_styles_header.scss */
 .site-logo, #yamm-placeholder { flex-wrap: wrap; align-self: flex-end; }
 
+/* line 1, ../components/sass/_styles_footer.scss */
+footer { font-size: .8rem; }
 /* line 2, ../components/sass/_styles_footer.scss */
 footer a:visited { color: inherit; }
 
-/* line 7, ../components/sass/_styles_footer.scss */
-footer { background: #ddddd5; position: relative; }
 /* line 8, ../components/sass/_styles_footer.scss */
+footer { background: #ddddd5; position: relative; }
+/* line 9, ../components/sass/_styles_footer.scss */
 footer * { -webkit-border-radius: 0 !important; -moz-border-radius: 0 !important; border-radius: 0 !important; }
-/* line 16, ../components/sass/_styles_footer.scss */
+/* line 17, ../components/sass/_styles_footer.scss */
 footer ul { padding-left: 0; padding-right: 10px; margin-left: 0; list-style: none; }
-/* line 22, ../components/sass/_styles_footer.scss */
-footer li { color: #1c7c3e; list-style: none; }
-/* line 25, ../components/sass/_styles_footer.scss */
-footer li a { display: block; padding: 3px 0; color: inherit; display: block; font-family: "BrandonGrotesqueWeb-Bold", "Open Sans", Verdana, Geneva, sans-serif; text-decoration: none; }
-/* line 32, ../components/sass/_styles_footer.scss */
+/* line 23, ../components/sass/_styles_footer.scss */
+footer li { color: #898378; list-style: none; }
+/* line 26, ../components/sass/_styles_footer.scss */
+footer li a { color: #898378; display: block; padding: 3px 0; color: inherit; display: block; font-family: "BrandonGrotesqueWeb-Bold", "Open Sans", Verdana, Geneva, sans-serif; text-decoration: none; }
+/* line 34, ../components/sass/_styles_footer.scss */
 footer li a:hover { text-decoration: underline; }
-/* line 35, ../components/sass/_styles_footer.scss */
+/* line 38, ../components/sass/_styles_footer.scss */
 footer li a .fa { color: inherit !important; }
-/* line 39, ../components/sass/_styles_footer.scss */
-footer li h3 { font-size: 15px; color: #fff; margin: 0 28px 6px 0; }
-/* line 45, ../components/sass/_styles_footer.scss */
+/* line 42, ../components/sass/_styles_footer.scss */
+footer li h3 { font-size: .95rem; color: #898378; }
+/* line 47, ../components/sass/_styles_footer.scss */
+footer li h3 a { margin: 0; padding: 0; }
+/* line 52, ../components/sass/_styles_footer.scss */
 footer > div { padding-top: 20px; padding-bottom: 20px; position: relative; }
-/* line 50, ../components/sass/_styles_footer.scss */
-footer li.social-horizontal a { padding: 3px 0px; min-width: 30px; display: inline-block; text-align: center; font-size: 18px; }
 /* line 57, ../components/sass/_styles_footer.scss */
+footer li.social-horizontal a { padding: 3px 0px; min-width: 30px; display: inline-block; text-align: center; font-size: 18px; }
+/* line 64, ../components/sass/_styles_footer.scss */
 footer nav ul li h3, footer nav ul li h3 a { margin: 0; padding: 3px 0; }
-/* line 62, ../components/sass/_styles_footer.scss */
+/* line 69, ../components/sass/_styles_footer.scss */
 footer .btn { font-size: 1.1rem; font-family: "BrandonGrotesqueWeb-Bold", "Open Sans", Verdana, Geneva, sans-serif; background: #1c7c3e; color: #fff; text-transform: uppercase; padding: 1rem; width: 100%; border-color: #00080e; }
-/* line 71, ../components/sass/_styles_footer.scss */
+/* line 78, ../components/sass/_styles_footer.scss */
 footer .btn:hover { background: #ce812c; border-color: #8f5a1f; }
-/* line 76, ../components/sass/_styles_footer.scss */
+/* line 83, ../components/sass/_styles_footer.scss */
 footer .footer-attr { color: #898378; }
 
-@media (max-width: 767px) { /* line 84, ../components/sass/_styles_footer.scss */
+@media (max-width: 767px) { /* line 91, ../components/sass/_styles_footer.scss */
   footer .brand { margin-top: 15px; text-align: center; float: none !important; }
-  /* line 89, ../components/sass/_styles_footer.scss */
+  /* line 96, ../components/sass/_styles_footer.scss */
   footer ul { margin-bottom: 15px; margin-top: 15px; }
-  /* line 93, ../components/sass/_styles_footer.scss */
+  /* line 100, ../components/sass/_styles_footer.scss */
   footer .btn { max-width: 200px; } }
 /* pre footer social links */
-/* line 100, ../components/sass/_styles_footer.scss */
+/* line 107, ../components/sass/_styles_footer.scss */
 .pre-footer-social { padding: 5px; }
-/* line 102, ../components/sass/_styles_footer.scss */
+/* line 109, ../components/sass/_styles_footer.scss */
 .pre-footer-social ul { margin: 0; }
-/* line 105, ../components/sass/_styles_footer.scss */
-.pre-footer-social a { color: #ce812c; padding: 0; margin: 0 5px; font-size: 40px; text-decoration: none; }
 /* line 112, ../components/sass/_styles_footer.scss */
+.pre-footer-social a { color: #ce812c; padding: 0; margin: 0 5px; font-size: 40px; text-decoration: none; }
+/* line 119, ../components/sass/_styles_footer.scss */
 .pre-footer-social .fa-facebook-square { color: inherit; }
-/* line 115, ../components/sass/_styles_footer.scss */
+/* line 122, ../components/sass/_styles_footer.scss */
 .pre-footer-social a:hover { color: #d9954b; }
-/* line 118, ../components/sass/_styles_footer.scss */
+/* line 125, ../components/sass/_styles_footer.scss */
 .pre-footer-social li img { position: relative; bottom: 8px; }
 
-@media (max-width: 767px) { /* line 124, ../components/sass/_styles_footer.scss */
+@media (max-width: 767px) { /* line 131, ../components/sass/_styles_footer.scss */
   .footer-small { display: block; width: 100%; }
-  /* line 128, ../components/sass/_styles_footer.scss */
-  .footer-button, .footer-badge { width: 50%; float: right; padding: 20px; text-align: right; }
   /* line 135, ../components/sass/_styles_footer.scss */
+  .footer-button, .footer-badge { width: 50%; float: right; padding: 20px; text-align: right; }
+  /* line 142, ../components/sass/_styles_footer.scss */
   .footer-button { text-align: left; margin-top: 10px; }
-  /* line 136, ../components/sass/_styles_footer.scss */
+  /* line 143, ../components/sass/_styles_footer.scss */
   .footer-button .btn { max-width: 150px; }
-  /* line 138, ../components/sass/_styles_footer.scss */
+  /* line 145, ../components/sass/_styles_footer.scss */
   .footer-badge img { width: 100%; max-width: 100px; height: auto; }
-  /* line 144, ../components/sass/_styles_footer.scss */
+  /* line 151, ../components/sass/_styles_footer.scss */
   .footer-attr { clear: both; padding: 30px; } }
-@media (min-width: 768px) { /* line 150, ../components/sass/_styles_footer.scss */
-  .footer-large, .footer-small { display: inline-block; }
-  /* line 154, ../components/sass/_styles_footer.scss */
-  .footer-large { width: 80%; }
-  /* line 157, ../components/sass/_styles_footer.scss */
-  .footer-small { width: 20%; display: inline; }
+@media (min-width: 768px) { /* line 158, ../components/sass/_styles_footer.scss */
+  .footer-menu { width: 50%; float: left; }
+  /* line 159, ../components/sass/_styles_footer.scss */
+  .footer-menu:nth-of-type(2n+1) { clear: both; }
   /* line 161, ../components/sass/_styles_footer.scss */
+  .footer-large, .footer-small { display: inline-block; }
+  /* line 165, ../components/sass/_styles_footer.scss */
+  .footer-large { width: 80%; }
+  /* line 168, ../components/sass/_styles_footer.scss */
+  .footer-small { width: 20%; display: inline; }
+  /* line 172, ../components/sass/_styles_footer.scss */
   .footer-button { width: 20%; float: right; display: inline-block; }
-  /* line 166, ../components/sass/_styles_footer.scss */
+  /* line 177, ../components/sass/_styles_footer.scss */
   .footer-badge { clear: both; display: block; }
-  /* line 170, ../components/sass/_styles_footer.scss */
+  /* line 181, ../components/sass/_styles_footer.scss */
   .footer-badge { float: left; padding: 0 30px; max-width: 200px; } }
-@media (min-width: 992px) { /* line 177, ../components/sass/_styles_footer.scss */
+@media (min-width: 992px) { /* line 189, ../components/sass/_styles_footer.scss */
+  .footer-menu { width: 20%; float: left; }
+  /* line 190, ../components/sass/_styles_footer.scss */
+  .footer-menu:nth-of-type(2n+1) { clear: none; }
+  /* line 193, ../components/sass/_styles_footer.scss */
   .footer-badge { margin-left: 20%; float: left; display: block; width: 20%; }
-  /* line 183, ../components/sass/_styles_footer.scss */
+  /* line 199, ../components/sass/_styles_footer.scss */
   .footer-attr { margin-right: 20%; width: 40%; float: right; }
-  /* line 188, ../components/sass/_styles_footer.scss */
+  /* line 204, ../components/sass/_styles_footer.scss */
   footer .btn { font-size: 1.5rem; } }
-@media (min-width: 1200px) { /* line 193, ../components/sass/_styles_footer.scss */
+@media (min-width: 1200px) { /* line 209, ../components/sass/_styles_footer.scss */
   .footer-badge { margin-left: 10%; }
-  /* line 194, ../components/sass/_styles_footer.scss */
+  /* line 210, ../components/sass/_styles_footer.scss */
   .footer-attr { margin-right: 10%; width: 60%; }
-  /* line 195, ../components/sass/_styles_footer.scss */
+  /* line 211, ../components/sass/_styles_footer.scss */
   footer .btn { font-size: 2rem; } }
-/* line 201, ../components/sass/_styles_footer.scss */
+/* line 217, ../components/sass/_styles_footer.scss */
 #footer { font-size: .8rem; text-align: left; }
 
-/* line 202, ../components/sass/_styles_footer.scss */
+/* line 218, ../components/sass/_styles_footer.scss */
 #footer-menu ul li { padding: 0; }
 
-/* line 203, ../components/sass/_styles_footer.scss */
+/* line 219, ../components/sass/_styles_footer.scss */
 #footer #copyright { width: inherit; }
 
-/* line 204, ../components/sass/_styles_footer.scss */
-ul#follow { width: 20%; }
-
-/* line 205, ../components/sass/_styles_footer.scss */
+/* line 220, ../components/sass/_styles_footer.scss */
 ul#follow li { display: inline-block; }
 
-/* line 206, ../components/sass/_styles_footer.scss */
+/* line 221, ../components/sass/_styles_footer.scss */
 ul#follow li a { background: transparent url("../_resources/images/icons/icons.png") no-repeat 0 0; }
 
-/* line 208, ../components/sass/_styles_footer.scss */
+/* line 223, ../components/sass/_styles_footer.scss */
 a[href$='.pdf'] { background: transparent url("../_resources/images/icons/icon_pdf.gif") no-repeat center right; }
 
 /* line 1, ../components/sass/_styles_prefooter.scss */

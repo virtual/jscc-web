@@ -2,6 +2,7 @@ footer {
     a:visited {
         color: inherit;
     }    
+    font-size: .8rem;
 }
 
 footer {
@@ -20,9 +21,10 @@ footer {
         list-style: none;
     }
     li {
-        color: $brand-primary;
+        color: $color-heathergrey;
         list-style: none;
         a {
+            color: $color-heathergrey;
             display: block;
             padding: 3px 0;
             color: inherit;
@@ -30,6 +32,7 @@ footer {
             font-family: $font-family-bold;
             text-decoration: none;
             &:hover {
+                //color: $brand-primary;
                 text-decoration: underline;
             }
             .fa {
@@ -37,9 +40,13 @@ footer {
             }
         }
         h3 {
-            font-size: 15px;
-            color: #fff;
-            margin: 0 28px 6px 0;
+            font-size: .95rem;
+            color: $color-heathergrey;
+            
+        }
+        h3 a {
+            margin: 0;
+            padding: 0;
         }
     }
     >div {
@@ -147,6 +154,10 @@ footer {
     }
 }
 @media (min-width: $screen-sm) {
+    
+    .footer-menu { width:50%; float:left; }
+    .footer-menu:nth-of-type(2n+1) { clear:both;}
+    
     .footer-large,
     .footer-small {
         display: inline-block;
@@ -174,6 +185,11 @@ footer {
     }
 }
 @media (min-width: $screen-md) {
+    
+    .footer-menu { width:20%; float:left; }
+    .footer-menu:nth-of-type(2n+1) { clear:none;}
+    
+    
     .footer-badge {
         margin-left: 20%;
         float: left;
@@ -200,8 +216,7 @@ footer {
 
 #footer {font-size: .8rem; text-align: left;}
 #footer-menu ul li { padding:0;}
-#footer #copyright { width:inherit;}
-ul#follow{width:20%}
+#footer #copyright { width:inherit;} 
 ul#follow li { display:inline-block;}
 ul#follow li a{background:transparent url('../_resources/images/icons/icons.png') no-repeat 0 0;}
  
