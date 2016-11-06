@@ -1,29 +1,28 @@
-$color-mobileblue : #4ba4d8;
-$level1bg : #000000;
-$level2bg : lighten($level1bg, 20%);
-$level3bg : lighten($level2bg, 20%);
-$level4bg : lighten($level3bg, 20%);
-$level5bg : lighten($level4bg, 20%);
+$color-mobileblue: #4ba4d8;
+$level1bg: #000000;
+$level2bg: lighten($level1bg, 20%);
+$level3bg: lighten($level2bg, 20%);
+$level4bg: lighten($level3bg, 20%);
+$level5bg: lighten($level4bg, 20%);
 @media (max-width: $screen-xs-max) {
     #left nav .box-shadow-menu {
-        padding:5px 15px;
-        font-weight:bold;
+        padding: 5px 15px;
+        font-weight: bold;
         cursor: pointer;
         background: $color-mobileblue;
-        color:#fff;
-        border-top:1px solid $color-blue;
+        color: #fff;
+        border-top: 1px solid $color-blue;
     }
     #menu-nav {
         display: none;
     }
     #mobile_buttons {
-       // margin-right: -15px;
+        // margin-right: -15px;
     }
-    #expand_section > ul > li:first-child {
-    }
+    #expand_section > ul > li:first-child {}
     .mainnav {
-        float:none;
-        background:#363636;
+        float: none;
+        background: #363636;
     }
     #left {
         nav ul {
@@ -31,48 +30,55 @@ $level5bg : lighten($level4bg, 20%);
             clear: both;
             display: block;
             padding: 0;
-            content:"";
+            content: "";
             display: table;
             width: 100%;
         }
         nav #expand_section > ul.nolink {
-            padding: 15px 16px; 
+            padding: 15px 16px;
         }
         nav div > ul {
-          li:last-child { margin-bottom:0;}
+            li:last-child {
+                margin-bottom: 0;
+            }
             li {
                 margin-bottom: 1px;
-                color:#fff;
+                color: #fff;
                 float: left;
-                padding:0;
+                padding: 0;
                 clear: both;
                 display: block;
-                width:100%;
+                width: 100%;
                 a {
-                    color:#fff;
-                    display:block;
+                    color: #fff;
+                    display: block;
                 }
                 form {
-                  a { color:#333;}
-                  input { padding: 3px 5px;}
-                } 
- 
-                h2, h3 {
-                    position:relative;
-                    padding-top:5px;
-                    padding-bottom:5px;
-                    padding-bottom:0;
-                    margin-top:0;
-                    color:#fff;
-                    font-size:15px;
-                    text-transform:uppercase;
-                    display:inline-block;
                     a {
-                        padding-right:20px !important;
+                        color: #333;
                     }
-                    a:before, a:after {
+                    input {
+                        padding: 3px 5px;
+                    }
+                }
+                h2,
+                h3 {
+                    position: relative;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    padding-bottom: 0;
+                    margin-top: 0;
+                    color: #fff;
+                    font-size: 15px;
+                    text-transform: uppercase;
+                    display: inline-block;
+                    a {
+                        padding-right: 20px !important;
+                    }
+                    a:before,
+                    a:after {
                         border-right: 2px solid;
-                        content:'';
+                        content: '';
                         display: inline-block;
                         height: 8px;
                         margin-top: -6px;
@@ -94,60 +100,72 @@ $level5bg : lighten($level4bg, 20%);
                         -ms-transform: rotate(45deg);
                         transform: rotate(45deg);
                     }
-                    a:hover, a:focus, a:hover:before, a:hover:after, a:focus:before, a:focus:after {
+                    a:hover,
+                    a:focus,
+                    a:hover:before,
+                    a:hover:after,
+                    a:focus:before,
+                    a:focus:after {
                         color: $color-gold;
                     }
                 }
                 >ul > li {
-                    padding:0;
+                    padding: 0;
                 }
             }
         }
-        nav {
-        }
-        nav.mainnav ul li.opendrop1 ul li a, nav.mainnav ul li.opendrop ul li a {
+        nav {}
+        nav.mainnav ul li.opendrop1 ul li a,
+        nav.mainnav ul li.opendrop ul li a {
             padding-left: 0;
         }
         #expand_section {
             li {
-                background:$level1bg;
-                > a, > * > a {
-                  padding: 10px 10px 10px 14px;
-                  //background:#f00;
+                background: $level1bg;
+                > a,
+                > * > a {
+                    padding: 10px 10px 10px 14px;
+                    //background:#f00;
                 }
                 > ul > li {
-                    background:$level2bg;
+                    background: $level2bg;
                     > ul > li {
-                        background:$level3bg;
+                        background: $level3bg;
                         > ul > li {
-                          background:$level4bg;
-                          > ul > li {
-                            background:$level5bg;
-                          }
+                            background: $level4bg;
+                            > ul > li {
+                                background: $level5bg;
+                            }
                         }
                     }
                 }
                 > .btn {
-                    width:100%;
-                    text-align:left;
-                    border-radius:0;
+                    width: 100%;
+                    text-align: left;
+                    border-radius: 0;
                     border-top: 1px solid $color-blue;
                     border-bottom: 1px solid #2792f1;
-                    
-                    margin:0;
-                    margin-top:-1px;
+                    margin: 0;
+                    margin-top: -1px;
                 }
             }
-            li.togopen1, li.drop, li.opendrop, ul li.togopen, ul li.opendrop {
+            li.togopen1,
+            li.drop,
+            li.opendrop,
+            ul li.togopen,
+            ul li.opendrop {
                 background-image: url("./resources/images/structure/nav/navon5l-alt2.png");
                 background-position: right top;
                 background-repeat: no-repeat;
                 cursor: pointer;
                 font-weight: bold !important;
-                margin-top:0;
+                margin-top: 0;
                 //margin-bottom:0
             }
-            li.opendrop > a { display:inline-block; clear:both;}
+            li.opendrop > a {
+                display: inline-block;
+                clear: both;
+            }
             li.drop {
                 background-image: url("./resources/images/structure/nav/navoff5l-alt2.png");
                 padding-right: 50px; //touch area for toggle
@@ -160,7 +178,6 @@ $level5bg : lighten($level4bg, 20%);
                 li {
                     list-style: none;
                     font-weight: normal;
-                    
                     ul {
                         display: none;
                         width: 100%;

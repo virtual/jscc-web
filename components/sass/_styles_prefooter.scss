@@ -1,4 +1,5 @@
-.pre-footer { padding-top:20px; 
+.pre-footer {
+    padding-top: 20px;
     background-color: #f2f2e8;
     ul {
         display: -webkit-flex;
@@ -7,34 +8,51 @@
         flex-flow: row;
         flex-wrap: wrap;
     }
-    li {  margin-bottom: 10px;    flex: 0 0 calc(100%); padding-right: 20px;} 
-    li img { float:left; margin-right:7px; }
-    
-    li p { line-height: 1rem;  text-align: left; padding-top:6px; line-height: 1.5rem;
-        a { color: #000; text-decoration: none;
+    li {
+        margin-bottom: 10px;
+        flex: 0 0 calc(100%);
+        padding-right: 20px;
+    }
+    li img {
+        float: left;
+        margin-right: 7px;
+    }
+    li p {
+        line-height: 1rem;
+        text-align: left;
+        padding-top: 6px;
+        line-height: 1.5rem;
+        a {
+            color: #000;
+            text-decoration: none;
         }
     }
 }
 
-
-@media (min-width: $screen-xs-min) { 
-.pre-footer {
-    font-size:.8rem;
-  //  ul { margin:0;padding:0; display: flex; flex-wrap: wrap;}
-    li { flex: 0 0 50%;  }
+@media (min-width: $screen-xs-min) {
+    .pre-footer {
+        font-size: .8rem;
+        //  ul { margin:0;padding:0; display: flex; flex-wrap: wrap;}
+        li {
+            flex: 0 0 50%;
+        }
     }
 }
 
-@media (min-width: 600px) { 
-.pre-footer {
-  //  ul { margin:0;padding:0; display: flex; flex-wrap: wrap;}
-    li { flex: 0 0 33.33333%;  }
+@media (min-width: 600px) {
+    .pre-footer {
+        //  ul { margin:0;padding:0; display: flex; flex-wrap: wrap;}
+        li {
+            flex: 0 0 33.33333%;
+        }
     }
 }
 
-@media (min-width: $screen-md-min) { 
-.pre-footer {
-  //  ul { margin:0;padding:0; display: flex; flex-wrap: wrap;}
-    li { flex: 0 0 20%;  }    
+@media (min-width: $screen-md-min) {
+    .pre-footer {
+        //  ul { margin:0;padding:0; display: flex; flex-wrap: wrap;}
+        li {
+            flex: 0 0 20%;
+        }
     }
 }

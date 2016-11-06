@@ -1,16 +1,16 @@
 .topnav {
     background: $color-grey;
-    z-index:2;position: relative;
-   background-image: url('../_resources/images/backgrounds/top.jpg');
+    z-index: 2;
+    position: relative;
+    background-image: url('../_resources/images/backgrounds/top.jpg');
     background-position: bottom;
     background-repeat: repeat-x;
-    
     a {
         //color: $color-blue;
         text-decoration: none;
         font-size: 1rem;
-        &:hover { 
-           // text-decoration: underline;
+        &:hover {
+            // text-decoration: underline;
         }
     }
     ul {
@@ -30,7 +30,9 @@
             border-right: 0;
         }
     }
-    .topnav-action { padding: 17px 0 27px 0; }
+    .topnav-action {
+        padding: 17px 0 27px 0;
+    }
     .toggle-drop .dropdown-menu {
         border: 0;
         border-radius: 0;
@@ -46,6 +48,7 @@
         display: block;
     }
 }
+
 // MOBILE 
 @media (max-width: $screen-xs-max) {
     .topnav {
@@ -59,7 +62,9 @@
         }
         .btn {
             text-align: left;
-            &:hover, &:focus, &.focus {
+            &:hover,
+            &:focus,
+            &.focus {
                 box-shadow: none;
                 color: $color-halloween;
             }
@@ -116,12 +121,18 @@
         .sm {
             width: 220px;
             float: left;
-            svg { max-height: 38px;}
+            svg {
+                max-height: 38px;
+            }
         }
-        > div { padding-left:0;padding-right:0;}
+        > div {
+            padding-left: 0;
+            padding-right: 0;
+        }
     }
     //.target-aud-link { border:0;}
 }
+
 // DESKTOP
 @media (min-width: $screen-sm) {
     .custom-inline-input .fa.fa-search {
@@ -134,7 +145,6 @@
         display: none;
     }
     .topnav {
-       
         input.form-query.form-control {
             border: 0;
             padding-top: 4px;

@@ -1,47 +1,61 @@
-  @keyframes affixFadeIn
-  {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  @keyframes affixFadeIn {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
   }
   
-  @-webkit-keyframes affixFadeIn 
-  {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  @-webkit-keyframes affixFadeIn {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
   }
   
-@media (max-width: $screen-sm-max) {
-  //#stick { padding-left:15px; padding-right:15px;   }
-  #stick.affix {
-    position: fixed;   width:100%;
-    opacity: 1;
-    z-index:3000;
-    background:$color-header-bg;
-    top:0;
-    animation: affixFadeIn 1s  ease-in;
-    -webkit-animation: affixFadeIn 1s;
-    border-bottom:1px solid #000;
-  }  
-  
- #stick2.affix {
-   position:relative;
-}
-}
-@media (min-width: $screen-sm) {
-   #stick.affix {
-   position:relative;
+  @media (max-width: $screen-sm-max) {
+      //#stick { padding-left:15px; padding-right:15px;   }
+      #stick.affix {
+          position: fixed;
+          width: 100%;
+          opacity: 1;
+          z-index: 3000;
+          background: $color-header-bg;
+          top: 0;
+          animation: affixFadeIn 1s ease-in;
+          -webkit-animation: affixFadeIn 1s;
+          border-bottom: 1px solid #000;
+      }
+      #stick2.affix {
+          position: relative;
+      }
   }
-#stick2.affix #stickpad { max-width: 1100px; margin: 0 auto;}
-  #stick2.affix {
-    position: fixed;   
-    width:100%; 
-    margin:0 auto;
-    left:0;
-    z-index:3000;
-    background:$color-header-bg;
-    top:0;
-    border-bottom:1px solid #000;
-    padding:0 15px;
-  }  
-  #stick2.affix .yamm {  z-index:500;  padding-left:15px; padding-right:15px;} 
-}
+  
+  @media (min-width: $screen-sm) {
+      #stick.affix {
+          position: relative;
+      }
+      #stick2.affix #stickpad {
+          max-width: 1100px;
+          margin: 0 auto;
+      }
+      #stick2.affix {
+          position: fixed;
+          width: 100%;
+          margin: 0 auto;
+          left: 0;
+          z-index: 3000;
+          background: $color-header-bg;
+          top: 0;
+          border-bottom: 1px solid #000;
+          padding: 0 15px;
+      }
+      #stick2.affix .yamm {
+          z-index: 500;
+          padding-left: 15px;
+          padding-right: 15px;
+      }
+  }

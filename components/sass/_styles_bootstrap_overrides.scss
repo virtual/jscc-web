@@ -4,47 +4,62 @@ $list-group-active-bg: $color-heathergrey;
 $list-group-active-border: $color-heathergrey;
 $list-group-active-text-color: #fff;
 $list-group-link-hover-color: $color-green;
+
 /* 5 column solution */
 
 .col-lg-2-4 {
     @include make-lg-column(2.4)
 }
+
 .col-md-2-4 {
     @include make-md-column(2.4)
 }
+
 .col-sm-2-4 {
     @include make-sm-column(2.4)
 }
+
 .col-xs-2-4 {
     @include make-xs-column(2.4)
 }
+
 .col-md-push-2-4 {
     @include make-md-column-push(2.4)
 }
+
 .col-md-pull-2-4 {
     @include make-md-column-pull(2.4)
 }
+
 .col-md-offset-2-4 {
     @include make-md-column-offset(2.4)
 }
+
 .col-sm-push-2-4 {
     @include make-sm-column-push(2.4)
 }
+
 .col-sm-pull-2-4 {
     @include make-sm-column-pull(2.4)
 }
+
 .col-sm-offset-2-4 {
     @include make-sm-column-offset(2.4)
 }
+
 .col-xs-push-2-4 {
     @include make-xs-column-push(2.4)
 }
+
 .col-xs-pull-2-4 {
     @include make-xs-column-pull(2.4)
 }
+
 .col-xs-offset-2-4 {
     @include make-xs-column-offset(2.4)
 }
+
+
 /* end grid */
 
 .list-group-item {
@@ -74,48 +89,61 @@ $list-group-link-hover-color: $color-green;
         }
     }
 }
+
 a.list-group-item {
     color: $list-group-link-color;
     // Hover state
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         color: $list-group-link-hover-color;
         .list-group-item-heading {
             color: $list-group-link-hover-color;
         }
     }
 }
+
 .btn {
     white-space: normal;
     text-decoration: none;
-    a, a:visited {
+    a,
+    a:visited {
         color: inherit;
         text-decoration: none;
     }
 }
+
 #left .btn,
 a.btn-primary,
 a.btn-success,
 a.btn-info,
 a.btn-warning,
 a.btn-danger {
-    &:visited, &:focus, &:active, &:focus {
+    &:visited,
+    &:focus,
+    &:active,
+    &:focus {
         color: #fff;
     }
 }
+
 .navbar-nav {
     margin: 0;
 }
+
 .panel {
     @include box-shadow(none);
 }
+
 .panel-group .panel-heading + .panel-collapse > .panel-body,
 .panel-group .panel-heading + .panel-collapse > .list-group {
     border-top: 0;
 }
+
 // links //
 a {
     text-decoration: underline;
 }
+
 footer,
 header,
 .main-banner,
@@ -126,6 +154,7 @@ header,
         text-decoration: none;
     }
 }
+
 // Fancybox //
 .thumbnail.fancybox-thumb {
     display: inline-block;
@@ -135,12 +164,16 @@ header,
     margin-bottom: 0;
     float: left;
 }
+
 .fancybox-lock body {
     overflow: auto !important;
 }
+
 .fancybox-margin {
     margin-right: 0 !important;
 }
+
+
 /* Adams fancy box */
 
 .customfancybox .thumbnail {
@@ -151,6 +184,7 @@ header,
     display: block;
     float: left;
 }
+
 .customfancybox .thumbnail img {
     max-height: inherit;
     width: auto;
@@ -158,14 +192,20 @@ header,
     margin: 0;
     border: 0;
 }
+
 #rightpane .customfancybox .thumbnail img {
     height: initial;
 }
+
 .customfancybox.padding0 .thumbnail img {
     padding: 0;
 }
+
 .customfancybox .galsubheading .caption {
     font-size: 14px;
     color: #585858;
-} 
-.breadcrumb > li + li:before { content: "\003E ";}
+}
+
+.breadcrumb > li + li:before {
+    content: "\003E ";
+}

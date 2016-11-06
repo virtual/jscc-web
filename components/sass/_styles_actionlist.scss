@@ -3,23 +3,32 @@
     width: 100%;
     height: auto;
 }
+
 .action-list .panel-heading {
     overflow: hidden;
     position: relative;
     padding: 0;
 }
+
 .action-list .panel {
     background-color: transparent;
 }
+
 .action-list .panel .panel-title {
     border-bottom: 0;
     background: rgba(255, 255, 255, 0.62);
     width: calc(100% - 45px);
-    .sprite { float:left; display:block;margin-right:5px;}
+    .sprite {
+        float: left;
+        display: block;
+        margin-right: 5px;
+    }
 }
+
 .action-list .panel-title {
     width: 90%;
-} 
+}
+
 .action-list .panel-title a {
     display: block;
     margin-right: 1px;
@@ -29,9 +38,10 @@
     color: $brand-primary;
     font-size: 1.3rem;
 }
+
 .action-list .panel-body {
     background: #fff;
-    border:1px solid $color-grey;
+    border: 1px solid $color-grey;
     margin-top: 3px;
     color: $brand-primary;
     font-weight: 600;
@@ -55,9 +65,11 @@
         }
     }
 }
+
 .action-list {
     padding: 20px;
 }
+
 .action-list .toggle-arrow {
     background-color: $color-halloween;
     color: #fff;
@@ -82,12 +94,12 @@
         transition: all 0.1s;
     }
 }
+
 .action-list {
     .accordion-toggle {
         .toggle-arrow .fa {
             -ms-transform: rotate(-90deg);
             /* IE 9 */
-            
             -webkit-transform: rotate(-90deg);
             /* Chrome, Safari, Opera */
             -moz-transform: rotate(-90deg);
@@ -99,26 +111,27 @@
         .toggle-arrow .fa {
             -ms-transform: rotate(0);
             /* IE 9 */
-            
             -webkit-transform: rotate(0);
             /* Chrome, Safari, Opera */
             -moz-transform: rotate(0);
             -o-transform: rotate(0);
-            
             transform: rotate(0);
         }
     }
 }
+
 .action-list {
     .panel-heading {
         border-top-right-radius: 0;
         border-top-left-radius: 0;
     }
 }
+
 .action-container {
     overflow: hidden;
     position: relative;
 }
+
 .background-action-list {
     position: absolute;
     //left: -15px;
@@ -129,12 +142,14 @@
         width: 100%;
     }
 }
+
 .background-inverse-feature {
     .container {
         position: relative;
         max-width: 1200px;
     }
 }
+
 @media (max-width: $screen-ts-max) {
     .background-action-list {
         position: relative;
@@ -148,14 +163,17 @@
         padding: 20px 0;
     }
 }
+
 @media (max-width: $screen-xs-max) {
     .action-list {
         width: 100%;
         .panel .panel-title {
-            border: 1px solid #aaa;margin:0;
+            border: 1px solid #aaa;
+            margin: 0;
         }
     }
 }
+
 @media (min-width: $screen-sm) {
     .action-list {
         width: 60%;

@@ -3672,117 +3672,117 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 @media print { /* line 18, ../components/sass/mixins/_responsive-visibility.scss */
   .hidden-print { display: none !important; } }
 /* 5 column solution */
-/* line 9, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 10, ../components/sass/_styles_bootstrap_overrides.scss */
 .col-lg-2-4 { position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; }
-@media (min-width: 1200px) { /* line 9, ../components/sass/_styles_bootstrap_overrides.scss */
+@media (min-width: 1200px) { /* line 10, ../components/sass/_styles_bootstrap_overrides.scss */
   .col-lg-2-4 { float: left; width: 20%; } }
 
-/* line 12, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 14, ../components/sass/_styles_bootstrap_overrides.scss */
 .col-md-2-4 { position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; }
-@media (min-width: 992px) { /* line 12, ../components/sass/_styles_bootstrap_overrides.scss */
+@media (min-width: 992px) { /* line 14, ../components/sass/_styles_bootstrap_overrides.scss */
   .col-md-2-4 { float: left; width: 20%; } }
 
-/* line 15, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 18, ../components/sass/_styles_bootstrap_overrides.scss */
 .col-sm-2-4 { position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; }
-@media (min-width: 768px) { /* line 15, ../components/sass/_styles_bootstrap_overrides.scss */
+@media (min-width: 768px) { /* line 18, ../components/sass/_styles_bootstrap_overrides.scss */
   .col-sm-2-4 { float: left; width: 20%; } }
 
-/* line 18, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 22, ../components/sass/_styles_bootstrap_overrides.scss */
 .col-xs-2-4 { position: relative; float: left; width: 20%; min-height: 1px; padding-left: 15px; padding-right: 15px; }
 
-@media (min-width: 992px) { /* line 21, ../components/sass/_styles_bootstrap_overrides.scss */
+@media (min-width: 992px) { /* line 26, ../components/sass/_styles_bootstrap_overrides.scss */
   .col-md-push-2-4 { left: 20%; } }
 
-@media (min-width: 992px) { /* line 24, ../components/sass/_styles_bootstrap_overrides.scss */
+@media (min-width: 992px) { /* line 30, ../components/sass/_styles_bootstrap_overrides.scss */
   .col-md-pull-2-4 { right: 20%; } }
 
-@media (min-width: 992px) { /* line 27, ../components/sass/_styles_bootstrap_overrides.scss */
+@media (min-width: 992px) { /* line 34, ../components/sass/_styles_bootstrap_overrides.scss */
   .col-md-offset-2-4 { margin-left: 20%; } }
 
-@media (min-width: 768px) { /* line 30, ../components/sass/_styles_bootstrap_overrides.scss */
+@media (min-width: 768px) { /* line 38, ../components/sass/_styles_bootstrap_overrides.scss */
   .col-sm-push-2-4 { left: 20%; } }
 
-@media (min-width: 768px) { /* line 33, ../components/sass/_styles_bootstrap_overrides.scss */
+@media (min-width: 768px) { /* line 42, ../components/sass/_styles_bootstrap_overrides.scss */
   .col-sm-pull-2-4 { right: 20%; } }
 
-@media (min-width: 768px) { /* line 36, ../components/sass/_styles_bootstrap_overrides.scss */
+@media (min-width: 768px) { /* line 46, ../components/sass/_styles_bootstrap_overrides.scss */
   .col-sm-offset-2-4 { margin-left: 20%; } }
 
-/* line 39, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 50, ../components/sass/_styles_bootstrap_overrides.scss */
 .col-xs-push-2-4 { left: 20%; }
 
-/* line 42, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 54, ../components/sass/_styles_bootstrap_overrides.scss */
 .col-xs-pull-2-4 { right: 20%; }
 
-/* line 45, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 58, ../components/sass/_styles_bootstrap_overrides.scss */
 .col-xs-offset-2-4 { margin-left: 20%; }
 
 /* end grid */
-/* line 53, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 68, ../components/sass/_styles_bootstrap_overrides.scss */
 .list-group-item.active { font-size: 1.15em; color: #f9bc24; }
-/* line 57, ../components/sass/_styles_bootstrap_overrides.scss */
-.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus { z-index: 2; color: #eeeeee; background-color: #898378; border-color: #898378; padding: 10px 15px; }
-/* line 65, ../components/sass/_styles_bootstrap_overrides.scss */
-.list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text { color: #fff; }
-/* line 69, ../components/sass/_styles_bootstrap_overrides.scss */
-.list-group-item.active:hover, .list-group-item.active:focus { color: #f9bc24; }
 /* line 72, ../components/sass/_styles_bootstrap_overrides.scss */
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus { z-index: 2; color: #eeeeee; background-color: #898378; border-color: #898378; padding: 10px 15px; }
+/* line 80, ../components/sass/_styles_bootstrap_overrides.scss */
+.list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text { color: #fff; }
+/* line 84, ../components/sass/_styles_bootstrap_overrides.scss */
+.list-group-item.active:hover, .list-group-item.active:focus { color: #f9bc24; }
+/* line 87, ../components/sass/_styles_bootstrap_overrides.scss */
 .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text { color: #f9bc24; }
 
-/* line 77, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 93, ../components/sass/_styles_bootstrap_overrides.scss */
 a.list-group-item { color: #555; }
-/* line 80, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 96, ../components/sass/_styles_bootstrap_overrides.scss */
 a.list-group-item:hover, a.list-group-item:focus { color: #1c7c3e; }
-/* line 82, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 99, ../components/sass/_styles_bootstrap_overrides.scss */
 a.list-group-item:hover .list-group-item-heading, a.list-group-item:focus .list-group-item-heading { color: #1c7c3e; }
 
-/* line 87, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 105, ../components/sass/_styles_bootstrap_overrides.scss */
 .btn { white-space: normal; text-decoration: none; }
-/* line 90, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 108, ../components/sass/_styles_bootstrap_overrides.scss */
 .btn a, .btn a:visited { color: inherit; text-decoration: none; }
 
-/* line 101, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 121, ../components/sass/_styles_bootstrap_overrides.scss */
 #left .btn:visited, #left .btn:focus, #left .btn:active, #left .btn:focus, a.btn-primary:visited, a.btn-primary:focus, a.btn-primary:active, a.btn-primary:focus, a.btn-success:visited, a.btn-success:focus, a.btn-success:active, a.btn-success:focus, a.btn-info:visited, a.btn-info:focus, a.btn-info:active, a.btn-info:focus, a.btn-warning:visited, a.btn-warning:focus, a.btn-warning:active, a.btn-warning:focus, a.btn-danger:visited, a.btn-danger:focus, a.btn-danger:active, a.btn-danger:focus { color: #fff; }
 
-/* line 105, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 129, ../components/sass/_styles_bootstrap_overrides.scss */
 .navbar-nav { margin: 0; }
 
-/* line 108, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 133, ../components/sass/_styles_bootstrap_overrides.scss */
 .panel { -webkit-box-shadow: none; box-shadow: none; }
 
-/* line 111, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 137, ../components/sass/_styles_bootstrap_overrides.scss */
 .panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group { border-top: 0; }
 
-/* line 116, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 143, ../components/sass/_styles_bootstrap_overrides.scss */
 a { text-decoration: underline; }
 
-/* line 125, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 153, ../components/sass/_styles_bootstrap_overrides.scss */
 footer a, header a, .main-banner a, .yamm a, .grid-caption a, .item-box-title a { text-decoration: none; }
 
-/* line 130, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 159, ../components/sass/_styles_bootstrap_overrides.scss */
 .thumbnail.fancybox-thumb { display: inline-block; border-radius: 0; border: 0; padding: 2px; margin-bottom: 0; float: left; }
 
-/* line 138, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 168, ../components/sass/_styles_bootstrap_overrides.scss */
 .fancybox-lock body { overflow: auto !important; }
 
-/* line 141, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 172, ../components/sass/_styles_bootstrap_overrides.scss */
 .fancybox-margin { margin-right: 0 !important; }
 
 /* Adams fancy box */
-/* line 146, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 179, ../components/sass/_styles_bootstrap_overrides.scss */
 .customfancybox .thumbnail { background: none; border: 0; padding: 0; margin: 0; display: block; float: left; }
 
-/* line 154, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 188, ../components/sass/_styles_bootstrap_overrides.scss */
 .customfancybox .thumbnail img { max-height: inherit; width: auto; padding: 5px 5px 0 0; margin: 0; border: 0; }
 
-/* line 161, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 196, ../components/sass/_styles_bootstrap_overrides.scss */
 #rightpane .customfancybox .thumbnail img { height: initial; }
 
-/* line 164, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 200, ../components/sass/_styles_bootstrap_overrides.scss */
 .customfancybox.padding0 .thumbnail img { padding: 0; }
 
-/* line 167, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 204, ../components/sass/_styles_bootstrap_overrides.scss */
 .customfancybox .galsubheading .caption { font-size: 14px; color: #585858; }
 
-/* line 171, ../components/sass/_styles_bootstrap_overrides.scss */
+/* line 209, ../components/sass/_styles_bootstrap_overrides.scss */
 .breadcrumb > li + li:before { content: "\003E "; }

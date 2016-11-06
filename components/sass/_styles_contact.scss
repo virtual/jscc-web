@@ -1,93 +1,111 @@
 address#contact {
-  font-size: 12px;
-  padding-top: 25px;
-  padding-bottom: 15px;
-  bottom: 0;
-  position: relative;
-  margin-top: 0;
-  margin-bottom:0;
+    font-size: 12px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    bottom: 0;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
 address#contact hr {
-  margin-top:0;margin-bottom:20px;border-top: 1px solid $gray-lighter; background-color:transparent;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-top: 1px solid $gray-lighter;
+    background-color: transparent;
 }
-address#contact.col-sm-12 hr { border-top:0; margin-bottom:5px; }
+
+address#contact.col-sm-12 hr {
+    border-top: 0;
+    margin-bottom: 5px;
+}
+
 address#contact p {
-  margin: 0;
-  padding: 0 0 10px 0;
+    margin: 0;
+    padding: 0 0 10px 0;
 }
-address#contact h2, address#contact h5, address#contact strong, address#contact .linksheading {
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-    color:$color-blue;
-  //a { color: inherit;}
+
+address#contact h2,
+address#contact h5,
+address#contact strong,
+address#contact .linksheading {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: $color-blue;
+    //a { color: inherit;}
 }
 
 @media (min-width: $screen-xs) {
-  address#contact {
-    clear: left;
-    padding-bottom: 15px;
-    word-wrap: break-word;
-    font-size: .85em;
-    padding-top: 0;
-    bottom: 0;
-    position: relative;
-      p {
-      margin: 0;
-      padding: 0 0 10px 0;
-      }
-      h2, h5, strong, .linksheading {
-         margin: 0;
-        padding: 0;
-      }
-  } 
+    address#contact {
+        clear: left;
+        padding-bottom: 15px;
+        word-wrap: break-word;
+        font-size: .85em;
+        padding-top: 0;
+        bottom: 0;
+        position: relative;
+        p {
+            margin: 0;
+            padding: 0 0 10px 0;
+        }
+        h2,
+        h5,
+        strong,
+        .linksheading {
+            margin: 0;
+            padding: 0;
+        }
+    }
 }
+
 @media (max-width: $screen-xs-max) {
-address#contact {
-  padding-top: 5px;
-    background:$color-grey;
-    //border-bottom:10px solid $color-green;
-  }
-  
-  
+    address#contact {
+        padding-top: 5px;
+        background: $color-grey;
+        //border-bottom:10px solid $color-green;
+    }
 }
-
-
 
 // FEATURE CONTACT // 
 .feature-contact {
-  background:$color-grey;
-  padding: 10px 20px;margin-bottom:30px;
-  
-  @extend .clearfix;
-   
-  .contact-photo {
-    float:right; width:40%; padding: 10px 5px;
-  }
-  
-  address#contact { padding-bottom:0; width:60%;}
-  
+    background: $color-grey;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    @extend .clearfix;
+    .contact-photo {
+        float: right;
+        width: 40%;
+        padding: 10px 5px;
+    }
+    address#contact {
+        padding-bottom: 0;
+        width: 60%;
+    }
 }
 
 @media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
-  .feature-contact {
- 
-   .contact-photo,  address#contact  {
-    float:none; width:100%;  
+    .feature-contact {
+        .contact-photo,
+        address#contact {
+            float: none;
+            width: 100%;
+        }
     }
-  }
 }
 
 @media (max-width: $screen-xs-max) {
-  .feature-contact {
-     margin-bottom:10px;
-      address#contact {
-      background:none;
-      padding:0;
-      width:50%;
-      } 
-       .contact-photo {
-      float:right; width:50%; padding-left:10px;
+    .feature-contact {
+        margin-bottom: 10px;
+        address#contact {
+            background: none;
+            padding: 0;
+            width: 50%;
+        }
+        .contact-photo {
+            float: right;
+            width: 50%;
+            padding-left: 10px;
+        }
     }
-  }    
 }

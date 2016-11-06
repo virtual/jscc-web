@@ -1,16 +1,31 @@
 //$color-witblue:     #0d2c6c;
 //$color-witlightblue:#3c9cd8;
 .badge-whatittakes {
-    margin-top:15px;
-    margin-bottom:15px;
-    background-color:$color-witblue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: $color-witblue;
     padding: 20px 20px 13px 20px;
-
-    .badge-morelink { padding:20px 0 0 0;color:$color-witlightblue; margin:0;}
-    .badge-morelink a { text-transform: uppercase; padding:3px 1px; } 
-    .badge-morelink a, .badge-morelink a:visited {color:$color-witlightblue;}
-    .badge-morelink a:hover { color:#fff; text-decoration: none;} 
-    .badge-separator { display:inline-block;*zoom: 1;
-*display: inline; margin:0 5px;}
+    .badge-morelink {
+        padding: 20px 0 0 0;
+        color: $color-witlightblue;
+        margin: 0;
+    }
+    .badge-morelink a {
+        text-transform: uppercase;
+        padding: 3px 1px;
+    }
+    .badge-morelink a,
+    .badge-morelink a:visited {
+        color: $color-witlightblue;
+    }
+    .badge-morelink a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+    .badge-separator {
+        display: inline-block;
+        *zoom: 1;
+        *display: inline;
+        margin: 0 5px;
+    }
 }
-

@@ -1,11 +1,48 @@
-div.hottopic h2 {border-bottom:white 2px solid; background: no-repeat top;padding:5px 5px 5px 10px;color:white;font-size:1.5em;margin:0;font-family: Arial, Helvetica, Tahoma, sans-serif;}
-div.orange h2 {background-color:#ce812c; background-image:url('/_resources/images/hot-orange-top.gif');}
-div.yellow h2 {background-color:#e7b425; background-image:url('/_resources/images/hot-yellow-top.gif');}
-div.brown h2 {background-color:#808062; background-image:url('/_resources/images/hot-brown-top.gif');}
-div.athletics {background: url('/_resources/images/hot-athletics.jpg') no-repeat bottom;}
-div.survey {background: url('/_resources/images/hot-survey.jpg') no-repeat bottom;}
-div.fasttrack {background: url('/_resources/images/hot-fasttrack.jpg') no-repeat bottom;}
-div.schedule {background: url('/_resources/images/hot-schedule.png') no-repeat bottom;}
-div.photo {background: url('/_resources/images/hot-photo.jpg') no-repeat bottom;}
+div.hottopic h2 {
+    border-bottom: white 2px solid;
+    background: no-repeat top;
+    padding: 5px 5px 5px 10px;
+    color: white;
+    font-size: 1.5em;
+    margin: 0;
+    font-family: Arial, Helvetica, Tahoma, sans-serif;
+}
 
-li.hottopic .action {background-image: url(/_resources/images/hotarrow.png);}
+div.orange h2 {
+    background-color: #ce812c;
+    background-image: url('/_resources/images/hot-orange-top.gif');
+}
+
+div.yellow h2 {
+    background-color: #e7b425;
+    background-image: url('/_resources/images/hot-yellow-top.gif');
+}
+
+div.brown h2 {
+    background-color: #808062;
+    background-image: url('/_resources/images/hot-brown-top.gif');
+}
+
+div.athletics {
+    background: url('/_resources/images/hot-athletics.jpg') no-repeat bottom;
+}
+
+div.survey {
+    background: url('/_resources/images/hot-survey.jpg') no-repeat bottom;
+}
+
+div.fasttrack {
+    background: url('/_resources/images/hot-fasttrack.jpg') no-repeat bottom;
+}
+
+div.schedule {
+    background: url('/_resources/images/hot-schedule.png') no-repeat bottom;
+}
+
+div.photo {
+    background: url('/_resources/images/hot-photo.jpg') no-repeat bottom;
+}
+
+li.hottopic .action {
+    background-image: url(/_resources/images/hotarrow.png);
+}
