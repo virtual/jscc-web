@@ -4251,7 +4251,7 @@ ul#follow li { display: inline-block; }
 ul#follow li a { background: transparent url("../_resources/images/icons/icons.png") no-repeat 0 0; }
 
 /* line 254, ../components/sass/_styles_footer.scss */
-a[href$='.pdf'] { background: transparent url("../_resources/images/icons/icon_pdf.gif") no-repeat center right; }
+a[href$='.pdf'] { background: transparent url("../_resources/images/icons/icon_pdf.gif") no-repeat center right; display: inline-block; }
 
 /* line 1, ../components/sass/_styles_prefooter.scss */
 .pre-footer { padding-top: 20px; background-color: #f2f2e8; }
