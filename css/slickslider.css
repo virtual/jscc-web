@@ -16,7 +16,7 @@
 .slick-next, .slick-prev { display: none; }
 
 /* line 34, ../components/sass/_styles_slickslider.scss */
-.slick-slide .caption { margin: 0 auto; text-align: center; max-width: 1100px; position: relative; color: #fff; font-family: "BrandonGrotesqueWeb-BoldItalic", "Open Sans", Verdana, Geneva, sans-serif; font-size: 5rem; text-shadow: 0 0 15px #333; width: 100%; display: block; padding: 0; }
+.slick-slide .caption { margin: 0 auto; text-align: center; max-width: 1100px; position: relative; color: #fff; font-family: "Droid Sans", Helvetica, Arial, sans-serif; font-size: 5rem; text-shadow: 0 0 15px #333; width: 100%; display: block; padding: 0; }
 /* line 50, ../components/sass/_styles_slickslider.scss */
 .slick-slide .caption a { -webkit-transition-property: color, text; -webkit-transition-duration: .3s, .3s; -webkit-transition-timing-function: linear, ease-in; -moz-transition-property: color, text; -moz-transition-duration: .3s; -moz-transition-timing-function: linear, ease-in; -ms-transition-property: color, text; -ms-transition-duration: .3s; -ms-transition-timing-function: linear, ease-in; -o-transition-property: color, text; -o-transition-duration: .3s; -o-transition-timing-function: linear, ease-in; transition-property: color, text; transition-duration: .3s; transition-timing-function: linear, ease-in; color: inherit; }
 /* line 67, ../components/sass/_styles_slickslider.scss */
@@ -37,7 +37,7 @@
   /* line 107, ../components/sass/_styles_slickslider.scss */
   .video-container { display: none; } }
 @media (max-width: 991px) { /* line 114, ../components/sass/_styles_slickslider.scss */
-  .slick-slide .caption { font-family: "BrandonGrotesqueWeb-Italic", "Open Sans", Verdana, Geneva, sans-serif; } }
+  .slick-slide .caption { font-family: "Droid Sans", Helvetica, Arial, sans-serif; } }
 @media (max-width: 991px) { /* line 122, ../components/sass/_styles_slickslider.scss */
   .slick-slide .caption { font-size: 3rem; line-height: 3rem; } }
 @media (max-width: 479px) { /* line 133, ../components/sass/_styles_slickslider.scss */

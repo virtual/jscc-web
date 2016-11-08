@@ -2,9 +2,19 @@ footer {
     a:visited {
         color: inherit;
     }
-    font-size: .8rem;
+    font-size: .75rem;
+    color: $color-heathergrey;
+    a {
+        color: inherit;
+    }
 }
-
+.footer-logo { padding: 0 10px 10px 0; float:left;}
+.footer-sponsors { clear:both; 
+    li {  width: auto;padding: 8px 4px;
+    img {
+    max-height: 40px; }
+    }    
+}
 footer {
     * {
         -webkit-border-radius: 0 !important;
@@ -20,7 +30,6 @@ footer {
         list-style: none;
     }
     li {
-        color: $color-heathergrey;
         list-style: none;
         a {
             color: $color-heathergrey;
@@ -159,6 +168,8 @@ footer {
 }
 
 @media (min-width: $screen-sm) {
+    
+    .footer-sponsors { float:right; clear:none;}
     .footer-menu {
         width: 50%;
         float: left;
@@ -194,6 +205,7 @@ footer {
 }
 
 @media (min-width: $screen-md) {
+    
     .footer-menu {
         width: 20%;
         float: left;
@@ -253,5 +265,7 @@ ul#follow li a {
 
 a[href$='.pdf'] {
     background: transparent url('../_resources/images/icons/icon_pdf.gif') no-repeat center right;
-        display: inline-block;
+    display: inline-block;
 }
+
+

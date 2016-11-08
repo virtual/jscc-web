@@ -209,3 +209,10 @@ header,
 .breadcrumb > li + li:before {
     content: "\003E ";
 }
+
+
+abbr[title], abbr[data-original-title] {
+    cursor: default;
+    border-bottom: 0;
+    /* border-bottom: 1px dotted #777777; */
+}

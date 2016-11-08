@@ -1087,10 +1087,7 @@ ul#follow li a:hover {
     display: block
 }
 
-#footer #copyright address,
-#footer #footer-links {
-    font-size: 90%
-}
+ 
 
 body#index #rightcolumn a:hover,
 body#index #leftcolumn a:hover,
@@ -1625,14 +1622,15 @@ a:visited #regbox {
     text-decoration: none;
 }
 
-.applybtn:hover {
+.applybtn:hover,
+.applybtn.btn-primary:hover {
     background: #d69e2f;
     background-image: -webkit-linear-gradient(top, #d69e2f, #c78500);
     background-image: -moz-linear-gradient(top, #d69e2f, #c78500);
     background-image: -ms-linear-gradient(top, #d69e2f, #c78500);
     background-image: -o-linear-gradient(top, #d69e2f, #c78500);
     background-image: linear-gradient(to bottom, #d69e2f, #c78500);
-    border: 1px solid #c78500;
+    border-color: #c78500;
     text-decoration: none;
 }
 

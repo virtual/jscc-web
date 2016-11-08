@@ -998,7 +998,7 @@ td, th { padding: 0; }
 html { font-size: 10px; -webkit-tap-highlight-color: transparent; }
 
 /* line 27, ../components/sass/_scaffolding.scss */
-body { font-family: "BrandonGrotesqueWeb-Regular", "Open Sans", Verdana, Geneva, sans-serif; font-size: 14px; line-height: 1.42857; color: #333333; background-color: #fff; }
+body { font-family: "Droid Sans", Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.42857; color: #333333; background-color: #fff; }
 
 /* line 36, ../components/sass/_scaffolding.scss */
 input, button, select, textarea { font-family: inherit; font-size: inherit; line-height: inherit; }
@@ -3364,7 +3364,7 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 @media (min-width: 992px) { /* line 149, ../components/sass/_modals.scss */
   .modal-lg { width: 900px; } }
 /* line 7, ../components/sass/_tooltip.scss */
-.tooltip { position: absolute; z-index: 1070; display: block; font-family: "BrandonGrotesqueWeb-Regular", "Open Sans", Verdana, Geneva, sans-serif; font-size: 12px; font-weight: normal; line-height: 1.4; opacity: 0; filter: alpha(opacity=0); }
+.tooltip { position: absolute; z-index: 1070; display: block; font-family: "Droid Sans", Helvetica, Arial, sans-serif; font-size: 12px; font-weight: normal; line-height: 1.4; opacity: 0; filter: alpha(opacity=0); }
 /* line 18, ../components/sass/_tooltip.scss */
 .tooltip.in { opacity: 0.9; filter: alpha(opacity=90); }
 /* line 19, ../components/sass/_tooltip.scss */
@@ -3400,7 +3400,7 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 .tooltip.bottom-right .tooltip-arrow { top: 0; left: 5px; margin-top: -5px; border-width: 0 5px 5px; border-bottom-color: #000; }
 
 /* line 6, ../components/sass/_popovers.scss */
-.popover { position: absolute; top: 0; left: 0; z-index: 1060; display: none; max-width: 276px; padding: 1px; font-family: "BrandonGrotesqueWeb-Regular", "Open Sans", Verdana, Geneva, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.42857; text-align: left; background-color: #fff; background-clip: padding-box; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 6px; -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); white-space: normal; }
+.popover { position: absolute; top: 0; left: 0; z-index: 1060; display: none; max-width: 276px; padding: 1px; font-family: "Droid Sans", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 1.42857; text-align: left; background-color: #fff; background-clip: padding-box; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 6px; -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); white-space: normal; }
 /* line 31, ../components/sass/_popovers.scss */
 .popover.top { margin-top: -10px; }
 /* line 32, ../components/sass/_popovers.scss */
@@ -3721,7 +3721,7 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 /* line 68, ../components/sass/_styles_bootstrap_overrides.scss */
 .list-group-item.active { font-size: 1.15em; color: #f9bc24; }
 /* line 72, ../components/sass/_styles_bootstrap_overrides.scss */
-.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus { z-index: 2; color: #eeeeee; background-color: #898378; border-color: #898378; padding: 10px 15px; }
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus { z-index: 2; color: #eeeeee; background-color: #6d6654; border-color: #6d6654; padding: 10px 15px; }
 /* line 80, ../components/sass/_styles_bootstrap_overrides.scss */
 .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text { color: #fff; }
 /* line 84, ../components/sass/_styles_bootstrap_overrides.scss */
@@ -3786,3 +3786,6 @@ footer a, header a, .main-banner a, .yamm a, .grid-caption a, .item-box-title a 
 
 /* line 209, ../components/sass/_styles_bootstrap_overrides.scss */
 .breadcrumb > li + li:before { content: "\003E "; }
+
+/* line 214, ../components/sass/_styles_bootstrap_overrides.scss */
+abbr[title], abbr[data-original-title] { cursor: default; border-bottom: 0; /* border-bottom: 1px dotted #777777; */ }

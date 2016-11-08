@@ -43,6 +43,7 @@ body {
 
 #{headings(all)} {
     color: $color-halloween;
+    font-family: $font-family-serif;
     padding: 4px 0 2px 0;
     line-height: 1.5em;
     a {
@@ -319,9 +320,7 @@ hr.white {
     margin-bottom: 20px;
 }
 
-span + span {
-    padding-left: 5px;
-}
+ 
 
 .well {
     background-color: $color-grey;
@@ -396,5 +395,8 @@ span + span {
     background-image: url('../_resources/images/icons/roundarrow.png');
     background-repeat: no-repeat;
     background-position: 0 center;
-    padding-left: 1.31em
+    padding-left: 1.31em;
+    font-weight: 700;
+    text-decoration: none;
+    &:hover { text-decoration: underline;}
 }

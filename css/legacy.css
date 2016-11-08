@@ -711,282 +711,279 @@ ul#nav li a:hover, ul#nav li#nav-acad a:hover, ul#follow li a:hover { background
 /* line 1085, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav ul li:hover ul, #content ul.col3list li a { display: block; }
 
-/* line 1090, ../components/sass/_styles_jscc_screen4.scss */
-#footer #copyright address, #footer #footer-links { font-size: 90%; }
-
-/* line 1095, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1092, ../components/sass/_styles_jscc_screen4.scss */
 body#index #rightcolumn a:hover, body#index #leftcolumn a:hover, body#index #rightcolumn a:active, body#index #leftcolumn a:active, #content .staff .more:hover, #content #content .staff .more:hover, #content .staff .more:active { text-decoration: underline; }
 
-/* line 1105, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1102, ../components/sass/_styles_jscc_screen4.scss */
 #content .column2 p, div#businesscal h2 { margin-top: 0; }
 
-/* line 1110, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1107, ../components/sass/_styles_jscc_screen4.scss */
 a[href*="youtube.com/watch?"], a[href*="sevenload.com/videos/"], a[href*="metacafe.com/watch/"], a[href*="video.google.com"], a[href$='.mov'], a[href$='.wmv'], a[href$='.mp4'], a[href$='.avi'], a[href$='.mpg'] { background: transparent url(/_resources/images/icons/icon_film.gif) no-repeat center right; padding: 5px 20px 5px 0; }
 
-/* line 1123, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1120, ../components/sass/_styles_jscc_screen4.scss */
 #acrobat a:link, #acrobat a:visited { color: #999; text-decoration: underline; }
 
-/* line 1129, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1126, ../components/sass/_styles_jscc_screen4.scss */
 #acrobat a:hover, #acrobat a:active { color: #f33; text-decoration: underline; }
 
-/* line 1135, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1132, ../components/sass/_styles_jscc_screen4.scss */
 p.imagecaption { font-size: .8em; text-align: right; position: relative; top: -1em; font-style: italic; }
 
-/* line 1143, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1140, ../components/sass/_styles_jscc_screen4.scss */
 body #content form.elearnform { font-family: sans-serif; border: gray 1px solid; width: 180px; }
 
-/* line 1149, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1146, ../components/sass/_styles_jscc_screen4.scss */
 body #content form.elearnform #title { background-color: green; color: white; font-weight: bold; padding: 6px; font-size: 1.5em; }
 
-/* line 1157, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1154, ../components/sass/_styles_jscc_screen4.scss */
 body #content form.elearnform #eform { padding: 2em 8px 8px 8px; }
 
-/* line 1161, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1158, ../components/sass/_styles_jscc_screen4.scss */
 body #content form.elearnform #eform label { padding-left: 0; float: none; text-align: left; width: auto; font-size: 1.4em; }
 
-/* line 1169, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1166, ../components/sass/_styles_jscc_screen4.scss */
 body #content form.elearnform #eform input[type="submit"] { font-size: 1.6em; }
 
-/* line 1173, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1170, ../components/sass/_styles_jscc_screen4.scss */
 body #content form.elearnform #eform input[type="text"], form.elearnform #eform input[type="password"] { width: 140px; margin: 0; margin-bottom: 1em; }
 
-/* line 1180, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1177, ../components/sass/_styles_jscc_screen4.scss */
 body #content form.elearnform #eform p { font-size: 1.2em; margin: 0; margin-bottom: 1em; }
 
-/* line 1186, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1183, ../components/sass/_styles_jscc_screen4.scss */
 ul#microevents { visibility: hidden; }
 
-/* line 1190, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1187, ../components/sass/_styles_jscc_screen4.scss */
 .question { font-size: 1.2em; font-weight: bold; }
 
-/* line 1195, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1192, ../components/sass/_styles_jscc_screen4.scss */
 div#complaints, a:visited div#complaints { background-image: url(/_resources/images/complaints.png); background-repeat: no-repeat; background-position: 0% 50%; font-size: 1.2em; border: 1px #bfbfb6 solid; margin-bottom: 2em; background-color: #f2f2e8; padding: 6px 6px 6px 100px; }
 
-/* line 1207, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1204, ../components/sass/_styles_jscc_screen4.scss */
 table.emtemp { width: 600px; }
 
-/* line 1211, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1208, ../components/sass/_styles_jscc_screen4.scss */
 table.emtemp td { width: 200px; }
 
-/* line 1215, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1212, ../components/sass/_styles_jscc_screen4.scss */
 table.emtemp td + td { width: 400px; }
 
-/* line 1219, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1216, ../components/sass/_styles_jscc_screen4.scss */
 #box { border: 1px #dcdcd4 solid; background-color: #f1f1e7; padding: 0 1em; }
 
-/* line 1225, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1222, ../components/sass/_styles_jscc_screen4.scss */
 span#netcalc { background: url(/_resources/images/calculator-icon.png) no-repeat #f1f1e7; padding: 4px 4px 4px 65px; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border: 1px solid #808080; width: 330px; height: 50px; line-height: 50px; font-size: 1.4em; font-weight: bold; vertical-align: middle; display: block; }
 
-/* line 1241, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1238, ../components/sass/_styles_jscc_screen4.scss */
 .show_hide { display: none; }
 
-/* line 1245, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1242, ../components/sass/_styles_jscc_screen4.scss */
 .area1 { border: #2787ad 4px solid; }
 
-/* line 1249, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1246, ../components/sass/_styles_jscc_screen4.scss */
 .area2 { border: #93B81D 4px solid; }
 
-/* line 1253, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1250, ../components/sass/_styles_jscc_screen4.scss */
 .area3 { border: #99288B 4px solid; }
 
-/* line 1257, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1254, ../components/sass/_styles_jscc_screen4.scss */
 .madison { border: #797970 4px solid; }
 
-/* line 1261, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1258, ../components/sass/_styles_jscc_screen4.scss */
 .recruiterpopup { background-color: white; padding: 10px; font-size: .9em; width: 300px; }
 
-/* line 1268, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1265, ../components/sass/_styles_jscc_screen4.scss */
 #content .recruiterpopup p { margin-bottom: 0; padding-bottom: 0; margin-top: .5em; line-height: 1.5em; }
 
-/* line 1275, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1272, ../components/sass/_styles_jscc_screen4.scss */
 #content .recruiterpopup p.small { font-size: 1.3em; line-height: 1.4em; margin-bottom: 1em; }
 
-/* line 1281, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1278, ../components/sass/_styles_jscc_screen4.scss */
 .recruiterpopup h2 { margin: 0 0 1em 0; padding: 0; }
 
-/* line 1286, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1283, ../components/sass/_styles_jscc_screen4.scss */
 .recruiter { padding: 10px; background-color: #f1f1e8; }
 
-/* line 1291, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1288, ../components/sass/_styles_jscc_screen4.scss */
 .recruiter { font-size: 1.3em; line-height: 1.6em; height: 77px; }
 
-/* line 1297, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1294, ../components/sass/_styles_jscc_screen4.scss */
 div#highlightbox { padding: 4px 4px 4px 14px; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border: 1px solid #808080; width: 300px; height: 50px; line-height: 50px; font-size: 1.4em; font-weight: bold; vertical-align: middle; background-color: #eeeee4; }
 
-/* line 1312, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1309, ../components/sass/_styles_jscc_screen4.scss */
 div#highlightbox:hover { background-color: #dcdcd4; }
 
-/* line 1316, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1313, ../components/sass/_styles_jscc_screen4.scss */
 .show_hide { display: none; }
 
-/* line 1320, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1317, ../components/sass/_styles_jscc_screen4.scss */
 pre { font-family: "Lucida Console", Monaco, monospace; font-size: 1.3em; line-height: 1.9em; }
 
-/* line 1326, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1323, ../components/sass/_styles_jscc_screen4.scss */
 .nomargin { margin: 0; }
 
-/* line 1330, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1327, ../components/sass/_styles_jscc_screen4.scss */
 .center { text-align: center; }
 
-/* line 1334, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1331, ../components/sass/_styles_jscc_screen4.scss */
 .right { text-align: right; }
 
-/* line 1338, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1335, ../components/sass/_styles_jscc_screen4.scss */
 .valigntop { vertical-align: top; }
 
-/* line 1342, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1339, ../components/sass/_styles_jscc_screen4.scss */
 .absmiddle { vertical-align: middle; }
 
-/* line 1346, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1343, ../components/sass/_styles_jscc_screen4.scss */
 .valignbottom { vertical-align: top; }
 
-/* line 1350, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1347, ../components/sass/_styles_jscc_screen4.scss */
 .clearall { clear: both; }
 
-/* line 1354, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1351, ../components/sass/_styles_jscc_screen4.scss */
 .statstable { clear: both; width: 600px; }
 
-/* line 1359, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1356, ../components/sass/_styles_jscc_screen4.scss */
 div.pullquote, blockquote { border-top: solid 1px #7e7e4c; border-bottom: solid 1px #7e7e4c; padding: 2em 0; color: #7e7e4c; text-align: center; clear: both; margin-top: 1em; }
 
-/* line 1370, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1367, ../components/sass/_styles_jscc_screen4.scss */
 div.pullquote p, div.pullquote h2, blockquote h2 { margin: 0; padding: 0; margin-bottom: 1em; }
 
-/* line 1378, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1375, ../components/sass/_styles_jscc_screen4.scss */
 .pullquote.large { font-size: 1.8em; font-style: italic; font-family: 'Droid Serif', Georgia, Times, serif; padding: .5em 0; }
 
-/* line 1385, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1382, ../components/sass/_styles_jscc_screen4.scss */
 .pullquote.large p { margin: 0; }
 
-/* line 1389, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1386, ../components/sass/_styles_jscc_screen4.scss */
 ul#ancillary { list-style-type: none; text-align: left; position: absolute; width: 200px; right: 28em; top: 8px; }
 
-/* line 1398, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1395, ../components/sass/_styles_jscc_screen4.scss */
 ul#ancillary li { display: inline; border-left: 1px solid #000; float: left; line-height: 1.1em; margin: 0 .5em 0 -.5em; padding: 0 .5em 0 .5em; }
 
-/* line 1407, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1404, ../components/sass/_styles_jscc_screen4.scss */
 ul#ancillary li.first { border-left: 0 solid #000; }
 
-/* line 1411, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1408, ../components/sass/_styles_jscc_screen4.scss */
 ul#ancillary li a:link, ul#ancillary li a:visited { color: #006637; text-decoration: none; }
 
-/* line 1417, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1414, ../components/sass/_styles_jscc_screen4.scss */
 ul#ancillary li a:hover, ul#ancillary li a:active { text-decoration: underline; }
 
-/* line 1422, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1419, ../components/sass/_styles_jscc_screen4.scss */
 .playercard { border: solid 1px #016a32; padding: 1em; width: 450px; height: 300px; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; background-color: #f2f2e8; margin-bottom: 1em; }
 
-/* line 1434, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1431, ../components/sass/_styles_jscc_screen4.scss */
 .playernumber { font-size: 4em; color: white; background: #016a32; padding: 0 .3em; text-align: center; margin-right: .2em; }
 
-/* line 1443, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1440, ../components/sass/_styles_jscc_screen4.scss */
 .playername { font-size: 2em; color: #016a32; margin-right: .3em; }
 
-/* line 1449, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1446, ../components/sass/_styles_jscc_screen4.scss */
 .playerclass { font-size: 1em; color: gray; font-style: italic; }
 
-/* line 1455, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1452, ../components/sass/_styles_jscc_screen4.scss */
 .playerinfo { border-top: 4px solid #016a32; padding-top: 8px; color: #016a32; font-size: 1.2em; position: relative; }
 
-/* line 1463, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1460, ../components/sass/_styles_jscc_screen4.scss */
 .playerinfo img { float: left; }
 
-/* line 1467, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1464, ../components/sass/_styles_jscc_screen4.scss */
 .playerdetails { float: right; width: 300px; }
 
-/* line 1472, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1469, ../components/sass/_styles_jscc_screen4.scss */
 #content .playerdetails p { line-height: 1em; margin: 0px 0px 20px 10px; }
 
-/* line 1477, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1474, ../components/sass/_styles_jscc_screen4.scss */
 .playerdetails .label { font-size: .7em; font-style: italic; color: #777; }
 
-/* line 1483, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1480, ../components/sass/_styles_jscc_screen4.scss */
 .grow { display: inline-block; -webkit-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-property: transform; transition-property: transform; -webkit-transform: translateZ(0); transform: translateZ(0); box-shadow: 0 0 1px transparent; }
 
-/* line 1494, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1491, ../components/sass/_styles_jscc_screen4.scss */
 .grow:hover, .grow:focus, .grow:active { -webkit-transform: scale(1.1); transform: scale(1.1); }
 
-/* line 1501, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1498, ../components/sass/_styles_jscc_screen4.scss */
 #ttp { background-color: #f2f2e8; border: solid 1px #c7c7bd; padding: 1em; font-size: 1.35em; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
 
-/* line 1511, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1508, ../components/sass/_styles_jscc_screen4.scss */
 #ttp img { margin-right: 1em; vertical-align: middle; }
 
-/* line 1516, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1513, ../components/sass/_styles_jscc_screen4.scss */
 a:link #ttp, a:visited #ttp { text-decoration: none; color: #666; }
 
-/* line 1522, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1519, ../components/sass/_styles_jscc_screen4.scss */
 .mission { float: right; border: 1px solid gray; padding: 10px; margin-left: 1em; width: 300px; font-size: .9em; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
 
-/* line 1534, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1531, ../components/sass/_styles_jscc_screen4.scss */
 .mission p, .mission h2 { margin: 0; padding: 0; }
 
-/* line 1540, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1537, ../components/sass/_styles_jscc_screen4.scss */
 .mission h2 { font-size: 1.7em; font-weight: bold; margin-bottom: .5em; line-height: 1.5em; }
 
-/* line 1547, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1544, ../components/sass/_styles_jscc_screen4.scss */
 .notice { font-size: 1.1em; padding: 6px 6px 6px 14px; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border: 1px solid #808080; background-color: #eeeee4; box-shadow: 2px 2px 2px 0px #999; }
 
-/* line 1558, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1555, ../components/sass/_styles_jscc_screen4.scss */
 #regwrapper { float: right; width: 250px; margin: 20px 10px 20px 30px; }
 
-/* line 1564, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1561, ../components/sass/_styles_jscc_screen4.scss */
 #regwrapper p { font-size: 1.2em; color: #7f7a51; }
 
-/* line 1569, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1566, ../components/sass/_styles_jscc_screen4.scss */
 #regwrapper a:link, #regwrapper a:visited { text-decoration: none; }
 
-/* line 1574, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1571, ../components/sass/_styles_jscc_screen4.scss */
 a:link #regbox, a:visited #regbox { padding: 10px; font-size: 2em; border-radius: 10px; -webkit-box-shadow: 2px 2px 2px 0px #999; -moz-box-shadow: 2px 2px 2px 0px #999; box-shadow: 2px 2px 2px 0px #999; text-shadow: 2px 2px 1px #a8a379; background-color: #d0cba5; text-align: center; color: white; margin-bottom: 1em; }
 
-/* line 1589, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1586, ../components/sass/_styles_jscc_screen4.scss */
 .lighttext { color: #b6b6ac; }
 
-/* line 1593, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1590, ../components/sass/_styles_jscc_screen4.scss */
 .bold { font-weight: bold; }
 
-/* line 1597, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1594, ../components/sass/_styles_jscc_screen4.scss */
 .hide { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
 
-/* line 1606, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1603, ../components/sass/_styles_jscc_screen4.scss */
 .clip-circle { clip-path: circle(30px at center); }
 
-/* line 1610, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1607, ../components/sass/_styles_jscc_screen4.scss */
 .applybtn { background: #219421; background-image: -webkit-linear-gradient(top, #219421, #247a20); background-image: -moz-linear-gradient(top, #219421, #247a20); background-image: -ms-linear-gradient(top, #219421, #247a20); background-image: -o-linear-gradient(top, #219421, #247a20); background-image: linear-gradient(to bottom, #219421, #247a20); -webkit-border-radius: 6; -moz-border-radius: 6; border-radius: 6px; text-shadow: 1px 1px 2px #636363; font-family: Arial; color: #ffffff; font-size: 14px; padding: 10px 16px 10px 16px; text-decoration: none; }
 
-/* line 1628, ../components/sass/_styles_jscc_screen4.scss */
-.applybtn:hover { background: #d69e2f; background-image: -webkit-linear-gradient(top, #d69e2f, #c78500); background-image: -moz-linear-gradient(top, #d69e2f, #c78500); background-image: -ms-linear-gradient(top, #d69e2f, #c78500); background-image: -o-linear-gradient(top, #d69e2f, #c78500); background-image: linear-gradient(to bottom, #d69e2f, #c78500); border: 1px solid #c78500; text-decoration: none; }
+/* line 1625, ../components/sass/_styles_jscc_screen4.scss */
+.applybtn:hover, .applybtn.btn-primary:hover { background: #d69e2f; background-image: -webkit-linear-gradient(top, #d69e2f, #c78500); background-image: -moz-linear-gradient(top, #d69e2f, #c78500); background-image: -ms-linear-gradient(top, #d69e2f, #c78500); background-image: -o-linear-gradient(top, #d69e2f, #c78500); background-image: linear-gradient(to bottom, #d69e2f, #c78500); border-color: #c78500; text-decoration: none; }
 
-/* line 1639, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1637, ../components/sass/_styles_jscc_screen4.scss */
 div#apply { position: absolute; top: 24px; right: 200px; }
 
-/* line 1645, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1643, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo { width: 230px; float: right; border-radius: 10px; border: 2px solid #ce7325; padding: 10px; margin-left: 20px; margin-bottom: 20px; background-color: #f2f2e8; background-image: url("/_resources/images/degreeinfo.png"); }
 
-/* line 1657, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1655, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo p { margin: 0; }
 
 /*div#degreeinfo label {float:none; width:8em;text-align:left;margin-right:0;display:inline;}*/
-/* line 1664, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1662, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo label { float: left; width: 4em; text-align: right; margin-right: 0; display: block; }
 
-/* line 1672, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1670, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo input { width: 11em; }
 
-/* line 1676, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1674, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo .controls { display: inline; }
 
-/* line 1680, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1678, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo div.form-actions { padding: 0; margin: 0; }
 
-/* line 1685, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1683, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo h2 { color: white; margin: 0 0 20px 40px; padding: 0; font-size: 2em; }
 
-/* line 1692, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1690, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo .alert { font-size: 1.3em; }
 
-/* line 1696, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1694, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo .form-actions { text-align: center; }
 
-/* line 1700, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1698, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo form { margin-bottom: 0; }

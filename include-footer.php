@@ -1,7 +1,7 @@
 <footer class="hidden-print" id="footer">
     <div class="inner-wrapper">
         <div class="container">
-            <div class="row">
+            <div class="row buffer-top">
                 <div class="col-md-12">
 
                     <ul class="footer-menu">
@@ -71,13 +71,17 @@
                 </div>
 
             </div>
-            <div class="row">
+            <div class="row buffer-top">
                 <div class="col-md-12">
                     <div id="copyright">
-                        <a href="/"><img src="./_resources/images/logo/footerlogo.png" alt="JSCC logo" width="39" height="49"></a>
-                        <a style="float: right;" title="Tennessee Transfer Pathways" onclick="ga('send', 'event', 'Outbound Links', 'Click', 'TTP');" href="http://www.tntransferpathway.org/"><img style="margin-top: 1em;" src="./_resources/images/logo/ttp-footer.png" alt="TTP Logo" width="122" height="22"></a>
-                        <a style="float: right;" title="Regents Online Campus Collaborative" onclick="ga('send', 'event', 'Outbound Links', 'Click', 'ROCC footer');" href="http://www.rodp.org/home.htm"><img src="./_resources/images/logo/logo_regents_new.png" alt="ROCC Logo" width="82" height="41"></a>
-                        <a style="float: right;" title="Achieving the Dream" onclick="ga('send', 'event', 'Outbound Links', 'Click', 'ATD footer');" href="http://achievingthedream.org/"><img src="./_resources/images/logo/atd.png" alt="ATD Logo" width="115" height="49"></a>
+                        <ul class="list-inline footer-sponsors"><li><a title="Tennessee Transfer Pathways" onclick="ga('send', 'event', 'Outbound Links', 'Click', 'TTP');" href="http://www.tntransferpathway.org/"><img src="./_resources/images/logo/ttp-footer.png" alt="TTP Logo" ></a></li><li>
+                        <a title="Regents Online Campus Collaborative" onclick="ga('send', 'event', 'Outbound Links', 'Click', 'ROCC footer');" href="http://www.rodp.org/home.htm"><img src="./_resources/images/logo/logo_regents_new.png" alt="ROCC Logo" ></a></li><li>
+                            <a title="Achieving the Dream" onclick="ga('send', 'event', 'Outbound Links', 'Click', 'ATD footer');" href="http://achievingthedream.org/"><img src="./_resources/images/logo/atd.png" alt="ATD Logo" ></a></li></ul>
+                        
+                        <a class="footer-logo" href="/"><img src="./_resources/images/logo/footerlogo.png" alt="JSCC logo"></a>
+                       
+                        
+                        
                         <p><a href="/about-jackson-state/about-this-site/terms-of-use.html">Terms of Use</a> | <a href="/about-jackson-state/about-this-site/copyright-use.html">Copyright Use</a> | <a href="/about-jackson-state/about-this-site/accessibility.html">Accessibility</a></p>
                         <div class="vcard">
                             <p><span id="directedit"><a id="de" href="http://a.cms.omniupdate.com/10?skin=oucampus&amp;account=jscc&amp;site=www&amp;action=de&amp;path=/index.pcf">Jackson</a></span> <span class="fn org">State Community College</span> is a <a href="http://www.tbr.edu/" onclick="ga('send', 'event', 'Outbound Links', 'Click', 'TBR footer');">Tennessee Board of Regents</a> institution. All rights reserved.</p>
@@ -92,8 +96,8 @@
 				<abbr class="region" title="Tennessee">TN</abbr>&nbsp;
 				<span class="postal-code">38301</span> |
 			</span>
-			<span class="tel">(731) 424-3520</span> |
-			<span class="tel">(800) 355-JSCC</span>
+			<span class="tel"><a href="tel:+17314243520">(731) 424-3520</a></span> |
+			<span class="tel"><a href="tel:+18003555722">(800) 355-JSCC</a></span>
 			<span class="geo">
 				<span class="latitude">35.645405</span>
 				<span class="longitude">-88.780925</span>
