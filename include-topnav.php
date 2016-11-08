@@ -26,11 +26,14 @@
             <div class="row mobile-heading">
                 <div class="col-sm-12">
                     <a href="#"> 
-                                    <img src="_resources/images/logo/fullcolor-logo.jpg" alt="Jackson State Community College"/> 
+                                    <img class="logo" src="_resources/images/logo/fullcolor-logo.jpg" alt="Jackson State Community College"/> 
                     </a>
                     <ul id="mobile_buttons" class="visible-xs nav pull-right text-left navbar-nav">
 
-                        <li class="pull-left open" id="menu-nav"><a href="#"><span class="fa fa-bars"><span class="sr-only">Menu</span></span> Menu</a></li>
+                        <li class="pull-left open" id="menu-nav">
+                            
+                            <a href="#"><span class="burger-icon"  class="menu-button pull-left"><span class="sr-only"></span></span> </a></li>
+                        
 
                     </ul>
                 </div>

@@ -54,9 +54,9 @@
     .topnav {
         //text-align: left;
         padding: 0;
-        margin: 0;
-        background: $brand-primary;
-        color: #fff;
+        margin: 0; 
+        background: $color-grey;
+        color: #000;
         a {
             color: inherit;
         }
@@ -105,7 +105,7 @@
     .topnav-action {
         width: 100%;
         clear: both;
-        background: #19557a;
+        background: $brand-primary;
         width: 100%;
         margin: 0;
         padding: 10px 0;
@@ -115,6 +115,7 @@
         }
     }
     .mobile-heading {
+        img.logo { width:120px;}
         margin-left: 0;
         margin-right: 0;
         padding: 8px 15px;

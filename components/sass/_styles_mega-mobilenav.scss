@@ -1,4 +1,20 @@
- @media (max-width: $screen-xs-max) {
+@import "mixins/burger";
+
+.menu-button {
+  display: inline-block;
+  padding: .5em;
+ 
+}
+
+.burger-icon {
+  @include burger(20px, 3px, 5px, #fff);
+}
+a#menu-nav { padding-top:16px;}
+.mobile-active .burger-icon {
+  @include burger-to-cross;
+}
+
+@media (max-width: $screen-xs-max) {
      #yamm-placeholder {
          display: none;
      }
