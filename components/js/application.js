@@ -24,9 +24,7 @@ $(document).ready(function() {
 	var currentW = 'small';
 
 	if (lastWindowWidth >= 768) {
-		currentW = 'large';
-        $('.subfeature-quicklinks-box').prependTo('.footer-large');
-	}  
+		currentW = 'large';	}  
     
 	$(window).resize(function() {
 		//confirm window was actually resized
@@ -44,7 +42,7 @@ $(document).ready(function() {
 			if ((lastWindowWidth >= 768) && (currentW == 'small')) {
 				currentW = 'large';
  		 	$('#yamm-placeholder').append($('.yamm'));
-                $('.subfeature-quicklinks-box').prependTo('.footer-large');
+                
                  $('.topnav-action').show();
 			} 
         }
@@ -58,13 +56,13 @@ $(document).ready(function() {
  	}
      
 	function smallWindow() {
-      $('.subfeature-quicklinks-box').prependTo('.subfeature-quicklinks-holder');
+      
     }
     
     function xsWindow() { 
             $('.topnav-action').hide();
             $("#yamm-placeholder").each(function() {
-			$('.yamm').insertBefore('.target-aud-link').removeClass('visible');
+			$('.yamm').insertBefore('.topnav-action .custom-inline-input').removeClass('visible');
 			$('#menu-nav').show().removeClass('mobile-active').removeClass('open');
 		});
     }
