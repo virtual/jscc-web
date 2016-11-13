@@ -28,6 +28,8 @@
 }
 
 .flex-items {
+   
+    
     .flex-item h2 {
         color: #fff;
         background: $color-halloween;
@@ -53,13 +55,15 @@
 }
 
 .flex-items >.flex-item {
+     background-size: cover;
+    background-repeat: no-repeat; 
     flex: 0 0 calc(100% - 40px);
     // width: 100%; 
     min-height: 0;
     min-width: 0;
     display: inherit;
     //margin: 10px;
-    background: #ccc;
+    background-color:$color-grey;
     flex-wrap: wrap;
     -webkit-align-items: top;
     -ms-flex-align: top;
@@ -78,7 +82,7 @@
         padding: 8px 10px 15px 10px;
         margin-bottom: 0 !important;
         font-size: 1.1rem;
-        text-align: left;
+       // text-align: left;
         display: block;
         width: 100%;
     }
@@ -89,12 +93,15 @@
     }
     a {
         color: inherit;
-        text-decoration: none !important;
+        //text-decoration: none !important;
         &:hover {
-            color: #ffffa2;
+            text-decoration: underline;
             //  text-decoration:underline !important;
         }
     }
+    p.bottomlink {text-align: center; padding-bottom: 8px;}
+    p.bottomlink a {color: $brand-primary; font-weight: bold; }
+    a.action { color: $brand-primary; font-weight: 400;}
 }
 
 .flex-items >.flex-item:first-of-type {
