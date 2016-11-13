@@ -17,39 +17,43 @@
             </li>
         </ul>
     </li>
-    <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Financial Aid</a>
+    <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>$Financial Aid</a>
         <ul class="dropdown-menu">
             <li class="container">
                 <!-- Content container to add padding -->
                 <div class="yamm-content">
                     <div class="row">
-
-                        <ul class="col-sm-12 list-unstyled">
-                            <li><a href="#">Apply Online</a></li>
-                            <li class="dropdown-submenu">
-                                <a tabindex="0" data-toggle="dropdown"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span> Advising &amp; Testing</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Advising</a></li>
-                                    <li><a href="#">Testing</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="dropdown-submenu">
-                                <a tabindex="0" data-toggle="dropdown"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span> Pay for College</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Financial Aid 101</a></li>
-                                    <li><a href="#">Scholarships</a></li>
-                                    <li><a href="#">Tuition &amp; Fees</a></li>
-                                    <li><a href="#">Work Study Program</a></li>
-                                    <li><a href="#">Cost of Attendance</a></li>
-                                </ul>
-                            </li>
-
-
-                        </ul>
-
+                      <div class="col-sm-12 link-list">
+                        <div class="header col-sm-12">
+                          <h2>Financial Aid</h2>
+                            <p><a href="http://tennesseepromise.gov/"><img class="img_left imgshadow" src="./_resources/images/megamenu/megamenu-tnpromise.png" alt="TN Promise Logo" width="110" height="87">Learn what steps you need to follow for the Tennessee Promise.</a></p>
+                        </div>
+                        <ul class="greybox">
+<li><a onclick="ga('send', 'event', 'megamenu', ' aid', 'tuition');" href="/about-jackson-state/student-services/business-services/fees-tuition/fees-and-tuition.html">Tuition and Fees</a></li>
+<li><a onclick="ga('send', 'event', 'megamenu', 'financial aid', 'applications');" href="/financial-aid/forms-and-applications/index.html">Applications</a></li>
+ 
+<li><a onclick="ga('send', 'event', 'megamenu', 'financial aid', 'deadlines');" href="/financial-aid/financial-aid-deadlines.html">Deadlines</a></li>
+<li><a onclick="ga('send', 'event', 'megamenu', 'financial aid', 'helpful resources');" href="/financial-aid/helpful-resources.html">Helpful Resources</a></li>
+</ul>
+                          <p  ><a class="action" onclick="ga('send', 'event', 'megamenu', 'financial aid', 'see all');" href="/financial-aid/">See all Financial Aid</a></p>
+                          
+                        <h3>Types of Financial Aid</h3>
+                          
+                          
+                           <img class="img_left imgshadow" src="./_resources/images/megamenu/megamenu-financial.jpg" alt="Pile of cash and mortar board" width="70" height="70">
+<ul class="ul_left">
+<li><a onclick="ga('send', 'event', 'megamenu', 'financial aid', 'fed/state');" href="/financial-aid/apply-for-federal-aid.html">Federal/State - Pell Grants</a></li>
+<li><a onclick="ga('send', 'event', 'megamenu', 'financial aid', 'scholarships');" href="/financial-aid/types-of-aid/scholarships.html">Scholarships</a></li>
+<li><a onclick="ga('send', 'event', 'megamenu', 'financial aid', 'lottery');" href="/financial-aid/types-of-aid/lottery.html">Lottery</a></li>
+<li><a onclick="ga('send', 'event', 'megamenu', 'financial aid', 'work study');" href="/financial-aid/types-of-aid/employment.html">Work Study</a></li>
+<li><a onclick="ga('send', 'event', 'megamenu', 'financial aid', 'loans');" href="/financial-aid/types-of-aid/private-loans.html">Loans</a></li>
+<li><a onclick="ga('send', 'event', 'megamenu', 'financial aid', 'all types');" href="/financial-aid/types-of-aid/">See all Types of Aid</a></li>
+</ul> 
+                          
+                      </div>
+                      
                     </div>
-                </div>
+                  </div>
             </li>
         </ul>
     </li>

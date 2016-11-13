@@ -216,3 +216,5 @@ abbr[title], abbr[data-original-title] {
     border-bottom: 0;
     /* border-bottom: 1px dotted #777777; */
 }
+
+.navbar-nav > li > .dropdown-menu {     border-top-right-radius: 5px; }
