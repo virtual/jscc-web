@@ -320,8 +320,6 @@ hr.white {
     margin-bottom: 20px;
 }
 
- 
-
 .well {
     background-color: $color-grey;
     border: 0;
@@ -398,5 +396,22 @@ hr.white {
     padding-left: 1.31em;
     font-weight: 700;
     text-decoration: none;
-    &:hover { text-decoration: underline;}
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.img_left {
+    float: left;
+}
+
+.imgshadow {
+    background: #FFFFFF;
+    padding: 4px;
+    border: 1px solid #777777;
+    margin-top: 5px;
+    -moz-box-shadow: 0px 0px 5px #666666;
+    -webkit-box-shadow: 0px 0px 5px #666666;
+    box-shadow: 0px 0px 5px #666666;
+    margin-right: 8px;
 }

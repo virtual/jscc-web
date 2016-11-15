@@ -1,7 +1,13 @@
 nav {
+    text-shadow: 1px 1px 1px #fff;
     top: 0;
     position: relative;
-}
+    #{headings(all)} {font-family:'Droid Sans', Helvetica, Arial, sans-serif; color:#000; font-weight: 400;    padding-bottom: 6px;
+    
+    border-bottom: 1px solid #666666;}
+        h2 { font-size: 1.1rem }
+        h3 { font-size: 1rem }
+    }
 
 .navbar {
     min-height: inherit;
@@ -101,6 +107,35 @@ header .nav .open > a,
 }
 
 @media (min-width: $screen-sm) {
+    .yamm-content p {  display: inline-block; max-width: 200px;
+        a { color:$brand-primary;}
+    }  
+  
+    
+    .greybox {
+        list-style:none; padding:0; margin:0;
+        margin-bottom:5px;
+    }
+    .greybox li a {
+        background: #F4F4F4;
+    border: 1px solid #bbbbbb;
+    margin: 0px 0px 4px 0px;
+    padding: 4px 6px 4px 6px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+        display: block;
+        
+        &:hover {
+            
+    background: #ffffff;
+    border: 1px solid #aaaaaa;
+    padding: 4px 6px 4px 6px;
+    margin: 0px 0px 4px 0px;
+        }
+    }
+    
     .yamm {
         .fa-caret-right {
             color: $brand-primary;
@@ -153,7 +188,7 @@ header .nav .open > a,
         //background:$color-halloween;
         .yamm-content {
             min-width: 230px;
-            padding: 0;
+            padding: 20px 10px 15px 10px;
             li a {
                 padding: 4px 10px 4px 15px;
                 display: block;
@@ -162,6 +197,7 @@ header .nav .open > a,
                 padding-left: 30px;
             }
         }
+        .yamm-content .list-unstyled li a { padding-left: 0;}
         a {
             // color: #fff;
             //font-family: $font-family-bold;
@@ -259,3 +295,4 @@ header .nav .open > a,
         line-height: .82rem;
     }
 }
+
