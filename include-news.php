@@ -4,7 +4,8 @@
 
         <div class="row">
             <div class="col-xs-12 col-ts-12">
-                <div class="subfeature-box">
+                <div class="newsbox-subtitle">Feature Story</div>
+                <div class="newsbox">
                     <p>
                         <a href="/news/news-article.html?newsid=jscc-rad-students-to-celebrate-121st-anniversary-of-x-ray">
                             <h3>JSCC RAD students to celebrate 121st anniversary of x-ray</h3>
