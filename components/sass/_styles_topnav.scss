@@ -31,7 +31,7 @@
         }
     }
     .topnav-action {
-        padding: 17px 0 27px 0;
+        padding: 0 0 15px 0;
     }
     .toggle-drop .dropdown-menu {
         border: 0;
@@ -51,6 +51,11 @@
 
 // MOBILE 
 @media (max-width: $screen-xs-max) {
+    
+    .hidemobile { display:none;}
+    .buffer-top { padding-top:0;}
+    .nav .open > a, .nav .open > a:hover, .nav .open > a:focus  { border-bottom: 0;}
+     
     .topnav {
         //text-align: left;
         padding: 0;
@@ -59,6 +64,7 @@
         color: #000;
         a {
             color: inherit;
+           
         }
         .btn {
             text-align: left;
@@ -74,38 +80,34 @@
         }
         ul {
             display: block;
-        }
-        ul a {
+            a {
             display: block;
             width: 100%;
-            border-right: 0
+            border-right: 0;
+             font-size:18px;
+            font-weight: 600;
+            padding: 8px 5px;
+            border-bottom: 1px solid #ccc;
+            
+            
         }
-        .target-aud-link a {
-            font-family: $font-family-sans-serif;
-        }
+            
+            ul a { font-weight:400; font-size: 16px; border-bottom:0;
+            }
+        } 
+        .custom-inline-input { margin-top:15px;}
         .custom-inline-input .fa.fa-search {
             font-size: 1.7rem;
         }
-        .toggle-drop {
-            .dropdown-menu {
-                top: auto;
-                left: 0;
-                right: 0;
-                bottom: auto;
-                position: relative;
-                background-color: transparent;
-                li a {
-                    background-color: transparent;
-                    border: 0;
-                    color: #fff;
-                }
-            }
-        }
+        
+          
+         
     }
     .topnav-action {
+        font-size: 14px;
         width: 100%;
         clear: both;
-        background: $brand-primary;
+        background: #fff;
         width: 100%;
         margin: 0;
         padding: 10px 0;
@@ -154,44 +156,8 @@
             -webkit-box-shadow: none;
             box-shadow: none;
         }
-        .target-aud-link {
-            ul {
-                margin-bottom: 0;
-                margin-top: 3px;
-            }
-            ul li a {
-                float: left;
-                line-height: 1rem;
-            }
-        }
-        .toggle-drop {
-            margin-right: -23px;
-            margin-bottom: 0;
-            background: #fff;
-            color: #000;
-            a {
-                color: #000;
-                font-size: 1rem;
-            }
-            .btn {
-                font-weight: 300;
-                font-size: .9rem;
-                padding: 5px 10px;
-            }
-        }
-        .toggle-drop .dropdown-menu {
-            li a {
-                background: #a6a8aa;
-                border: 1px solid #fff;
-                color: #fff;
-                text-decoration: none;
-                font-weight: 400;
-                padding: 8px 14px;
-                &:hover {
-                    background: $color-halloween;
-                }
-            }
-        }
+     
+         
         .input-group-btn a {
             font-size: 1rem;
         }

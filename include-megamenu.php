@@ -26,7 +26,7 @@
                       <div class="col-sm-12 link-list">
                         
                           <h2>Financial Aid</h2>
-                          <div class="row"><div class="col-sm-4"><img class="imgshadow" src="./_resources/images/megamenu/megamenu-tnpromise.png" alt="TN Promise Logo" width="110" height="87">
+                          <div class="row hidemobile"><div class="col-sm-4"><img class="imgshadow" src="./_resources/images/megamenu/megamenu-tnpromise.png" alt="TN Promise Logo" width="110" height="87">
                               
                               </div><div class="col-sm-8">
                               
@@ -53,10 +53,10 @@
                           
                         <h3>Types of Financial Aid</h3>
                           <div class="row">
-                          <div class="col-sm-4">
+                          <div class="col-sm-4 col-xs-12 hidemobile">
                               <img class="imgshadow" src="./_resources/images/megamenu/megamenu-financial.jpg" alt="Pile of cash and mortar board" width="70" height="70">
                           </div>
-                          <div class="col-sm-8">
+                          <div class="col-sm-8 col-xs-12">
                               <ul class="ul_left list-unstyled">
 <li><a onclick="ga('send', 'event', 'megamenu', 'financial aid', 'fed/state');" href="/financial-aid/apply-for-federal-aid.html">Federal/State - Pell Grants</a></li>
 <li><a onclick="ga('send', 'event', 'megamenu', 'financial aid', 'scholarships');" href="/financial-aid/types-of-aid/scholarships.html">Scholarships</a></li>

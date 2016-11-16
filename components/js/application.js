@@ -62,7 +62,7 @@ $(document).ready(function() {
     function xsWindow() { 
             $('.topnav-action').hide();
             $("#yamm-placeholder").each(function() {
-			$('.yamm').insertBefore('.topnav-action .custom-inline-input').removeClass('visible');
+			$('.yamm').prependTo('.topnav-action').removeClass('visible');
 			$('#menu-nav').show().removeClass('mobile-active').removeClass('open');
 		});
     }

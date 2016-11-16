@@ -18,27 +18,16 @@ a#menu-nav { padding-top:16px;}
      #yamm-placeholder {
          display: none;
      }
-     .nav .open > a,
-     .nav .open > a:hover,
-     .nav .open > a:focus {
-         color: $color-halloween;
-         background-color: transparent;
-     }
+   
      .topnav {
          .toggle-drop {
              margin-bottom: 0;
              .fa {
                  display: none;
              }
-             ul li a {
-                 font-size: 1.3rem;
-                 padding-left: 30px;
-             }
+             
          }
-         a,
-         .btn {
-             font-size: 1.5rem;
-         }
+          
          ul a {
              padding: 8px;
              border: 0;
@@ -51,6 +40,8 @@ a#menu-nav { padding-top:16px;}
              }
              .yamm-fw {
                  .dropdown-menu {
+                      h2 { display: none;}
+                     background-color: #eeeeee;
                      display: none;
                      //  li a { display: block;}
                      > li > a:hover,
@@ -73,22 +64,15 @@ a#menu-nav { padding-top:16px;}
              border: 0;
          }
      }
-     .target-aud-link a:hover {
-         color: $color-halloween;
-     }
+      
      .yamm {
          .yamm-fw a > .fa {
              display: none;
          }
-         .yamm-fw a:hover {
-             color: $color-halloween;
-         }
+         
          .yamm-content {
              padding: 0;
-             a {
-                 font-size: 1.3rem;
-                 padding-left: 30px;
-             }
+              
              a:focus,
              a:hover {
                  color: inherit;

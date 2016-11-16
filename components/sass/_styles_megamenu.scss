@@ -31,32 +31,7 @@ nav {
 .nav > li > a:focus {
     background-color: inherit;
 }
-.nav .yamm-fw > a { border: 1px solid transparent;    border-bottom:0; 
-    z-index: 4000;
-    position:relative;
-   }
-.nav .open > a,
-.nav .open > a:hover,
-.nav .open > a:focus {
-    background-color: $color-grey;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,dadad2+100 */
-background: #ffffff; /* Old browsers */
-background: -moz-linear-gradient(top,  #ffffff 0%, #dadad2 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #ffffff 0%,#dadad2 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #ffffff 0%,#dadad2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadad2',GradientType=0 ); /* IE6-9 */
-border: 1px solid #ccc;
-bottom: -1px;
-    position:relative;
-      border-bottom:0; 
-}
 
-header .nav .open > a,
-.nav .open > a:hover,
-.nav .open > a:focus {
-    
-     @include border-radius(5px 5px 0 0);
-}
 
 .yamm {
     // margin-left:150px;
@@ -107,6 +82,41 @@ header .nav .open > a,
 }
 
 @media (min-width: $screen-sm) {
+    
+    
+    
+    .nav .yamm-fw > a { border: 1px solid transparent;    border-bottom:0; 
+    z-index: 4000;
+    position:relative;
+   }
+.nav .open.yamm-fw > a,
+.nav .open.yamm-fw > a:hover,
+.nav .open.yamm-fw > a:focus {
+    background-color: $color-grey;
+    border-bottom:0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,dadad2+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #dadad2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#dadad2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#dadad2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadad2',GradientType=0 ); /* IE6-9 */
+border: 1px solid #ccc;
+bottom: -1px;
+    position:relative;
+      border-bottom:0; 
+}
+
+header {
+    .nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+    
+     @include border-radius(5px 5px 0 0);
+    }
+}
+    
+    
+    
     .yamm-content p {  display: inline-block; max-width: 200px;
         a { color:$brand-primary;}
     }  
