@@ -25,14 +25,14 @@
         <div class="container-fluid">
             <div class="row mobile-heading">
                 <div class="col-sm-12">
-                    <a href="#"> 
+                    <a href="/"> 
                                     <img class="logo" src="_resources/images/logo/fullcolor-logo.jpg" alt="Jackson State Community College"/> 
                     </a>
                     <ul id="mobile_buttons" class="visible-xs nav pull-right text-left navbar-nav">
 
                         <li class="pull-left open" id="menu-nav">
                             
-                            <a href="#"><span class="burger-icon"  class="menu-button pull-left"><span class="sr-only"></span></span> </a></li>
+                            <a href="#"><span class="burger-icon"  class="menu-button pull-left"><span class="sr-only">Menu</span></span> </a></li>
                         
 
                     </ul>
@@ -40,6 +40,7 @@
             </div>
             <div class="row topnav-action">
                 <div class="col-ts-12 col-xs-12 col-sm-5 col-md-6 pull-right">
+                    <div class="container">
                     <div class="row">
                         <div class="col-ts-12 col-xs-12 col-sm-7 pull-right">
                             <div class="custom-inline-input">
@@ -58,7 +59,7 @@
 
                             <a class="btn btn-primary applybtn" onclick="ga('send', 'event', 'apply now', 'click');" href="/admissions/apply.html">Apply Now</a>
                         </div>
-
+</div>
                     </div>
                 </div>
 

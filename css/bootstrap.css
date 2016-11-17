@@ -3790,5 +3790,7 @@ footer a, header a, .main-banner a, .yamm a, .grid-caption a, .item-box-title a 
 /* line 214, ../components/sass/_styles_bootstrap_overrides.scss */
 abbr[title], abbr[data-original-title] { cursor: default; border-bottom: 0; /* border-bottom: 1px dotted #777777; */ }
 
-/* line 220, ../components/sass/_styles_bootstrap_overrides.scss */
-.navbar-nav > li > .dropdown-menu { border-top-right-radius: 5px; }
+@media (min-width: 768px) { /* line 221, ../components/sass/_styles_bootstrap_overrides.scss */
+  .navbar-nav > li > .dropdown-menu { border-top-right-radius: 5px; } }
+@media (max-width: 991px) { /* line 224, ../components/sass/_styles_bootstrap_overrides.scss */
+  .nav .open > a, .nav .open > a:hover, .nav .open > a:focus { background-color: #1c7c3e; } }

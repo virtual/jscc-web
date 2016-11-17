@@ -20,19 +20,12 @@
         li {
             display: inline;
         }
-        a {
-            font-family: $font-family-bold;
-            padding: 2px 12px;
-            margin: 0;
-            border-right: 1px solid $color-halloween;
-        }
+         
         li:last-child a {
             border-right: 0;
         }
     }
-    .topnav-action {
-        padding: 0 0 15px 0;
-    }
+   
     .toggle-drop .dropdown-menu {
         border: 0;
         border-radius: 0;
@@ -52,16 +45,92 @@
 // MOBILE 
 @media (max-width: $screen-xs-max) {
     
+    ul.nav.navbar.navbar-nav.navbar-right {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c7c3e+0,52a564+100 */
+background: #1c7c3e; /* Old browsers */
+background: -moz-linear-gradient(top,  #1c7c3e 0%, #52a564 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #1c7c3e 0%,#52a564 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #1c7c3e 0%,#52a564 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c7c3e', endColorstr='#52a564',GradientType=0 ); /* IE6-9 */
+
+    }
+    
+    
     .hidemobile { display:none;}
     .buffer-top { padding-top:0;}
     .nav .open > a, .nav .open > a:hover, .nav .open > a:focus  { border-bottom: 0;}
-     
+      .topnav-action {
+        padding: 0 0 15px 0;
+    }
     .topnav {
+        
+     
+         .toggle-drop {
+             margin-bottom: 0;
+             .fa {
+                 display: none;
+             }
+             
+         }
+          
+         ul a {
+             padding: 8px;
+             border: 0;
+         }
+         .yamm {
+             clear: both;
+             padding: 0;
+             p { margin:0;}
+             .fa-caret-down {
+                 float: right;
+             }
+             .yamm-fw {
+                 .dropdown-menu {
+                      h2 { display: none;}
+                     background-color: #eeeeee;
+                     display: none;
+                     //  li a { display: block;}
+                     > li > a:hover,
+                     >li > a:focus {
+                         background: transparent;
+                         color: inherit;
+                         text-decoration: underline;
+                     }
+                 }
+             }
+             .yamm-fw.open {
+                 
+                 
+                 > a { background-color:$color-halloween; color:#fff;border-top-color: darken($color-halloween, 10);}
+                 .dropdown-menu {
+                     display: block;
+                     
+                h3 {
+                    margin:0;
+                    border-bottom: 0;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    color: #777;
+                    font-size: .9rem;
+                    border-top: 1px solid #ccc;
+                    padding: 8px 5px;
+                }
+                 }
+             }
+         }
+         #navbar-collapse-1 .nav {
+             width: 100%;
+             margin: 0;
+             border: 0;
+         } 
+      
+        
         //text-align: left;
         padding: 0;
         margin: 0; 
-        background: $color-grey;
-        color: #000;
+        //background: $color-grey;
+        background: $brand-primary;
+        color: #fff;
         a {
             color: inherit;
            
@@ -87,12 +156,13 @@
              font-size:18px;
             font-weight: 600;
             padding: 8px 5px;
-            border-bottom: 1px solid #ccc;
+                    
             
             
-        }
+            }
             
             ul a { font-weight:400; font-size: 16px; border-bottom:0;
+                &.action { padding-left:17px; color:$brand-primary; font-size: 1rem;font-weight: 600;}
             }
         } 
         .custom-inline-input { margin-top:15px;}
@@ -110,7 +180,7 @@
         background: #fff;
         width: 100%;
         margin: 0;
-        padding: 10px 0;
+       // padding: 10px 0;
         display: none;
         .input-group .form-control {
             margin-bottom: 10px;
@@ -147,6 +217,7 @@
     .mobile-heading {
         display: none;
     }
+    .topnav-action { padding: 16px 10px 26px 10px;}
     .topnav {
         input.form-query.form-control {
             border: 0;

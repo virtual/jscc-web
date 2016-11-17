@@ -217,4 +217,9 @@ abbr[title], abbr[data-original-title] {
     /* border-bottom: 1px dotted #777777; */
 }
 
+@media (min-width: $screen-sm) {
 .navbar-nav > li > .dropdown-menu {     border-top-right-radius: 5px; }
+}
+@media (max-width: $screen-sm-max) {
+    .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {background-color: $brand-primary;}
+}

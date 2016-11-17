@@ -15,57 +15,22 @@ a#menu-nav { padding-top:16px;}
 }
 
 @media (max-width: $screen-xs-max) {
+    .open.mobile-active {
+     .burger-icon:before, .burger-icon:after { background-color: $color-halloween; }
+    }
+    .dropdown-menu {@include border-radius(0 0 0 0);}
+    
      #yamm-placeholder {
          display: none;
      }
    
-     .topnav {
-         .toggle-drop {
-             margin-bottom: 0;
-             .fa {
-                 display: none;
-             }
-             
-         }
-          
-         ul a {
-             padding: 8px;
-             border: 0;
-         }
-         .yamm {
-             clear: both;
-             padding: 0;
-             .fa-caret-down {
-                 float: right;
-             }
-             .yamm-fw {
-                 .dropdown-menu {
-                      h2 { display: none;}
-                     background-color: #eeeeee;
-                     display: none;
-                     //  li a { display: block;}
-                     > li > a:hover,
-                     >li > a:focus {
-                         background: transparent;
-                         color: inherit;
-                         text-decoration: underline;
-                     }
-                 }
-             }
-             .yamm-fw.open {
-                 .dropdown-menu {
-                     display: block;
-                 }
-             }
-         }
-         #navbar-collapse-1 .nav {
-             width: 100%;
-             margin: 0;
-             border: 0;
-         }
-     }
-      
+     
      .yamm {
+         .yamm-fw > a { 
+             border-top: 1px solid #68b583; 
+             color: #fff;
+    text-shadow: none;
+    font-weight: 400;}
          .yamm-fw a > .fa {
              display: none;
          }
@@ -91,5 +56,6 @@ a#menu-nav { padding-top:16px;}
      .nav > #menu-nav > a:hover,
      .nav > #menu-nav > a:focus {
          text-decoration: none;
+          
      }
  }
