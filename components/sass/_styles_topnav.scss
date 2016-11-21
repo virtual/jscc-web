@@ -25,6 +25,11 @@
             border-right: 0;
         }
     }
+    
+     .input-group-btn .btn-primary {
+    background-color: #535353;
+    border-color: #505050;
+    }
    
     .toggle-drop .dropdown-menu {
         border: 0;
@@ -44,6 +49,16 @@
 
 // MOBILE 
 @media (max-width: $screen-xs-max) {
+    .input-group.custom-search-form {
+    padding-bottom: 10px;
+}
+    .input-group {width:100%;}
+    a.btn.btn-primary.applybtn {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+        &:hover { color:#fff;}
+    }
     
     ul.nav.navbar.navbar-nav.navbar-right {
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c7c3e+0,52a564+100 */
@@ -60,10 +75,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c7c3e', end
     .buffer-top { padding-top:0;}
     .nav .open > a, .nav .open > a:hover, .nav .open > a:focus  { border-bottom: 0;}
       .topnav-action {
-        padding: 0 0 15px 0;
+        padding: 0;
+          margin-bottom: 15px;
     }
-    .topnav {
-        
+    .topnav { 
+       
+        //text-align: left;
+        padding: 0;
+        margin: 0; 
+         margin-bottom: 25px;
+        //background: $color-grey;
+        background: $brand-primary;
+        color: #fff;
      
          .toggle-drop {
              margin-bottom: 0;
@@ -80,6 +103,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c7c3e', end
          .yamm {
              clear: both;
              padding: 0;
+             margin-bottom: 10px;
              p { margin:0;}
              .fa-caret-down {
                  float: right;
@@ -125,12 +149,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c7c3e', end
          } 
       
         
-        //text-align: left;
-        padding: 0;
-        margin: 0; 
-        //background: $color-grey;
-        background: $brand-primary;
-        color: #fff;
+        
         a {
             color: inherit;
            
@@ -177,14 +196,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c7c3e', end
         font-size: 14px;
         width: 100%;
         clear: both;
-        background: #fff;
+        background: $color-grey;;
         width: 100%;
         margin: 0;
        // padding: 10px 0;
         display: none;
-        .input-group .form-control {
-            margin-bottom: 10px;
-        }
+        
     }
     .mobile-heading {
         img.logo { width:120px;}
@@ -210,9 +227,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c7c3e', end
 @media (min-width: $screen-sm) {
     .custom-inline-input .fa.fa-search {
         margin-top: 3px;
-    }
-    .toggle-drop-container {
-        text-align: right;
     }
     .mobile-heading {
         display: none;

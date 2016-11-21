@@ -54,7 +54,7 @@
 .slick-slider { width: 100%; height: auto; clear: both; display: block; }
 
 /* line 175, ../components/sass/_styles_slickslider.scss */
-.slick-slider { background-position: 50% 50%; background-image: url("../images/ajax-loader.gif"); background-repeat: no-repeat; }
+.slick-slider { background-position: 50% 50%; background-image: url("../_resources/images/slider/ajax-loader.gif"); background-repeat: no-repeat; }
 
 /* line 181, ../components/sass/_styles_slickslider.scss */
 .slick-slider.slick-initialized { background: none; }

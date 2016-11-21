@@ -89,19 +89,11 @@ $(window).load(function () {
             $(this).attr('id', $slide.attr('aria-describedby'));
         }
     });
-    $('.slick-slider .slick-active').find('video').get(0).play();
-});
-$(function () {
-    slider.on('afterChange', function (event, slick, currentSlide,
-        nextSlide) {
 
-        if ($('.slick-slider .slick-active').hasClass('vid')) {
-            $('.slick-slider .slick-active').find('video').get(0).play();
-        }
-    });
 });
+
 </script>    
-<script src="https://cdn.jsdelivr.net/polyfills/polyfill.js"></script>
+<script src="https://cdn.jsdelivr.net/css3polyfill/1.0.0/css3polyfill.min.js"></script>
 <script src="scripts/script.js"></script>
 </body>
 </html>

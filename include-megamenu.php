@@ -17,7 +17,7 @@
             </li>
         </ul>
     </li>
-    <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>$Financial Aid</a>
+    <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="fa fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>Financial Aid</a>
         <ul class="dropdown-menu">
             <li class="container">
                 <!-- Content container to add padding -->
@@ -26,9 +26,9 @@
                       <div class="col-sm-12 link-list">
                         
                           <h2>Financial Aid</h2>
-                          <div class="row hidemobile"><div class="col-sm-4"><img class="imgshadow" src="./_resources/images/megamenu/megamenu-tnpromise.png" alt="TN Promise Logo" width="110" height="87">
+                          <div class="row hidemobile"><div class="col-sm-6"><img class="imgshadow" src="./_resources/images/megamenu/tnpromise-logo.png" alt="TN Promise Logo" >
                               
-                              </div><div class="col-sm-8">
+                              </div><div class="col-sm-6">
                               
                                <p><a href="http://tennesseepromise.gov/">Learn what steps you need to follow for the Tennessee Promise.</a></p>
                               </div>
@@ -54,7 +54,7 @@
                         <h3>Types of Financial Aid</h3>
                           <div class="row">
                           <div class="col-sm-4 col-xs-12 hidemobile">
-                              <img class="imgshadow" src="./_resources/images/megamenu/megamenu-financial.jpg" alt="Pile of cash and mortar board" width="70" height="70">
+                              <img class="imgshadow" src="./_resources/images/megamenu/megamenu-financial.jpg" alt="Pile of cash and mortar board" >
                           </div>
                           <div class="col-sm-8 col-xs-12">
                               <ul class="ul_left list-unstyled">
