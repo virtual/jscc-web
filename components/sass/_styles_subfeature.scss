@@ -126,6 +126,8 @@ table#indexcal td { border-bottom: 0;}
     //flex: 0 0 100%;
 }
 
+
+
 @media (min-width: $screen-xs-min) {
     
     .flex-items >.flex-item {
@@ -145,7 +147,9 @@ table#indexcal td { border-bottom: 0;}
     }
 }
 
-
+@media (min-width: 1000px) {
+    .flex-items >.flex-item { width: 23%}
+}
 
 
 /* events */

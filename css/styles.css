@@ -4387,10 +4387,12 @@ table#indexcal td { border-bottom: 0; }
 /* line 122, ../components/sass/_styles_subfeature.scss */
 .flex-items > .flex-item a.action { color: #1c7c3e; font-weight: 400; }
 
-@media (min-width: 480px) { /* line 131, ../components/sass/_styles_subfeature.scss */
+@media (min-width: 480px) { /* line 133, ../components/sass/_styles_subfeature.scss */
   .flex-items > .flex-item { width: 46%; flex: 0 0 calc(50% - 30px); } }
-@media (min-width: 768px) { /* line 140, ../components/sass/_styles_subfeature.scss */
+@media (min-width: 768px) { /* line 142, ../components/sass/_styles_subfeature.scss */
   .flex-items > .flex-item { width: 22%; flex: 0 0 calc(25% - 25px); } }
+@media (min-width: 1000px) { /* line 151, ../components/sass/_styles_subfeature.scss */
+  .flex-items > .flex-item { width: 23%; } }
 /* events */
 /* line 1, ../components/sass/_styles_megamenu.scss */
 nav { clear: both; text-shadow: 1px 1px 1px #fff; top: 0; position: relative; }

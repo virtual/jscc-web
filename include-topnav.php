@@ -43,12 +43,12 @@
                     <div class="col-ts-12 col-xs-12 col-sm-offset-7 col-sm-5">
 
                         <div class="row">
-                            <div class="col-ts-12 col-xs-4 col-sm-4">
+                            <div class="col-ts-12 col-xs-4 col-sm-5 col-md-4">
 
                                 <a class="btn btn-primary applybtn" onclick="ga('send', 'event', 'apply now', 'click');" href="/admissions/apply.html">Apply Now</a>
 
                             </div>
-                            <div class="col-ts-12 col-xs-8 col-sm-8">
+                            <div class="col-ts-12 col-xs-8 col-sm-7 col-md-8">
 
                                 <div>
                                     <div class="input-group col-md-12">
