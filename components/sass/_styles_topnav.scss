@@ -110,7 +110,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c7c3e', end
              }
              .yamm-fw {
                  .dropdown-menu {
-                      h2 { display: none;}
+                     // h2 { display: none;}
+                     h2 { padding-top:10px; margin:0; font-size: 14px; font-weight: 600;}
+                     h2 a { padding:0; color:$brand-primary; font-size: 14px;}
                      background-color: #eeeeee;
                      display: none;
                      //  li a { display: block;}
@@ -123,13 +125,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c7c3e', end
                  }
              }
              .yamm-fw.open {
-                 
+                 p a { color: $brand-primary;}
                  
                  > a { background-color:$color-halloween; color:#fff;border-top-color: darken($color-halloween, 10);}
                  .dropdown-menu {
                      display: block;
-                     
-                h3 {
+                     h3 { }
+                h3.unused {
                     margin:0;
                     border-bottom: 0;
                     text-transform: uppercase;
@@ -166,23 +168,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c7c3e', end
         .container-fluid {
             padding: 0;
         }
+        ul.nav > li > a {  
+            font-size:18px;
+            font-weight: 600;
+            
+            padding: 8px 15px;
+        
+        }
         ul {
             display: block;
             a {
             display: block;
             width: 100%;
             border-right: 0;
-             font-size:18px;
-            font-weight: 600;
-            padding: 8px 5px;
-                    
+                      
             
             
             }
             
-            ul a { font-weight:400; font-size: 16px; border-bottom:0;
-                &.action { padding-left:17px; color:$brand-primary; font-size: 1rem;font-weight: 600;}
+            ul li > a { font-weight:400; font-size: 16px; border-bottom:0;
+                
             }
+            a.action { padding-left:17px; color:$brand-primary; font-size: 1rem;font-weight: 600;}
+            h3 { border-bottom: 0; font-weight: 600; margin-left: 0; font-size: 13px; padding-top:15px; padding-bottom:3px; text-transform: uppercase; margin-top:0;}
+            ul h3 a { color: $brand-primary; font-size: 13px;  border-bottom:0; padding: 0; margin:0;}
         } 
         .custom-inline-input { margin-top:15px;}
         .custom-inline-input .fa.fa-search {
