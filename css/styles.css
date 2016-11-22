@@ -4308,25 +4308,25 @@ a[href$='.pdf'] { background: transparent url("../_resources/images/icons/icon_p
 /* line 1, ../components/sass/_styles_prefooter.scss */
 .pre-footer { padding-top: 20px; background-color: #f2f2e8; }
 /* line 4, ../components/sass/_styles_prefooter.scss */
-.pre-footer ul { display: -webkit-flex; display: -ms-flexbox; display: flex; flex-flow: row; flex-wrap: wrap; }
-/* line 11, ../components/sass/_styles_prefooter.scss */
-.pre-footer li { margin-bottom: 10px; flex: 0 0 calc(100%); padding-right: 20px; }
-/* line 16, ../components/sass/_styles_prefooter.scss */
-.pre-footer li img { float: left; margin-right: 7px; }
-/* line 20, ../components/sass/_styles_prefooter.scss */
-.pre-footer li p { line-height: 1rem; text-align: left; padding-top: 6px; line-height: 1.5rem; }
+.pre-footer ul { display: -webkit-flex; display: -ms-flexbox; display: flex; flex-flow: row; flex-wrap: wrap; display: -moz-webkit-flex; display: -webkit-flex; display: flex; -ms-flex-direction: row; -moz-flex-direction: row; -webkit-flex-direction: row; flex-direction: row; -ms-flex-wrap: wrap; -moz-flex-wrap: wrap; -webkit-flex-wrap: wrap; flex-wrap: wrap; width: 100%; box-sizing: border-box; }
 /* line 25, ../components/sass/_styles_prefooter.scss */
+.pre-footer li { box-sizing: border-box; margin-bottom: 10px; padding: 0; margin: 0; -ms-flex: auto; -moz-flex: auto; -webkit-flex: auto; flex: auto; flex: 0 0 1; }
+/* line 38, ../components/sass/_styles_prefooter.scss */
+.pre-footer li img { float: left; margin-right: 7px; }
+/* line 42, ../components/sass/_styles_prefooter.scss */
+.pre-footer li p { padding-right: 18px; line-height: 1rem; text-align: left; padding-top: 6px; line-height: 1.5rem; }
+/* line 48, ../components/sass/_styles_prefooter.scss */
 .pre-footer li p a { color: #000; text-decoration: none; }
-/* line 29, ../components/sass/_styles_prefooter.scss */
+/* line 52, ../components/sass/_styles_prefooter.scss */
 .pre-footer li p a:hover { text-decoration: underline; color: #6d6654; }
 
-@media (min-width: 480px) { /* line 34, ../components/sass/_styles_prefooter.scss */
+@media (min-width: 480px) { /* line 57, ../components/sass/_styles_prefooter.scss */
   .pre-footer { font-size: .8rem; }
-  /* line 37, ../components/sass/_styles_prefooter.scss */
+  /* line 60, ../components/sass/_styles_prefooter.scss */
   .pre-footer li { flex: 0 0 50%; } }
-@media (min-width: 600px) { /* line 46, ../components/sass/_styles_prefooter.scss */
+@media (min-width: 600px) { /* line 69, ../components/sass/_styles_prefooter.scss */
   .pre-footer li { flex: 0 0 33.33333%; } }
-@media (min-width: 992px) { /* line 55, ../components/sass/_styles_prefooter.scss */
+@media (min-width: 992px) { /* line 78, ../components/sass/_styles_prefooter.scss */
   .pre-footer li { flex: 0 0 20%; } }
 /* line 1, ../components/sass/_styles_subfeature.scss */
 .subfeature { color: #6d6654; clear: both; display: block; position: relative; margin-top: 15px; margin-bottom: 15px; }
