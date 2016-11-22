@@ -4168,9 +4168,9 @@ button#searchformboxgo { color: #00355A; text-transform: uppercase; border: soli
 @media (min-width: 992px) { /* line 102, ../components/sass/_styles_header.scss */
   #searchbox { padding-top: 10px; } }
 /* line 107, ../components/sass/_styles_header.scss */
-.flex-header { display: -webkit-flex; display: -ms-flexbox; display: flex; }
+.flex-header { clear: both; display: -webkit-flex; display: -ms-flexbox; display: flex; flex-flow: row; flex-wrap: wrap; }
 
-/* line 113, ../components/sass/_styles_header.scss */
+/* line 116, ../components/sass/_styles_header.scss */
 .site-logo, #yamm-placeholder { flex-wrap: wrap; align-self: flex-end; padding-bottom: 10px; }
 
 /* line 1, ../components/sass/_styles_footer.scss */
@@ -4358,157 +4358,157 @@ table#indexcal td { border-bottom: 0; }
 
 /* flex */
 /* line 35, ../components/sass/_styles_subfeature.scss */
-.subfeature .flex-items { color: #000; width: 100%; display: -webkit-flex; display: -ms-flexbox; display: flex; flex-flow: row; flex-wrap: wrap; }
+.subfeature .flex-items { color: #000; width: 100%; clear: both; display: -webkit-flex; display: -ms-flexbox; display: flex; flex-flow: row; flex-wrap: wrap; }
 
-/* line 48, ../components/sass/_styles_subfeature.scss */
+/* line 49, ../components/sass/_styles_subfeature.scss */
 .flex-items .flex-item h2 { color: #fff; background: #ce812c; display: block; padding: 5px 5px 5px 10px; border-bottom: white 2px solid; font-weight: normal; font-size: 1.1em; width: 100%; -moz-border-radius: 10px 10px 0 0; -webkit-border-radius: 10px; border-radius: 10px 10px 0 0; margin-bottom: 0; font-family: Arial, Helvetica, Tahoma, sans-serif; }
-/* line 61, ../components/sass/_styles_subfeature.scss */
+/* line 62, ../components/sass/_styles_subfeature.scss */
 .flex-items .flex-item:nth-child(2n+1) h2 { background: #808062; }
 
-/* line 66, ../components/sass/_styles_subfeature.scss */
+/* line 67, ../components/sass/_styles_subfeature.scss */
 .flex-items > .flex-item img { width: auto; max-width: 100%; height: auto; }
 
-/* line 72, ../components/sass/_styles_subfeature.scss */
-.flex-items > .flex-item { background-size: cover; background-repeat: no-repeat; flex: 0 0 calc(100% - 40px); min-height: 0; min-width: 0; display: inherit; background-color: #ddddd5; flex-wrap: wrap; -webkit-align-items: top; -ms-flex-align: top; align-items: top; -webkit-transition: background-color 300ms ease-in-out 300ms; -moz-transition: background-color 300ms ease-in-out 300ms; -o-transition: background-color 300ms ease-in-out 300ms; transition: background-color 300ms ease-in-out 300ms; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; margin-left: 20px; margin-bottom: 20px; }
-/* line 93, ../components/sass/_styles_subfeature.scss */
-.flex-items > .flex-item > div { width: 100%; }
+/* line 73, ../components/sass/_styles_subfeature.scss */
+.flex-items > .flex-item { background-size: cover; background-repeat: no-repeat; flex-basis: auto; width: 90%; flex: 0 0 calc(100% - 40px); min-height: 0; min-width: 0; display: inherit; background-color: #ddddd5; flex-wrap: wrap; -webkit-align-items: top; -ms-flex-align: top; align-items: top; -webkit-transition: background-color 300ms ease-in-out 300ms; -moz-transition: background-color 300ms ease-in-out 300ms; -o-transition: background-color 300ms ease-in-out 300ms; transition: background-color 300ms ease-in-out 300ms; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; margin-left: 20px; margin-bottom: 20px; }
 /* line 96, ../components/sass/_styles_subfeature.scss */
+.flex-items > .flex-item > div { width: 100%; }
+/* line 99, ../components/sass/_styles_subfeature.scss */
 .flex-items > .flex-item p { padding: 8px 10px 15px 10px; margin-bottom: 0 !important; font-size: 1.1rem; display: block; width: 100%; }
-/* line 104, ../components/sass/_styles_subfeature.scss */
+/* line 107, ../components/sass/_styles_subfeature.scss */
 .flex-items > .flex-item strong { font-size: 2.5rem; font-weight: 300; display: block; }
-/* line 109, ../components/sass/_styles_subfeature.scss */
-.flex-items > .flex-item a { color: inherit; }
 /* line 112, ../components/sass/_styles_subfeature.scss */
+.flex-items > .flex-item a { color: inherit; }
+/* line 115, ../components/sass/_styles_subfeature.scss */
 .flex-items > .flex-item a:hover { text-decoration: underline; }
-/* line 117, ../components/sass/_styles_subfeature.scss */
+/* line 120, ../components/sass/_styles_subfeature.scss */
 .flex-items > .flex-item p.bottomlink { text-align: center; padding-bottom: 8px; }
-/* line 118, ../components/sass/_styles_subfeature.scss */
+/* line 121, ../components/sass/_styles_subfeature.scss */
 .flex-items > .flex-item p.bottomlink a { color: #1c7c3e; font-weight: bold; }
-/* line 119, ../components/sass/_styles_subfeature.scss */
+/* line 122, ../components/sass/_styles_subfeature.scss */
 .flex-items > .flex-item a.action { color: #1c7c3e; font-weight: 400; }
 
-@media (min-width: 480px) { /* line 127, ../components/sass/_styles_subfeature.scss */
-  .flex-items > .flex-item { flex: 0 0 calc(50% - 30px); } }
-@media (min-width: 768px) { /* line 134, ../components/sass/_styles_subfeature.scss */
-  .flex-items > .flex-item { flex: 0 0 calc(25% - 25px); } }
+@media (min-width: 480px) { /* line 131, ../components/sass/_styles_subfeature.scss */
+  .flex-items > .flex-item { width: 46%; flex: 0 0 calc(50% - 30px); } }
+@media (min-width: 768px) { /* line 140, ../components/sass/_styles_subfeature.scss */
+  .flex-items > .flex-item { width: 22%; flex: 0 0 calc(25% - 25px); } }
 /* events */
 /* line 1, ../components/sass/_styles_megamenu.scss */
-nav { text-shadow: 1px 1px 1px #fff; top: 0; position: relative; }
-/* line 5, ../components/sass/_styles_megamenu.scss */
+nav { clear: both; text-shadow: 1px 1px 1px #fff; top: 0; position: relative; }
+/* line 6, ../components/sass/_styles_megamenu.scss */
 nav h1, nav h2, nav h3, nav h4, nav h5, nav h6 { font-family: 'Droid Sans', Helvetica, Arial, sans-serif; color: #000; font-weight: 400; padding-bottom: 6px; border-bottom: 1px solid #666666; }
-/* line 8, ../components/sass/_styles_megamenu.scss */
-nav h2 { font-size: 1.1rem; }
 /* line 9, ../components/sass/_styles_megamenu.scss */
+nav h2 { font-size: 1.1rem; }
+/* line 10, ../components/sass/_styles_megamenu.scss */
 nav h3 { font-size: 1rem; }
 
-/* line 12, ../components/sass/_styles_megamenu.scss */
+/* line 13, ../components/sass/_styles_megamenu.scss */
 .navbar { min-height: inherit; }
 
-/* line 16, ../components/sass/_styles_megamenu.scss */
+/* line 17, ../components/sass/_styles_megamenu.scss */
 .navbar-subbrand { margin-top: 20px; border-left: 1px solid #fff; padding: 0 11px 0 10px; display: inline-block; zoom: 1; position: relative; *display: inline; }
 
-/* line 26, ../components/sass/_styles_megamenu.scss */
-.nav > li > a { padding: 8px 13px; }
+/* line 27, ../components/sass/_styles_megamenu.scss */
+.nav > li > a { padding: 8px 13px; color: #6d6654; }
 
-/* line 30, ../components/sass/_styles_megamenu.scss */
+/* line 32, ../components/sass/_styles_megamenu.scss */
 .nav > li > a:hover, .nav > li > a:focus { background-color: inherit; }
 
-/* line 36, ../components/sass/_styles_megamenu.scss */
+/* line 38, ../components/sass/_styles_megamenu.scss */
 .yamm { color: #585858; }
-/* line 39, ../components/sass/_styles_megamenu.scss */
+/* line 41, ../components/sass/_styles_megamenu.scss */
 .yamm .fa-caret-right { display: none; color: #fff; font-size: 2rem; float: right; width: 30px; height: 30px; margin-top: -4px; -webkit-transition: all .05s ease-in; -moz-transition: all .05s ease-in; -ms-transition: all .05s ease-in; -o-transition: all .05s ease-in; transition: all .05s ease-in; }
-/* line 53, ../components/sass/_styles_megamenu.scss */
+/* line 55, ../components/sass/_styles_megamenu.scss */
 .yamm .dropdown-submenu .fa.fa-caret-right { font-size: 1.3rem; width: 12px; height: 12px; padding-left: 0; margin-top: 2px; }
-/* line 61, ../components/sass/_styles_megamenu.scss */
+/* line 63, ../components/sass/_styles_megamenu.scss */
 .yamm .yamm-fw .fa-caret-right { -ms-transform: rotate(0); /* IE 9 */ -webkit-transform: rotate(0); /* Chrome, Safari, Opera */ -moz-transform: rotate(0); -o-transform: rotate(0); transform: rotate(0); }
-/* line 71, ../components/sass/_styles_megamenu.scss */
+/* line 73, ../components/sass/_styles_megamenu.scss */
 .yamm .yamm-fw.open > a > .fa-caret-right, .yamm .dropdown-submenu.open > a > .fa-caret-right { -ms-transform: rotate(90deg); /* IE 9 */ -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */ transform: rotate(90deg); }
-/* line 79, ../components/sass/_styles_megamenu.scss */
+/* line 81, ../components/sass/_styles_megamenu.scss */
 .yamm .dropdown-submenu.open > a > .fa-caret-right { margin-top: 5px; }
 
-@media (min-width: 768px) { /* line 85, ../components/sass/_styles_megamenu.scss */
+@media (min-width: 768px) { /* line 87, ../components/sass/_styles_megamenu.scss */
   .yamm { padding-left: 30px; }
-  /* line 86, ../components/sass/_styles_megamenu.scss */
+  /* line 88, ../components/sass/_styles_megamenu.scss */
   .nav .yamm-fw > a { border: 1px solid transparent; border-bottom: 0; z-index: 4000; position: relative; }
-  /* line 92, ../components/sass/_styles_megamenu.scss */
+  /* line 94, ../components/sass/_styles_megamenu.scss */
   .nav .open.yamm-fw > a, .nav .open.yamm-fw > a:hover, .nav .open.yamm-fw > a:focus { background-color: #ddddd5; border-bottom: 0; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,dadad2+100 */ background: #ffffff; /* Old browsers */ background: -moz-linear-gradient(top, #ffffff 0%, #dadad2 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(top, #ffffff 0%, #dadad2 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to bottom, #ffffff 0%, #dadad2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadad2',GradientType=0 ); /* IE6-9 */ border: 1px solid #ccc; bottom: -1px; position: relative; border-bottom: 0; }
-  /* line 110, ../components/sass/_styles_megamenu.scss */
+  /* line 112, ../components/sass/_styles_megamenu.scss */
   header .nav .open > a, header .nav .open > a:hover, header .nav .open > a:focus { -moz-border-radius: 5px 5px 0 0; -webkit-border-radius: 5px; border-radius: 5px 5px 0 0; }
-  /* line 116, ../components/sass/_styles_megamenu.scss */
+  /* line 118, ../components/sass/_styles_megamenu.scss */
   .yamm-content p { display: inline-block; max-width: 200px; color: #1c7c3e; }
-  /* line 120, ../components/sass/_styles_megamenu.scss */
+  /* line 122, ../components/sass/_styles_megamenu.scss */
   .yamm-content p a { color: #1c7c3e; }
-  /* line 124, ../components/sass/_styles_megamenu.scss */
+  /* line 126, ../components/sass/_styles_megamenu.scss */
   .greybox { list-style: none; padding: 0; margin: 0; margin-bottom: 5px; }
-  /* line 130, ../components/sass/_styles_megamenu.scss */
+  /* line 132, ../components/sass/_styles_megamenu.scss */
   .greybox li a { background: #F4F4F4; border: 1px solid #bbbbbb; margin: 0px 0px 4px 0px; padding: 4px 6px 4px 6px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; display: block; }
-  /* line 137, ../components/sass/_styles_megamenu.scss */
+  /* line 139, ../components/sass/_styles_megamenu.scss */
   .greybox li a:hover { background: #ffffff; border: 1px solid #aaaaaa; padding: 4px 6px 4px 6px; margin: 0px 0px 4px 0px; }
-  /* line 145, ../components/sass/_styles_megamenu.scss */
+  /* line 147, ../components/sass/_styles_megamenu.scss */
   .yamm .fa-caret-right { color: #1c7c3e; float: left; width: 23px; }
-  /* line 151, ../components/sass/_styles_megamenu.scss */
+  /* line 153, ../components/sass/_styles_megamenu.scss */
   .yamm .dropdown-menu { right: auto; left: auto; border: 0; border-radius: 0; }
-  /* line 156, ../components/sass/_styles_megamenu.scss */
+  /* line 158, ../components/sass/_styles_megamenu.scss */
   .yamm .dropdown-menu li { line-height: 1.5em; padding: 0; }
-  /* line 162, ../components/sass/_styles_megamenu.scss */
+  /* line 164, ../components/sass/_styles_megamenu.scss */
   .yamm .navbar-nav { margin: 0; width: 100%; text-align: center; }
-  /* line 166, ../components/sass/_styles_megamenu.scss */
+  /* line 168, ../components/sass/_styles_megamenu.scss */
   .yamm .navbar-nav > li { float: none; }
-  /* line 172, ../components/sass/_styles_megamenu.scss */
+  /* line 174, ../components/sass/_styles_megamenu.scss */
   .yamm .nav > li.yamm-fw { display: inline-block; *display: inline; /*IE7*/ *zoom: 1; /*IE7*/ }
-  /* line 185, ../components/sass/_styles_megamenu.scss */
+  /* line 187, ../components/sass/_styles_megamenu.scss */
   .yamm .yamm-content { opacity: 0; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
-  /* line 194, ../components/sass/_styles_megamenu.scss */
+  /* line 196, ../components/sass/_styles_megamenu.scss */
   .yamm .open .yamm-content { opacity: 1; }
-  /* line 199, ../components/sass/_styles_megamenu.scss */
+  /* line 201, ../components/sass/_styles_megamenu.scss */
   .yamm .yamm-content { min-width: 230px; max-width: 320px; padding: 20px 10px 15px 10px; }
-  /* line 203, ../components/sass/_styles_megamenu.scss */
+  /* line 205, ../components/sass/_styles_megamenu.scss */
   .yamm .yamm-content li a { padding: 4px 10px 4px 15px; display: block; }
-  /* line 207, ../components/sass/_styles_megamenu.scss */
+  /* line 209, ../components/sass/_styles_megamenu.scss */
   .yamm .yamm-content .dropdown-menu li a { padding-left: 30px; }
-  /* line 211, ../components/sass/_styles_megamenu.scss */
+  /* line 213, ../components/sass/_styles_megamenu.scss */
   .yamm .yamm-content .row .row [class*="col-"]:first-child { padding-right: 5px; }
-  /* line 212, ../components/sass/_styles_megamenu.scss */
-  .yamm .yamm-content .row .row [class*="col-"]:last-child { padding-left: 5px; }
   /* line 214, ../components/sass/_styles_megamenu.scss */
+  .yamm .yamm-content .row .row [class*="col-"]:last-child { padding-left: 5px; }
+  /* line 216, ../components/sass/_styles_megamenu.scss */
   .yamm .yamm-content .list-unstyled li a, .yamm .yamm-content .list-inline li a, .yamm .yamm-content .link-listing ul li a, .link-listing .yamm .yamm-content ul li a { padding-left: 0; }
-  /* line 220, ../components/sass/_styles_megamenu.scss */
+  /* line 222, ../components/sass/_styles_megamenu.scss */
   .yamm .dropdown-submenu .dropdown-menu { left: auto; }
-  /* line 224, ../components/sass/_styles_megamenu.scss */
+  /* line 226, ../components/sass/_styles_megamenu.scss */
   .yamm a:hover { text-decoration: none; }
-  /* line 229, ../components/sass/_styles_megamenu.scss */
+  /* line 231, ../components/sass/_styles_megamenu.scss */
   .yamm.full .dropdown-menu { width: 100%; }
-  /* line 232, ../components/sass/_styles_megamenu.scss */
+  /* line 234, ../components/sass/_styles_megamenu.scss */
   .yamm .link-list .col-sm-12 { float: none; }
-  /* line 235, ../components/sass/_styles_megamenu.scss */
+  /* line 237, ../components/sass/_styles_megamenu.scss */
   .yamm .link-list.divider0 { background: none; padding-right: 0; }
-  /* line 239, ../components/sass/_styles_megamenu.scss */
+  /* line 241, ../components/sass/_styles_megamenu.scss */
   .yamm, .yamm.visible { display: block; }
-  /* line 244, ../components/sass/_styles_megamenu.scss */
+  /* line 246, ../components/sass/_styles_megamenu.scss */
   .yamm .dropdown-menu { top: auto; background: #dadad2; border: 1px solid #ccc; -moz-border-radius: 0 5px 5px 5px; -webkit-border-radius: 0; border-radius: 0 5px 5px 5px; padding: 0; }
-  /* line 250, ../components/sass/_styles_megamenu.scss */
+  /* line 252, ../components/sass/_styles_megamenu.scss */
   .yamm .dropdown-menu ul li ul { background: #2e8eb5; position: relative; clear: both; width: 100%; margin-bottom: 5px; }
-  /* line 256, ../components/sass/_styles_megamenu.scss */
+  /* line 258, ../components/sass/_styles_megamenu.scss */
   .yamm .dropdown-menu ul li ul a { text-transform: none; font-family: "Droid Sans", Helvetica, Arial, sans-serif; }
-  /* line 262, ../components/sass/_styles_megamenu.scss */
+  /* line 264, ../components/sass/_styles_megamenu.scss */
   .yamm .dropdown-menu ul li ul a:before { content: "- "; }
-  /* line 266, ../components/sass/_styles_megamenu.scss */
+  /* line 268, ../components/sass/_styles_megamenu.scss */
   .yamm .dropdown-menu .container { max-width: 1100px; }
-  /* line 271, ../components/sass/_styles_megamenu.scss */
-  .yamm .dropdown-menu a:hover { color: #1c7c3e; }
   /* line 273, ../components/sass/_styles_megamenu.scss */
+  .yamm .dropdown-menu a:hover { color: #1c7c3e; }
+  /* line 275, ../components/sass/_styles_megamenu.scss */
   .yamm .dropdown-menu a:hover .fa { color: inherit; }
-  /* line 278, ../components/sass/_styles_megamenu.scss */
+  /* line 280, ../components/sass/_styles_megamenu.scss */
   .yamm .dropdown-menu a .fa { color: inherit; } }
-@media (min-width: 768px) and (max-width: 1199px) { /* line 286, ../components/sass/_styles_megamenu.scss */
+@media (min-width: 768px) and (max-width: 1199px) { /* line 288, ../components/sass/_styles_megamenu.scss */
   .nav > li > a { padding: 15px 5px; } }
-@media (min-width: 768px) and (max-width: 991px) { /* line 292, ../components/sass/_styles_megamenu.scss */
+@media (min-width: 768px) and (max-width: 991px) { /* line 294, ../components/sass/_styles_megamenu.scss */
   .nav > li > a { padding: 15px 5px; font-size: .95rem; line-height: .85rem; }
-  /* line 297, ../components/sass/_styles_megamenu.scss */
+  /* line 299, ../components/sass/_styles_megamenu.scss */
   .yamm .fa-caret-right { width: 23px; width: 14px; height: 18px; font-size: 1.5rem; } }
-@media (min-width: 768px) and (max-width: 900px) { /* line 306, ../components/sass/_styles_megamenu.scss */
+@media (min-width: 768px) and (max-width: 900px) { /* line 308, ../components/sass/_styles_megamenu.scss */
   .nav > li > a { font-size: .85rem; } }
-@media (min-width: 768px) and (max-width: 850px) { /* line 311, ../components/sass/_styles_megamenu.scss */
+@media (min-width: 768px) and (max-width: 850px) { /* line 313, ../components/sass/_styles_megamenu.scss */
   .nav > li > a { padding: 15px 4px; font-size: .82rem; line-height: .82rem; } }
 /* line 3, ../components/sass/_styles_mega-mobilenav.scss */
 .menu-button { display: inline-block; padding: .5em; }

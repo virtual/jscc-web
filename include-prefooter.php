@@ -1,4 +1,4 @@
-<div class="wrapper clearfix pre-footer">
+<section class="wrapper clearfix pre-footer">
     <div class="container">
         <div class="row">
             <aside class="col-sm-12 col-xs-12 text-center">
@@ -28,4 +28,4 @@ Find JSCC employees</a></p>
             </aside>
         </div>
     </div>
-</div>
+</section>

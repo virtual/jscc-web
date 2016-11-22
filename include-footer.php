@@ -83,7 +83,7 @@
                         
                         
                         <p><a href="/about-jackson-state/about-this-site/terms-of-use.html">Terms of Use</a> | <a href="/about-jackson-state/about-this-site/copyright-use.html">Copyright Use</a> | <a href="/about-jackson-state/about-this-site/accessibility.html">Accessibility</a></p>
-                        <div class="vcard">
+                        <div class="vcard" role="contentinfo">
                             <p><span id="directedit"><a id="de" href="http://a.cms.omniupdate.com/10?skin=oucampus&amp;account=jscc&amp;site=www&amp;action=de&amp;path=/index.pcf">Jackson</a></span> <span class="fn org">State Community College</span> is a <a href="http://www.tbr.edu/" onclick="ga('send', 'event', 'Outbound Links', 'Click', 'TBR footer');">Tennessee Board of Regents</a> institution. All rights reserved.</p>
 
 

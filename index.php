@@ -48,7 +48,7 @@
         </div>
     </div>
    
-    <div class="container">
+    <main class="container" role="main">
         <div class="row">
             <div class="col-sm-6">
                 <?php include ('include-news.php'); ?>
@@ -63,7 +63,7 @@
                 <?php //include ('include-quicklinks.php'); ?>
             </div>
         </div>
-    </div>
+    </main>
     <div class="wrapper background-grey clearfix buffer-top buffer-bottom">
         <div class="container">
             
@@ -93,7 +93,6 @@ $(window).load(function () {
 });
 
 </script>    
-<script src="https://cdn.jsdelivr.net/css3polyfill/1.0.0/css3polyfill.min.js"></script>
 <script src="scripts/script.js"></script>
 </body>
 </html>

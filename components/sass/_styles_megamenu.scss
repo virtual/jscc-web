@@ -1,4 +1,5 @@
 nav {
+    clear:both;
     text-shadow: 1px 1px 1px #fff;
     top: 0;
     position: relative;
@@ -25,6 +26,7 @@ nav {
 
 .nav > li > a {
     padding: 8px 13px;
+    color: $color-heathergrey;
 }
 
 .nav > li > a:hover,
