@@ -73,26 +73,7 @@
 <?php include ('include-prefooter.php'); ?>
 <?php include ('include-footer.php'); ?>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
-<script>
-var slider = $('.slick-slider');
-$(window).load(function () {
-    slider.slick({
-        autoplay: true,
-        arrows: false,
-        speed: 1000,
-        autoplaySpeed: 8000
-    });
-    $('.slick-slider .caption').each(function () {
-        var $slide = $(this).parent();
-        if ($slide.attr('aria-describedby') != undefined) { // ignore extra/cloned slides
-            $(this).attr('id', $slide.attr('aria-describedby'));
-        }
-    });
-
-});
-
-</script>    
+  
 <script src="scripts/script.js"></script>
 </body>
 </html>
