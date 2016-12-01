@@ -235,22 +235,22 @@
                             <div class="row">
                             <div class="col-md-6 col-sm-12">
                                 
-                            <h3><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'm bball title');" href="/athletics/mens-basketball/"><img style="vertical-align: middle;" src="./_resources/images/megamenu/megamenu-basketball.png" alt="" width="20" height="20" /> M&nbsp;Basketball</a></h3>
+                            <h3><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'm bball title');" href="/athletics/mens-basketball/"><img style="vertical-align: middle;" src="./_resources/images/megamenu/megamenu-basketball.png" alt="basketball" width="20" height="20" /> M&nbsp;Basketball</a></h3>
 				<p><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'm bball schedule');" href="/athletics/mens-basketball/mens-basketball-schedule.html">Schedule</a><span class="hidemobile"> | </span><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'm bball roster');" href="/athletics/mens-basketball/mens-basketball-roster.html">Roster</a></p>
                                 </div>
                             <div class="col-md-6 col-sm-12">
-                                <h3><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'softball title');" href="/athletics/softball/"><img style="vertical-align: middle;" src="./_resources/images/megamenu/megamenu-baseball.png" alt="" width="20" height="20" /> Softball</a></h3>
+                                <h3><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'softball title');" href="/athletics/softball/"><img style="vertical-align: middle;" src="./_resources/images/megamenu/megamenu-baseball.png" alt="baseball" width="20" height="20" /> Softball</a></h3>
 				<p><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'softball schedule');" href="/athletics/softball/softball-schedule-results.html">Schedule</a><span class="hidemobile"> | </span><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'softball roster');" href="/athletics/softball/softball-roster.html">Roster</a></p>
                                 </div>
                             </div>
                             
                                   <div class="row">
                             <div class="col-md-6 col-sm-12">
-                                 <h3><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'w bball title');" href="/athletics/womens-basketball/"><img style="vertical-align: middle;" src="./_resources/images/megamenu/megamenu-basketball.png" alt="" width="20" height="20" /> W&nbsp;Basketball</a></h3>
+                                 <h3><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'w bball title');" href="/athletics/womens-basketball/"><img style="vertical-align: middle;" src="./_resources/images/megamenu/megamenu-basketball.png" alt="basketball" width="20" height="20" /> W&nbsp;Basketball</a></h3>
 				<p><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'w bball schedule');" href="/athletics/womens-basketball/lady-generals-basketball-schedule-results.html">Schedule</a><span class="hidemobile"> | </span><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'w bball roster');" href="/athletics/womens-basketball/womens-basketball-roster.html">Roster</a></p>
                                 </div>
                             <div class="col-md-6 col-sm-12">
-                                <h3><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'baseball title');" href="/athletics/baseball/"><img style="vertical-align: middle;" src="./_resources/images/megamenu/megamenu-baseball.png" alt="" width="20" height="20" /> Baseball</a></h3>
+                                <h3><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'baseball title');" href="/athletics/baseball/"><img style="vertical-align: middle;" src="./_resources/images/megamenu/megamenu-baseball.png" alt="baseball" width="20" height="20" /> Baseball</a></h3>
 				<p><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'baseball schedule');" href="/athletics/baseball/baseball-schedule-results.html">Schedule</a><span class="hidemobile"> | </span><a onclick="ga('send', 'event', 'megamenu', 'athletics', 'baseball roster');" href="/athletics/baseball/baseball-roster.html">Roster</a></p>
                                 </div>
                             </div>

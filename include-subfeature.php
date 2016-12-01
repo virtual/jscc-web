@@ -24,7 +24,7 @@
         <div class="flex-item " style="background-color:#c9c6b2;">
             <div>
                 <h2><a href="http://www.jscc.edu/admissions/registration/orientation.html">Orientation &amp; Registration</a></h2>
-                <a href="http://www.jscc.edu/admissions/registration/orientation.html"><img src="./_resources/images/subfeatures/hot-ge.jpg" class="Great Expectations"></a>
+                <a href="http://www.jscc.edu/admissions/registration/orientation.html"><img src="./_resources/images/subfeatures/hot-ge.jpg" alt="Great Expectations"></a>
                 <p class="bottomlink"><a href="http://www.jscc.edu/admissions/registration/orientation.html">Sign Up Now</a>
 
             </div>

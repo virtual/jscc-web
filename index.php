@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Jackson State Community College</title>
-    <link href="css/legacy.css?v=2" rel="stylesheet" />
-    <link href="css/styles.css?v=2" rel="stylesheet" />
+    <link href="css/legacy.css?v=3" rel="stylesheet" />
+    <link href="css/styles.css?v=3" rel="stylesheet" />
     
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet" />  
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <meta name="theme-color" content="#00355A" />
+    <meta name="theme-color" content="#006401" />
     <link rel="icon" sizes="192x192" href="images/structure/logos/icon.png" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -58,17 +58,9 @@
             </div>
             
         </div>
-        <div class="row subfeature-quicklinks-holder">
-            <div class="col-sm-12 subfeature-quicklinks-box">
-                <?php //include ('include-quicklinks.php'); ?>
-            </div>
-        </div>
+       
     </main>
-    <div class="wrapper background-grey clearfix buffer-top buffer-bottom">
-        <div class="container">
-            
-        </div>
-    </div>
+ 
 
 <?php include ('include-prefooter.php'); ?>
 <?php include ('include-footer.php'); ?>
