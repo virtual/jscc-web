@@ -61,6 +61,7 @@ nav {
     }
     .yamm-fw {
         .fa-caret-right {
+            
             -ms-transform: rotate(0);
             /* IE 9 */
             -webkit-transform: rotate(0);
@@ -68,6 +69,7 @@ nav {
             -moz-transform: rotate(0);
             -o-transform: rotate(0);
             transform: rotate(0);
+            &:before { content: "\f105"}
         }
     }
     .yamm-fw.open > a > .fa-caret-right,
@@ -77,6 +79,8 @@ nav {
         -webkit-transform: rotate(90deg);
         /* Chrome, Safari, Opera */
         transform: rotate(90deg);
+        padding-left: 10px;
+        padding-top: 10px;
     }
     .dropdown-submenu.open > a > .fa-caret-right {
         margin-top: 5px;

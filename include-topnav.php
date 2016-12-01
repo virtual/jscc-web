@@ -26,7 +26,7 @@
             <div class="row mobile-heading">
                 <div class="col-sm-12">
                     <a href="/">
-                        <img class="logo" src="./_resources/images/logo/JSCC-Logo-White.png" alt="Jackson State Community College" />
+                        <img class="logo" src="./_resources/images/logo/standard-full-color.png" alt="Jackson State Community College" />
                     </a>
                     <ul id="mobile_buttons" class="visible-xs nav pull-right text-left navbar-nav">
 

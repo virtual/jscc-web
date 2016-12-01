@@ -7,7 +7,7 @@
 }
 
 .burger-icon {
-  @include burger(20px, 3px, 5px, #fff);
+  @include burger(20px, 3px, 5px, #797a73);
 }
 a#menu-nav { padding-top:16px;}
 .mobile-active .burger-icon {
@@ -16,7 +16,7 @@ a#menu-nav { padding-top:16px;}
 
 @media (max-width: $screen-xs-max) {
     .open.mobile-active {
-     .burger-icon:before, .burger-icon:after { background-color: $color-halloween; }
+     //.burger-icon:before, .burger-icon:after { background-color: $color-halloween; }
     }
     .dropdown-menu {@include border-radius(0 0 0 0);}
     
@@ -26,14 +26,13 @@ a#menu-nav { padding-top:16px;}
    
     .topnav-action > .container { padding-left:0; padding-right:0;}
      .yamm {
-         .yamm-fw > a { 
-             border-top: 1px solid #68b583; 
+         .fa-caret-right { display: inline-block}
+         .yamm-fw > a {  
+             border-top: 1px solid #fff; 
              color: #fff;
     text-shadow: none;
     font-weight: 400;}
-         .yamm-fw a > .fa {
-             display: none;
-         }
+          
          
          .yamm-content {
              padding: 0;

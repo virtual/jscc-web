@@ -410,3 +410,7 @@ hr.white {
     box-shadow: 0px 0px 5px #666666;
     margin-right: 8px;
 }
+
+@media (max-width: $screen-xs-max) {
+     .hidemobile { display:none;}
+}
