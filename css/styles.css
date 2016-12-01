@@ -4354,7 +4354,7 @@ a[href$='.pdf'] { background: transparent url("../_resources/images/icons/icon_p
 /* line 19, ../components/sass/_styles_subfeature.scss */
 .newsbox { background: #f2f2e8; padding: 5px 15px 10px 15px; margin-bottom: 10px; -moz-border-radius: 0 10px 10px 10px; -webkit-border-radius: 0; border-radius: 0 10px 10px 10px; }
 /* line 24, ../components/sass/_styles_subfeature.scss */
-.newsbox h3 { font-family: "Droid Serif", Georgia, Times, serif; font-size: 1rem; font-weight: 400; color: #1c7c3e; margin-top: 0; }
+.newsbox h3 { font-family: "Droid Serif", Georgia, Times, serif; font-size: 1.1rem; font-weight: 400; color: #1c7c3e; margin-top: 0; padding-top: 10px; }
 
 /* line 26, ../components/sass/_styles_subfeature.scss */
 .subfeature-news ul li { padding-bottom: 8px; }

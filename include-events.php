@@ -1,6 +1,6 @@
 <section class="row subfeature subfeature-events">
     <div class="col-sm-12">
-        <h2><a href="#">Upcoming Events <a style="vertical-align: middle;" title="Upcoming JSCC Events Feed" href="http://feeds.feedburner.com/CustomEventsFeed-JacksonStateCommunityCollegeCalendar" onclick="ga('send', 'event', 'Outbound Links', 'Click', 'Events RSS');"><img src="./_resources/images/icons/rss.png" alt="Upcoming JSCC Events Feed" width="20" height="20"></a></a></h2>
+        <h2><a href="http://feeds.feedburner.com/CustomEventsFeed-JacksonStateCommunityCollegeCalendar">Upcoming Events</a> <a style="vertical-align: middle;" title="Upcoming JSCC Events Feed" href="http://feeds.feedburner.com/CustomEventsFeed-JacksonStateCommunityCollegeCalendar" onclick="ga('send', 'event', 'Outbound Links', 'Click', 'Events RSS');"><img src="./_resources/images/icons/rss.png" alt="Upcoming JSCC Events Feed" width="20" height="20"></a></h2>
         <div class="row">
             <div class="col-sm-12">
                

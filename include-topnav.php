@@ -32,7 +32,7 @@
 
                         <li class="pull-left open" id="menu-nav">
 
-                            <a href="#"><span class="burger-icon"  class="menu-button pull-left"><span class="sr-only">Menu</span></span> </a></li>
+                            <a href="#"><span class="burger-icon menu-button pull-left"><span class="sr-only">Menu</span></span> </a></li>
 
 
                     </ul>
@@ -57,12 +57,13 @@
 
                                         <form onsubmit="return searchvalidate();" action="/search.html" method="get">
                                             <div class="input-group custom-search-form" role="search">
+                                                <label class="sr-only" for="q">Search</label>
                                                 <input type="hidden" value="017141718176239819747:0cyu5nbk65g" name="cx">
                                                 <input type="hidden" value="FORID:11" name="cof">
-                                                <input id="q" type="search" title="Search JSCC" type="text" value="" name="q" class="form-control" placeholder="Search JSCC">
+                                                <input id="q" type="search" title="Search JSCC" value="" name="q" class="form-control" placeholder="Search JSCC">
                                                 <span class="input-group-btn">
               <button class="btn btn-primary" type="button">
-              <span class="fa fa-caret-right" aria-hidden="true"><span class="sr-only"><label for="q">Search</label></span></span>
+              <span class="fa fa-caret-right" aria-hidden="true"><span class="sr-only">Search</span></span>
                                                 </button>
                                                 </span>
                                             </div>
