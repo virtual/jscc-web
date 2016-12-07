@@ -69,14 +69,12 @@ $(document).ready(function() {
 			//call my function
 			if ((lastWindowWidth < 768) && ((currentW == 'large') || (currentW ='xs'))) {
 				currentW = 'small';
- 				smallWindow();
-                xsWindow();
+ 				smallWindow(); 
 			}
 			if ((lastWindowWidth >= 768) && (currentW == 'small')) {
 				currentW = 'large';
- 		 	$('#yamm-placeholder').append($('.yamm'));
+                largeWindow();
                 
-                 $('.topnav-action').show();
 			} 
         }
 	});
@@ -84,20 +82,21 @@ $(document).ready(function() {
 	
 
 	if ((Math.max(document.documentElement.clientWidth, window.innerWidth || 0)) < 768) {
-	 	smallWindow();
-        xsWindow();
- 	}
+	 	smallWindow(); 
+ 	}  
      
 	function smallWindow() {
-      
-    }
-    
-    function xsWindow() { 
-            $('.topnav-action').hide();
+       $('.topnav-action').hide();
             $("#yamm-placeholder").each(function() {
 			$('.yamm').prependTo('.topnav-action').removeClass('visible');
 			$('#menu-nav').show().removeClass('mobile-active').removeClass('open');
 		});
+    }
+    
+    function largeWindow() { 
+        $('#expand_section').show();
+        $('#yamm-placeholder').append($('.yamm'));
+        $('.topnav-action').show();
     }
 
 	//Direct Edit swap code to make ob work in dynamic templates:

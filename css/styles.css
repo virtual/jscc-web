@@ -4448,69 +4448,71 @@ table#indexcal td { border-bottom: 0; }
   /* line 67, ../components/sass/_styles_nav.scss */
   #left nav div > ul:last-of-type { border-bottom: 0; margin-bottom: 0; } }
 @media (max-width: 767px) { /* line 8, ../components/sass/_styles_mobilenav.scss */
-  #left nav .box-shadow-menu { padding: 5px 15px; font-weight: bold; cursor: pointer; background: #4ba4d8; color: #fff; border-top: 1px solid #00355A; }
+  #left nav .box-shadow-menu { padding: 5px 15px; font-weight: bold; cursor: pointer; background: #b7dbac; color: #1c7c3e; border: 1px solid #1c7c3e; }
   /* line 16, ../components/sass/_styles_mobilenav.scss */
   #menu-nav { display: none; }
   /* line 24, ../components/sass/_styles_mobilenav.scss */
   .mainnav { float: none; background: #363636; }
   /* line 29, ../components/sass/_styles_mobilenav.scss */
-  #left nav ul { border-bottom: 1px solid #6d6654; clear: both; display: block; padding: 0; content: ""; display: table; width: 100%; }
+  #left nav ul { clear: both; display: block; padding: 0; content: ""; display: table; width: 100%; position: relative; }
   /* line 38, ../components/sass/_styles_mobilenav.scss */
+  #left nav ul.sr-only { position: absolute; left: -99999px; }
+  /* line 39, ../components/sass/_styles_mobilenav.scss */
   #left nav #expand_section > ul.nolink { padding: 15px 16px; }
   /* line 42, ../components/sass/_styles_mobilenav.scss */
-  #left nav div > ul li:last-child { margin-bottom: 0; }
+  #left nav div > ul { border: 1px solid #1c7c3e; border-top: 0; }
   /* line 43, ../components/sass/_styles_mobilenav.scss */
-  #left nav div > ul li { margin-bottom: 1px; color: #fff; float: left; padding: 0; clear: both; display: block; width: 100%; }
-  /* line 51, ../components/sass/_styles_mobilenav.scss */
-  #left nav div > ul li a { color: #fff; display: block; }
+  #left nav div > ul li:last-child { margin-bottom: 0; }
+  /* line 47, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li { float: left; padding: 0; clear: both; display: block; width: 100%; }
   /* line 56, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li a { color: #000; display: block; text-decoration: none; }
+  /* line 62, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li a:hover { border-left: 3px solid #1c7c3e; padding-left: 11px !important; color: #1c7c3e; background: rgba(255, 255, 255, 0.55); }
+  /* line 64, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul li form a { color: #333; }
-  /* line 57, ../components/sass/_styles_mobilenav.scss */
+  /* line 65, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul li form input { padding: 3px 5px; }
-  /* line 60, ../components/sass/_styles_mobilenav.scss */
-  #left nav div > ul li h2, #left nav div > ul li h3 { position: relative; padding-top: 5px; padding-bottom: 5px; padding-bottom: 0; margin-top: 0; color: #fff; font-size: 15px; text-transform: uppercase; display: inline-block; }
-  /* line 70, ../components/sass/_styles_mobilenav.scss */
+  /* line 68, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li h2, #left nav div > ul li h3 { font-family: "Droid Sans", Helvetica, Arial, sans-serif; position: relative; padding: 8px 10px; margin-top: 0; color: #000; font-size: .85rem; text-transform: uppercase; display: inline-block; }
+  /* line 77, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul li h2 a, #left nav div > ul li h3 a { padding-right: 20px !important; }
-  /* line 73, ../components/sass/_styles_mobilenav.scss */
+  /* line 80, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul li h2 a:before, #left nav div > ul li h2 a:after, #left nav div > ul li h3 a:before, #left nav div > ul li h3 a:after { border-right: 2px solid; content: ''; display: inline-block; height: 8px; margin-top: -6px; position: absolute; -moz-transform: rotate(135deg); -o-transform: rotate(135deg); -webkit-transform: rotate(135deg); transform: rotate(135deg); right: 10px; top: 50%; width: 0; }
-  /* line 88, ../components/sass/_styles_mobilenav.scss */
-  #left nav div > ul li h2 a:after, #left nav div > ul li h3 a:after { margin-top: -1px; -moz-transform: rotate(45deg); -o-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(45deg); }
   /* line 95, ../components/sass/_styles_mobilenav.scss */
-  #left nav div > ul li h2 a:hover, #left nav div > ul li h2 a:focus, #left nav div > ul li h2 a:hover:before, #left nav div > ul li h2 a:hover:after, #left nav div > ul li h2 a:focus:before, #left nav div > ul li h2 a:focus:after, #left nav div > ul li h3 a:hover, #left nav div > ul li h3 a:focus, #left nav div > ul li h3 a:hover:before, #left nav div > ul li h3 a:hover:after, #left nav div > ul li h3 a:focus:before, #left nav div > ul li h3 a:focus:after { color: #f9bc24; }
-  /* line 99, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li h2 a:after, #left nav div > ul li h3 a:after { margin-top: -1px; -moz-transform: rotate(45deg); -o-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(45deg); }
+  /* line 104, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul li > ul > li { padding: 0; }
-  /* line 106, ../components/sass/_styles_mobilenav.scss */
-  #left nav.mainnav ul li.opendrop1 ul li a, #left nav.mainnav ul li.opendrop ul li a { padding-left: 0; }
-  /* line 109, ../components/sass/_styles_mobilenav.scss */
-  #left #expand_section { display: none; }
   /* line 111, ../components/sass/_styles_mobilenav.scss */
-  #left #expand_section li { background: #000000; }
-  /* line 113, ../components/sass/_styles_mobilenav.scss */
-  #left #expand_section li > a, #left #expand_section li > * > a { padding: 10px 10px 10px 14px; }
-  /* line 117, ../components/sass/_styles_mobilenav.scss */
-  #left #expand_section li > ul > li { background: #333333; }
+  #left nav.mainnav ul li.opendrop1 ul li a, #left nav.mainnav ul li.opendrop ul li a { padding-left: 0; }
+  /* line 114, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section { display: none; }
+  /* line 116, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li { background: #b3c3ad; }
   /* line 119, ../components/sass/_styles_mobilenav.scss */
-  #left #expand_section li > ul > li > ul > li { background: #666666; }
-  /* line 121, ../components/sass/_styles_mobilenav.scss */
-  #left #expand_section li > ul > li > ul > li > ul > li { background: #999999; }
+  #left #expand_section li > a, #left #expand_section li > * > a { padding: 10px 10px 10px 14px; }
   /* line 123, ../components/sass/_styles_mobilenav.scss */
-  #left #expand_section li > ul > li > ul > li > ul > li > ul > li { background: #cccccc; }
+  #left #expand_section li > ul > li { background: #eaeee8; }
+  /* line 125, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li > ul > li > ul > li { background: white; }
+  /* line 127, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li > ul > li > ul > li > ul > li { background: white; }
   /* line 129, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li > ul > li > ul > li > ul > li > ul > li { background: white; }
+  /* line 135, ../components/sass/_styles_mobilenav.scss */
   #left #expand_section li > .btn { width: 100%; text-align: left; border-radius: 0; border-top: 1px solid #00355A; border-bottom: 1px solid #2792f1; margin: 0; margin-top: -1px; }
-  /* line 140, ../components/sass/_styles_mobilenav.scss */
-  #left #expand_section li.togopen1, #left #expand_section li.drop, #left #expand_section li.opendrop, #left #expand_section ul li.togopen, #left #expand_section ul li.opendrop { background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navon5l-alt2.png"); background-position: right top; background-repeat: no-repeat; cursor: pointer; font-weight: bold !important; margin-top: 0; }
   /* line 149, ../components/sass/_styles_mobilenav.scss */
-  #left #expand_section li.opendrop > a { display: inline-block; clear: both; }
-  /* line 150, ../components/sass/_styles_mobilenav.scss */
-  #left #expand_section li.drop { background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navoff5l-alt2.png"); padding-right: 50px; }
-  /* line 156, ../components/sass/_styles_mobilenav.scss */
   #left nav ul { list-style: none; font-weight: normal; }
-  /* line 159, ../components/sass/_styles_mobilenav.scss */
+  /* line 152, ../components/sass/_styles_mobilenav.scss */
   #left nav ul li { list-style: none; font-weight: normal; }
-  /* line 163, ../components/sass/_styles_mobilenav.scss */
+  /* line 156, ../components/sass/_styles_mobilenav.scss */
   #left nav ul li ul { display: none; width: 100%; }
-  /* line 169, ../components/sass/_styles_mobilenav.scss */
-  #left nav * { padding: 0; margin: 0; } }
+  /* line 162, ../components/sass/_styles_mobilenav.scss */
+  #left nav * { padding: 0; margin: 0; }
+  /* line 168, ../components/sass/_styles_mobilenav.scss */
+  .fa.fa-chevron-down { float: right; top: 1px; position: relative; min-width: 50px; text-align: right; }
+  /* line 175, ../components/sass/_styles_mobilenav.scss */
+  .sidenav-background { display: inline-block; } }
 /* line 1, ../components/sass/_styles_megamenu.scss */
 nav#navbar-collapse-1 { clear: both; text-shadow: 1px 1px 1px #fff; top: 0; position: relative; }
 /* line 6, ../components/sass/_styles_megamenu.scss */
