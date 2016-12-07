@@ -164,826 +164,805 @@ h1, h2, h3, h4 { font-family: 'Droid Serif', Georgia, Times, serif; }
 /* line 27, ../components/sass/_styles_jscc_screen4.scss */
 hr { color: #ddddd5; background-color: #ddddd5; height: 1px; clear: both; }
 
-/* line 34, ../components/sass/_styles_jscc_screen4.scss */
-#content { float: right; display: inline; width: 100%; min-height: 470px; margin-bottom: 50px; margin-top: 24px; }
-
-/* line 43, ../components/sass/_styles_jscc_screen4.scss */
-#sidenav + #content { width: 717px; }
-
-/* line 47, ../components/sass/_styles_jscc_screen4.scss */
-.noside #content { width: 950px; min-height: 470px; margin-bottom: 50px; }
-
-/* line 53, ../components/sass/_styles_jscc_screen4.scss */
-#content p { font-size: 1.4em; line-height: 1.8em; font-weight: normal; }
-
-/* line 59, ../components/sass/_styles_jscc_screen4.scss */
-#content h1 + p, #content h1 + div#subnav + p, #content h1 + h2 + p { font-size: 1.5em; }
-
-/* line 65, ../components/sass/_styles_jscc_screen4.scss */
+/* line 39, ../components/sass/_styles_jscc_screen4.scss */
 #content a:link, #content a:visited { color: #1c7c3e; text-decoration: underline; }
 
-/* line 71, ../components/sass/_styles_jscc_screen4.scss */
-#content ul, #content ol { font-size: 1.3em; margin-left: 2em; }
+/* line 45, ../components/sass/_styles_jscc_screen4.scss */
+#content ul, #content ol { margin-left: 2em; }
 
-/* line 77, ../components/sass/_styles_jscc_screen4.scss */
-#content ul p, #content ol p { font-size: 1em; }
+/* line 51, ../components/sass/_styles_jscc_screen4.scss */
+#content ul ul, #content ol ol, #content ul ol, #content ol ul { margin-left: 2em; }
 
-/* line 82, ../components/sass/_styles_jscc_screen4.scss */
-#content ul ul, #content ol ol, #content ul ol, #content ol ul { font-size: 1em; margin-left: 2em; }
-
-/* line 90, ../components/sass/_styles_jscc_screen4.scss */
+/* line 59, ../components/sass/_styles_jscc_screen4.scss */
 #content ul { list-style: disc outside; }
 
-/* line 94, ../components/sass/_styles_jscc_screen4.scss */
+/* line 63, ../components/sass/_styles_jscc_screen4.scss */
 #content ol { list-style: decimal outside; }
 
-/* line 98, ../components/sass/_styles_jscc_screen4.scss */
-#content li { margin-bottom: 1em; line-height: 1.3em; }
+/* line 69, ../components/sass/_styles_jscc_screen4.scss */
+#content address { font-size: 1.3em; line-height: 1.6em; background: url(./_resources/images/letter.png) no-repeat left top; padding-left: 60px; }
 
-/* line 103, ../components/sass/_styles_jscc_screen4.scss */
-#content address { font-size: 1.3em; line-height: 1.6em; background: url(/_resources/images/letter.png) no-repeat left top; padding-left: 60px; }
-
-/* line 110, ../components/sass/_styles_jscc_screen4.scss */
+/* line 76, ../components/sass/_styles_jscc_screen4.scss */
 #content dl { margin-left: 2em; }
 
-/* line 114, ../components/sass/_styles_jscc_screen4.scss */
-#content dt { font-size: 1.5em; font-weight: bold; background-image: url(/_resources/images/icons/roundarrow.png); background-repeat: no-repeat; background-position: 0 center; padding-left: 16px; margin-bottom: 0.5em; }
+/* line 80, ../components/sass/_styles_jscc_screen4.scss */
+#content dt { font-size: 1.5em; font-weight: bold; background-image: url(./_resources/images/icons/roundarrow.png); background-repeat: no-repeat; background-position: 0 center; padding-left: 16px; margin-bottom: 0.5em; }
 
-/* line 124, ../components/sass/_styles_jscc_screen4.scss */
+/* line 90, ../components/sass/_styles_jscc_screen4.scss */
 #content dd { font-size: 1.4em; line-height: 1.5em; margin: 0 0 1.5em 16px; }
 
-/* line 130, ../components/sass/_styles_jscc_screen4.scss */
+/* line 96, ../components/sass/_styles_jscc_screen4.scss */
 #content blockquote { background-color: #f2f2e8; font-size: 1.4em; line-height: 1.6em; margin: 1em 4em; padding: 1em; }
 
-/* line 138, ../components/sass/_styles_jscc_screen4.scss */
+/* line 104, ../components/sass/_styles_jscc_screen4.scss */
 #skip { text-align: right; }
 
-/* line 142, ../components/sass/_styles_jscc_screen4.scss */
+/* line 108, ../components/sass/_styles_jscc_screen4.scss */
 #skip a, #skip a:hover, #skip a:visited { position: absolute; left: 0; top: -500px; width: 1px; height: 1px; overflow: hidden; }
 
-/* line 153, ../components/sass/_styles_jscc_screen4.scss */
+/* line 119, ../components/sass/_styles_jscc_screen4.scss */
 #skip a:active { position: static; width: auto; height: auto; }
 
 /*div.sgainfo{width:50em;height:30em}*/
-/* line 162, ../components/sass/_styles_jscc_screen4.scss */
+/* line 128, ../components/sass/_styles_jscc_screen4.scss */
 th, td { padding: 8px 1em 8px 0; }
 
-/* line 167, ../components/sass/_styles_jscc_screen4.scss */
+/* line 133, ../components/sass/_styles_jscc_screen4.scss */
 th { font-weight: bold; border-bottom: #4e4e25 solid 1px; }
 
-/* line 172, ../components/sass/_styles_jscc_screen4.scss */
+/* line 138, ../components/sass/_styles_jscc_screen4.scss */
 td { border-bottom: #ddddd5 solid 1px; }
 
-/* line 176, ../components/sass/_styles_jscc_screen4.scss */
+/* line 142, ../components/sass/_styles_jscc_screen4.scss */
 tbody tr:hover { background-color: #f2f2e8; }
 
-/* line 180, ../components/sass/_styles_jscc_screen4.scss */
+/* line 146, ../components/sass/_styles_jscc_screen4.scss */
 caption { font-size: 1.4em; margin-top: 1.5em; margin-bottom: 1em; font-style: italic; }
 
-/* line 187, ../components/sass/_styles_jscc_screen4.scss */
+/* line 153, ../components/sass/_styles_jscc_screen4.scss */
 th:last-child, td:last-child { padding-right: 0; }
 
-/* line 192, ../components/sass/_styles_jscc_screen4.scss */
+/* line 158, ../components/sass/_styles_jscc_screen4.scss */
 table tr:first-child { border-top: #4e4e25 solid 1px; }
 
-/* line 196, ../components/sass/_styles_jscc_screen4.scss */
+/* line 162, ../components/sass/_styles_jscc_screen4.scss */
 table.curriculum { float: left; width: 45%; margin-bottom: 2em; margin-right: 2em; }
 
-/* line 203, ../components/sass/_styles_jscc_screen4.scss */
+/* line 169, ../components/sass/_styles_jscc_screen4.scss */
 table.curriculum td { width: 30%; }
 
-/* line 207, ../components/sass/_styles_jscc_screen4.scss */
+/* line 173, ../components/sass/_styles_jscc_screen4.scss */
 table.curriculum td + td { width: 70%; }
 
-/* line 211, ../components/sass/_styles_jscc_screen4.scss */
+/* line 177, ../components/sass/_styles_jscc_screen4.scss */
 table.curriculum td + td + td { width: 10%; text-align: right; }
 
-/* line 216, ../components/sass/_styles_jscc_screen4.scss */
+/* line 182, ../components/sass/_styles_jscc_screen4.scss */
 table.curriculum + table.curriculum + table.curriculum + table.curriculum, table.curriculum + table.curriculum + table.curriculum + table.curriculum + table.curriculum + table.curriculum { clear: none; }
 
-/* line 221, ../components/sass/_styles_jscc_screen4.scss */
+/* line 187, ../components/sass/_styles_jscc_screen4.scss */
 table.curriculum caption { font-size: 1.3em; color: #4e4e25; }
 
-/* line 226, ../components/sass/_styles_jscc_screen4.scss */
+/* line 192, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav { position: absolute; width: 180px; margin-right: 50px; top: 24px; left: 35px; }
 
-/* line 234, ../components/sass/_styles_jscc_screen4.scss */
+/* line 200, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav .navtitle { font-size: 1.8em; font-family: 'Droid Serif', Georgia, Times, serif; font-weight: 400; }
 
-/* line 240, ../components/sass/_styles_jscc_screen4.scss */
+/* line 206, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav ul { list-style: none; width: 100%; }
 
-/* line 245, ../components/sass/_styles_jscc_screen4.scss */
+/* line 211, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav ul a { font-size: 1.3em; display: block; padding: 1em 10px 1em 0; }
 
-/* line 251, ../components/sass/_styles_jscc_screen4.scss */
+/* line 217, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav li:first-child { border-top-style: none; }
 
-/* line 255, ../components/sass/_styles_jscc_screen4.scss */
+/* line 221, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav a:link, #sidenav a:visited { text-decoration: none; color: gray; }
 
-/* line 261, ../components/sass/_styles_jscc_screen4.scss */
+/* line 227, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav a:hover, #sidenav a:active { color: #000; background: url(/_resources/images/sidenavgrad.jpg) repeat-y top right #c5d1d4; }
 
-/* line 267, ../components/sass/_styles_jscc_screen4.scss */
+/* line 233, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav li, #sidenav li:hover { position: relative; }
 
-/* line 272, ../components/sass/_styles_jscc_screen4.scss */
+/* line 238, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav li ul { position: absolute; top: -21px; left: 100.1%; display: none; }
 
-/* line 279, ../components/sass/_styles_jscc_screen4.scss */
+/* line 245, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav ul ul { display: none; border: solid 1px #6699a6; background-color: #FFF; }
 
-/* line 285, ../components/sass/_styles_jscc_screen4.scss */
+/* line 251, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav ul ul a { background-color: #fefefe; color: #000; text-align: left; padding: 1em 0 1em 5px; }
 
-/* line 292, ../components/sass/_styles_jscc_screen4.scss */
+/* line 258, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav ul ul a:hover { background-color: #c5d1d4; text-decoration: none; }
 
-/* line 297, ../components/sass/_styles_jscc_screen4.scss */
+/* line 263, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav a.x, #sidenav a.x:visited { background: url(/_resources/images/menuarrow.png) no-repeat center right; }
 
-/* line 302, ../components/sass/_styles_jscc_screen4.scss */
+/* line 268, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav a.x:hover, #sidenav a.x:active { background: url(/_resources/images/menu-grad-arrow-down.jpg) repeat-y center left #c5d1d4; }
 
-/* line 307, ../components/sass/_styles_jscc_screen4.scss */
+/* line 273, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav ul ul a.x, #sidenav ul ul a.x:visited, #sidenav ul ul a.x:hover, #sidenav ul ul a.x:active { background: none; }
 
-/* line 314, ../components/sass/_styles_jscc_screen4.scss */
+/* line 280, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav ul ul a.x:hover { background: url(/_resources/images/sidenavgrad.jpg) repeat-y top right #c5d1d4; text-decoration: none; }
 
-/* line 319, ../components/sass/_styles_jscc_screen4.scss */
+/* line 285, ../components/sass/_styles_jscc_screen4.scss */
 p.required, span.required { color: red; }
 
-/* line 324, ../components/sass/_styles_jscc_screen4.scss */
+/* line 290, ../components/sass/_styles_jscc_screen4.scss */
 .fbtextinput { margin-bottom: 1em; font-size: 1.3em; }
 
-/* line 329, ../components/sass/_styles_jscc_screen4.scss */
+/* line 295, ../components/sass/_styles_jscc_screen4.scss */
 .textfieldRequiredMsg { font-style: italic; font-size: .8em; color: red; }
 
-/* line 335, ../components/sass/_styles_jscc_screen4.scss */
+/* line 301, ../components/sass/_styles_jscc_screen4.scss */
 .captcha { width: 200px; text-align: center; margin: 0.5em 0; }
 
-/* line 341, ../components/sass/_styles_jscc_screen4.scss */
+/* line 307, ../components/sass/_styles_jscc_screen4.scss */
 .captcha img { border: 1px solid #F60; margin-bottom: 0.5em; }
 
-/* line 346, ../components/sass/_styles_jscc_screen4.scss */
+/* line 312, ../components/sass/_styles_jscc_screen4.scss */
 .captcha input { width: 196px; margin-top: 0.5em; }
 
-/* line 351, ../components/sass/_styles_jscc_screen4.scss */
+/* line 317, ../components/sass/_styles_jscc_screen4.scss */
 #content #nursepoints input { width: 5em; }
 
-/* line 355, ../components/sass/_styles_jscc_screen4.scss */
+/* line 321, ../components/sass/_styles_jscc_screen4.scss */
 #subnav { width: 226px; float: right; background: #ddddd5 url(/_resources/images/hot-bottom.gif) no-repeat bottom; min-height: 175px; margin: 0 0 20px 20px; }
 
-/* line 363, ../components/sass/_styles_jscc_screen4.scss */
+/* line 329, ../components/sass/_styles_jscc_screen4.scss */
 #subnav h2 { border-bottom: #FFF 2px solid; background: no-repeat top; color: #FFF; font-size: 1.7em; background-color: #ce812c; background-image: url("/_resources/images/hot-orange-top.gif"); font-family: 'Droid Sans', Helvetica, Arial, sans-serif; font-weight: 700; margin: 0; padding: 8px; }
 
-/* line 376, ../components/sass/_styles_jscc_screen4.scss */
+/* line 342, ../components/sass/_styles_jscc_screen4.scss */
 #subnav h4 { padding: 0 0 0 .9em; margin-bottom: 0; }
 
-/* line 381, ../components/sass/_styles_jscc_screen4.scss */
+/* line 347, ../components/sass/_styles_jscc_screen4.scss */
 #subnav ul { list-style-type: none; font-size: 1.3em; margin: 0; padding: 1em; }
 
-/* line 388, ../components/sass/_styles_jscc_screen4.scss */
+/* line 354, ../components/sass/_styles_jscc_screen4.scss */
 #subnav p { font-size: 1.2em; }
 
-/* line 392, ../components/sass/_styles_jscc_screen4.scss */
+/* line 358, ../components/sass/_styles_jscc_screen4.scss */
 #utilitybarWrap { background: #f2f2e8; clear: both; overflow: hidden; width: 100%; margin: 0 auto; padding: 16px 0 18px; }
 
-/* line 401, ../components/sass/_styles_jscc_screen4.scss */
+/* line 367, ../components/sass/_styles_jscc_screen4.scss */
 #utilitybar { width: 980px; margin: 0 auto; }
 
-/* line 406, ../components/sass/_styles_jscc_screen4.scss */
+/* line 372, ../components/sass/_styles_jscc_screen4.scss */
 #utilitybar ul { margin-left: 40px; }
 
-/* line 410, ../components/sass/_styles_jscc_screen4.scss */
+/* line 376, ../components/sass/_styles_jscc_screen4.scss */
 #utilitybar li { float: left; margin-right: 50px; padding-left: 52px; position: relative; }
 
-/* line 417, ../components/sass/_styles_jscc_screen4.scss */
+/* line 383, ../components/sass/_styles_jscc_screen4.scss */
 #utilitybar p.footerheading { font-size: 1.3em; font-weight: bold; margin: 1px 0 0; padding: 0; color: black; }
 
-/* line 425, ../components/sass/_styles_jscc_screen4.scss */
+/* line 391, ../components/sass/_styles_jscc_screen4.scss */
 #utilitybar p { font-size: 1em; color: #666; margin-top: 3px; }
 
-/* line 431, ../components/sass/_styles_jscc_screen4.scss */
+/* line 397, ../components/sass/_styles_jscc_screen4.scss */
 #utilitybar img { position: absolute; top: -6px; left: 0; }
 
-/* line 437, ../components/sass/_styles_jscc_screen4.scss */
+/* line 403, ../components/sass/_styles_jscc_screen4.scss */
 #utilitybar a:link p, #utilitybar a:visited p { text-decoration: none; color: #000; }
 
-/* line 443, ../components/sass/_styles_jscc_screen4.scss */
+/* line 409, ../components/sass/_styles_jscc_screen4.scss */
 #utilitybar a:hover p, #utilitybar a:active p { text-decoration: underline; color: gray; }
 
-/* line 449, ../components/sass/_styles_jscc_screen4.scss */
+/* line 415, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li a { display: block; outline: none; height: 24px; background: transparent url(/_resources/images/icons.png) no-repeat 0 0; text-indent: -9999px; }
 
-/* line 457, ../components/sass/_styles_jscc_screen4.scss */
+/* line 423, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li:first-child a { margin-left: 0; }
 
-/* line 461, ../components/sass/_styles_jscc_screen4.scss */
+/* line 427, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li#follow-twitter a { width: 22px; background-position: 0 0; }
 
-/* line 466, ../components/sass/_styles_jscc_screen4.scss */
+/* line 432, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li#follow-twitter a:hover { background-position: 0 -2px; }
 
-/* line 470, ../components/sass/_styles_jscc_screen4.scss */
+/* line 436, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li#follow-facebook a { width: 22px; background-position: -21px 0; }
 
-/* line 475, ../components/sass/_styles_jscc_screen4.scss */
+/* line 441, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li#follow-facebook a:hover { background-position: -21px -2px; }
 
-/* line 479, ../components/sass/_styles_jscc_screen4.scss */
+/* line 445, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li#follow-youtube a { width: 22px; background-position: -43px 0; }
 
-/* line 484, ../components/sass/_styles_jscc_screen4.scss */
+/* line 450, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li#follow-youtube a:hover { background-position: -43px -2px; }
 
-/* line 488, ../components/sass/_styles_jscc_screen4.scss */
+/* line 454, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li#follow-blog a { width: 22px; background-position: -67px 0; }
 
-/* line 493, ../components/sass/_styles_jscc_screen4.scss */
+/* line 459, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li#follow-blog a:hover { background-position: -67px -2px; }
 
-/* line 497, ../components/sass/_styles_jscc_screen4.scss */
+/* line 463, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li#follow-flickr a { width: 22px; background-position: -89px 0; }
 
-/* line 502, ../components/sass/_styles_jscc_screen4.scss */
+/* line 468, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li#follow-flickr a:hover { background-position: -89px -2px; }
 
-/* line 506, ../components/sass/_styles_jscc_screen4.scss */
+/* line 472, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li#follow-linkedin a { width: 22px; background-position: -109px 0; }
 
-/* line 511, ../components/sass/_styles_jscc_screen4.scss */
+/* line 477, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li#follow-linkedin a:hover { background-position: -109px -2px; }
 
-/* line 515, ../components/sass/_styles_jscc_screen4.scss */
+/* line 481, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li#follow-plus { margin-top: 3px; margin-left: 8px; }
 
-/* line 520, ../components/sass/_styles_jscc_screen4.scss */
+/* line 486, ../components/sass/_styles_jscc_screen4.scss */
 ul#follow li#follow-plus { margin-top: 0; }
 
-/* line 524, ../components/sass/_styles_jscc_screen4.scss */
+/* line 490, ../components/sass/_styles_jscc_screen4.scss */
 body#index #notice { margin: 0 20px; padding: 150px 360px 30px 50px; background-repeat: no-repeat; }
 
-/* line 530, ../components/sass/_styles_jscc_screen4.scss */
+/* line 496, ../components/sass/_styles_jscc_screen4.scss */
 body#index #notice { font-family: helvetica, arial, sans-serif; font-size: 1.4em; }
 
-/* line 535, ../components/sass/_styles_jscc_screen4.scss */
+/* line 501, ../components/sass/_styles_jscc_screen4.scss */
 body#index #notice p { line-height: 1.4em; margin-bottom: 2em; }
 
-/* line 540, ../components/sass/_styles_jscc_screen4.scss */
+/* line 506, ../components/sass/_styles_jscc_screen4.scss */
 body#index #notice a:link, body#index #notice a:visited { color: #2d597f; text-decoration: none; }
 
-/* line 546, ../components/sass/_styles_jscc_screen4.scss */
+/* line 512, ../components/sass/_styles_jscc_screen4.scss */
 body#index #notice a:hover { text-decoration: underline; }
 
-/* line 550, ../components/sass/_styles_jscc_screen4.scss */
+/* line 516, ../components/sass/_styles_jscc_screen4.scss */
 body#index #notice2 { font-family: helvetica, arial, sans-serif; font-size: 1.4em; margin: 0 20px; padding: 10px 50px 50px 110px; }
 
-/* line 557, ../components/sass/_styles_jscc_screen4.scss */
+/* line 523, ../components/sass/_styles_jscc_screen4.scss */
 body#index #notice2 h2 { font-size: 200%; margin-bottom: 70px; }
 
-/* line 562, ../components/sass/_styles_jscc_screen4.scss */
+/* line 528, ../components/sass/_styles_jscc_screen4.scss */
 body#index #notice2 a:link, body#index #notice2 a:visited { color: black; text-decoration: underline; }
 
-/* line 568, ../components/sass/_styles_jscc_screen4.scss */
+/* line 534, ../components/sass/_styles_jscc_screen4.scss */
 body#index #notice2 a:hover { color: #f0c11d; }
 
-/* line 572, ../components/sass/_styles_jscc_screen4.scss */
+/* line 538, ../components/sass/_styles_jscc_screen4.scss */
 body#index #content { float: none; display: block; width: 980px; margin-top: 0; padding-top: 0; }
 
-/* line 580, ../components/sass/_styles_jscc_screen4.scss */
+/* line 546, ../components/sass/_styles_jscc_screen4.scss */
 body#index .news { line-height: 1.2em; }
 
-/* line 584, ../components/sass/_styles_jscc_screen4.scss */
+/* line 550, ../components/sass/_styles_jscc_screen4.scss */
 body#index #contentWrapper { width: 980px; margin-top: 0; padding-top: 0; }
 
-/* line 590, ../components/sass/_styles_jscc_screen4.scss */
+/* line 556, ../components/sass/_styles_jscc_screen4.scss */
 body#index p.seeall { border-top: 1px #aeae9f solid; padding-top: 4px; font-weight: bold; }
 
-/* line 596, ../components/sass/_styles_jscc_screen4.scss */
+/* line 562, ../components/sass/_styles_jscc_screen4.scss */
 body#index #rightcolumn { float: left; width: 450px; }
 
-/* line 601, ../components/sass/_styles_jscc_screen4.scss */
+/* line 567, ../components/sass/_styles_jscc_screen4.scss */
 body#index #leftcolumn { float: left; width: 450px; margin-right: 39px; margin-left: 20px; }
 
-/* line 608, ../components/sass/_styles_jscc_screen4.scss */
+/* line 574, ../components/sass/_styles_jscc_screen4.scss */
 body#index #rightcolumn a:link, body#index #leftcolumn a:link, body#index #rightcolumn a:visited, body#index #leftcolumn a:visited { text-decoration: none; }
 
-/* line 615, ../components/sass/_styles_jscc_screen4.scss */
+/* line 581, ../components/sass/_styles_jscc_screen4.scss */
 body#index table#indexcal tr { background-color: #FFF; color: #4e4e25; }
 
-/* line 620, ../components/sass/_styles_jscc_screen4.scss */
+/* line 586, ../components/sass/_styles_jscc_screen4.scss */
 body#index table#indexcal td { vertical-align: top; line-height: 1.4em; margin-left: 0; padding-left: 0; border-style: none; }
 
-/* line 628, ../components/sass/_styles_jscc_screen4.scss */
+/* line 594, ../components/sass/_styles_jscc_screen4.scss */
 body#index table#indexcal td + td { padding-left: 12px; vertical-align: top; font-weight: normal; }
 
-/* line 634, ../components/sass/_styles_jscc_screen4.scss */
+/* line 600, ../components/sass/_styles_jscc_screen4.scss */
 body#index #mast { width: 940px; height: 162px; }
 
-/* line 639, ../components/sass/_styles_jscc_screen4.scss */
+/* line 605, ../components/sass/_styles_jscc_screen4.scss */
 body#index a#logo { margin-left: 30px; }
 
-/* line 643, ../components/sass/_styles_jscc_screen4.scss */
+/* line 609, ../components/sass/_styles_jscc_screen4.scss */
 a#logo img { border: 0; }
 
-/* line 647, ../components/sass/_styles_jscc_screen4.scss */
+/* line 613, ../components/sass/_styles_jscc_screen4.scss */
 body#index #featurenews { background: url("/_resources/images/feature-top.png") no-repeat top left #f2f2e8; font-size: .9em; padding: 0; }
 
-/* line 653, ../components/sass/_styles_jscc_screen4.scss */
+/* line 619, ../components/sass/_styles_jscc_screen4.scss */
 body#index #featurenews div { background: url("/_resources/images/feature-bottom.png") no-repeat bottom left; overflow: hidden; padding: 0 14px 7px; }
 
-/* line 659, ../components/sass/_styles_jscc_screen4.scss */
+/* line 625, ../components/sass/_styles_jscc_screen4.scss */
 body#index #featurenews p { color: #6d6654; margin-top: 0; padding-top: 0; }
 
-/* line 665, ../components/sass/_styles_jscc_screen4.scss */
+/* line 631, ../components/sass/_styles_jscc_screen4.scss */
 body#index #featurenews h3 { line-height: 1.4em; padding-top: 27px; margin-top: 0; text-shadow: 1px 1px 1px #ffffff; }
 
-/* line 672, ../components/sass/_styles_jscc_screen4.scss */
+/* line 638, ../components/sass/_styles_jscc_screen4.scss */
 #sidenews { font-size: .9em; padding: 0; width: 250px; float: right; margin-left: 1em; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border: 1px solid #DDDDD5; padding: 1em; }
 
-/* line 685, ../components/sass/_styles_jscc_screen4.scss */
+/* line 651, ../components/sass/_styles_jscc_screen4.scss */
 #sidenews p { font-family: arial, helvetica, sans-serif; color: #6d6654; margin-top: 0; padding-top: 0; font-size: 1.3em; line-height: 1.5em; }
 
-/* line 694, ../components/sass/_styles_jscc_screen4.scss */
+/* line 660, ../components/sass/_styles_jscc_screen4.scss */
 #sidenews h2 { margin: 0 0 1em 0; }
 
-/* line 698, ../components/sass/_styles_jscc_screen4.scss */
+/* line 664, ../components/sass/_styles_jscc_screen4.scss */
 #sidenews h3 { font-family: arial, helvetica, sans-serif; line-height: 1.4em; margin-top: 0; font-size: 1.5em; margin-bottom: .5em; }
 
-/* line 706, ../components/sass/_styles_jscc_screen4.scss */
+/* line 672, ../components/sass/_styles_jscc_screen4.scss */
 #sidenews span { margin-bottom: 1em; padding-bottom: 1em; height: 105px; display: block; }
 
-/* line 713, ../components/sass/_styles_jscc_screen4.scss */
+/* line 679, ../components/sass/_styles_jscc_screen4.scss */
 #sidenews a:link, #featurenews a:visited { text-decoration: underline; }
 
-/* line 718, ../components/sass/_styles_jscc_screen4.scss */
+/* line 684, ../components/sass/_styles_jscc_screen4.scss */
 #sidenews a:hover, #featurenews a:active { font-weight: bold; }
 
-/* line 723, ../components/sass/_styles_jscc_screen4.scss */
+/* line 689, ../components/sass/_styles_jscc_screen4.scss */
 .hidden { display: none; }
 
-/* line 727, ../components/sass/_styles_jscc_screen4.scss */
+/* line 693, ../components/sass/_styles_jscc_screen4.scss */
 .structural { position: absolute; left: -9999px; }
 
-/* line 732, ../components/sass/_styles_jscc_screen4.scss */
+/* line 698, ../components/sass/_styles_jscc_screen4.scss */
 .picboxleft { margin-left: 16px; margin-bottom: 1px; float: right; width: 180px; color: #999; text-align: center; }
 
-/* line 741, ../components/sass/_styles_jscc_screen4.scss */
+/* line 707, ../components/sass/_styles_jscc_screen4.scss */
 .picboxright { margin-right: 16px; margin-bottom: 1px; float: left; width: 180px; color: #999; text-align: center; }
 
-/* line 750, ../components/sass/_styles_jscc_screen4.scss */
+/* line 716, ../components/sass/_styles_jscc_screen4.scss */
 .degree { color: #666; font-size: 1.5em; margin-top: -1.8em; margin-bottom: 2em; }
 
-/* line 757, ../components/sass/_styles_jscc_screen4.scss */
+/* line 723, ../components/sass/_styles_jscc_screen4.scss */
 .credit { float: right; }
 
-/* line 761, ../components/sass/_styles_jscc_screen4.scss */
+/* line 727, ../components/sass/_styles_jscc_screen4.scss */
 .courset { float: left; }
 
-/* line 765, ../components/sass/_styles_jscc_screen4.scss */
+/* line 731, ../components/sass/_styles_jscc_screen4.scss */
 .photo { background-color: white; padding: 3px; border: 1px #999999 solid; box-shadow: 6px 6px 10px #aaaaaa; }
 
-/* line 772, ../components/sass/_styles_jscc_screen4.scss */
+/* line 738, ../components/sass/_styles_jscc_screen4.scss */
 .floatleft, .photoleft { float: left; margin-right: 1em; margin-bottom: 0.5em; }
 
-/* line 779, ../components/sass/_styles_jscc_screen4.scss */
+/* line 745, ../components/sass/_styles_jscc_screen4.scss */
 .floatright, .photoright { float: right; margin-left: 1em; margin-bottom: 0.5em; }
 
-/* line 786, ../components/sass/_styles_jscc_screen4.scss */
+/* line 752, ../components/sass/_styles_jscc_screen4.scss */
 img.floatleft.photo { margin-right: 2em; }
 
-/* line 790, ../components/sass/_styles_jscc_screen4.scss */
+/* line 756, ../components/sass/_styles_jscc_screen4.scss */
 #searchwidget { border: 1px #afc09e solid; padding: 8px; background-color: #e9f0d4; }
 
-/* line 796, ../components/sass/_styles_jscc_screen4.scss */
+/* line 762, ../components/sass/_styles_jscc_screen4.scss */
 #searchwidget select { margin: 0; padding: 0; }
 
-/* line 801, ../components/sass/_styles_jscc_screen4.scss */
+/* line 767, ../components/sass/_styles_jscc_screen4.scss */
 #searchwidget input { margin: 0; }
 
-/* line 805, ../components/sass/_styles_jscc_screen4.scss */
+/* line 771, ../components/sass/_styles_jscc_screen4.scss */
 #searchwidget p { margin: 6px 0; }
 
-/* line 809, ../components/sass/_styles_jscc_screen4.scss */
+/* line 775, ../components/sass/_styles_jscc_screen4.scss */
 #searchwidget form { padding: 0; margin: 0; }
 
-/* line 814, ../components/sass/_styles_jscc_screen4.scss */
+/* line 780, ../components/sass/_styles_jscc_screen4.scss */
 .largertext { font-size: 115%; }
 
-/* line 818, ../components/sass/_styles_jscc_screen4.scss */
+/* line 784, ../components/sass/_styles_jscc_screen4.scss */
 .smallertext { font-size: 80%; }
 
-/* line 822, ../components/sass/_styles_jscc_screen4.scss */
+/* line 788, ../components/sass/_styles_jscc_screen4.scss */
 p.courses { font-size: 1.5em; line-height: 1.8em; }
 
-/* line 827, ../components/sass/_styles_jscc_screen4.scss */
+/* line 793, ../components/sass/_styles_jscc_screen4.scss */
 .staff { float: left; width: 330px; margin-bottom: 1em; padding-right: 2em; height: 120px; }
 
-/* line 835, ../components/sass/_styles_jscc_screen4.scss */
+/* line 801, ../components/sass/_styles_jscc_screen4.scss */
 #content .staff p { font-size: 1.3em; line-height: 1.6em; }
 
-/* line 840, ../components/sass/_styles_jscc_screen4.scss */
+/* line 806, ../components/sass/_styles_jscc_screen4.scss */
 a.more { background: transparent url(/_resources/images/icons/glass.png) no-repeat center right; font-weight: bold; padding: 5px 16px 5px 0; }
 
-/* line 846, ../components/sass/_styles_jscc_screen4.scss */
+/* line 812, ../components/sass/_styles_jscc_screen4.scss */
 #content .staff .more:link, #content .staff .more:visited { color: #000; text-decoration: none; }
 
-/* line 852, ../components/sass/_styles_jscc_screen4.scss */
+/* line 818, ../components/sass/_styles_jscc_screen4.scss */
 .title { font-size: 1.6em; color: #999; margin-top: -24px; font-style: italic; }
 
-/* line 859, ../components/sass/_styles_jscc_screen4.scss */
+/* line 825, ../components/sass/_styles_jscc_screen4.scss */
 .nowrap { white-space: nowrap; }
 
-/* line 863, ../components/sass/_styles_jscc_screen4.scss */
+/* line 829, ../components/sass/_styles_jscc_screen4.scss */
 .column2 { float: left; width: 44%; margin-right: 4%; }
 
-/* line 869, ../components/sass/_styles_jscc_screen4.scss */
+/* line 835, ../components/sass/_styles_jscc_screen4.scss */
 #content div.degree + p { line-height: 1.4em; }
 
-/* line 873, ../components/sass/_styles_jscc_screen4.scss */
+/* line 839, ../components/sass/_styles_jscc_screen4.scss */
 #content ul.col3list { list-style: none; margin-left: 0; margin-bottom: 4em; }
 
-/* line 879, ../components/sass/_styles_jscc_screen4.scss */
+/* line 845, ../components/sass/_styles_jscc_screen4.scss */
 #content ul.col3list li { float: left; width: 32%; height: 2em; }
 
-/* line 885, ../components/sass/_styles_jscc_screen4.scss */
+/* line 851, ../components/sass/_styles_jscc_screen4.scss */
 a[href$='.doc'], a[href$='.docx'] { background: transparent url(/_resources/images/icons/icon_doc.gif) no-repeat center right; padding: 5px 20px 5px 0; }
 
-/* line 891, ../components/sass/_styles_jscc_screen4.scss */
+/* line 857, ../components/sass/_styles_jscc_screen4.scss */
 a[href$='.xls'], a[href$='.xlsx'] { background: transparent url(/_resources/images/icons/icon_xls.gif) no-repeat center right; padding: 5px 20px 5px 0; }
 
-/* line 897, ../components/sass/_styles_jscc_screen4.scss */
+/* line 863, ../components/sass/_styles_jscc_screen4.scss */
 a.rss, a[href$='.rss'], a[href$='.atom'] { background: transparent url(/_resources/images/icons/icon_feed.gif) no-repeat center right; padding: 5px 20px 5px 0; }
 
-/* line 904, ../components/sass/_styles_jscc_screen4.scss */
+/* line 870, ../components/sass/_styles_jscc_screen4.scss */
 a[href$='.vcard'] { background: transparent url(/_resources/images/icons/icon_vcard.gif) no-repeat center right; padding: 5px 20px 5px 0; }
 
-/* line 909, ../components/sass/_styles_jscc_screen4.scss */
+/* line 875, ../components/sass/_styles_jscc_screen4.scss */
 a[href$='.pps'], a[href$='.ppt'], a[href$='.pptx'] { background: transparent url(/_resources/images/icons/icon_pps.gif) no-repeat center right; padding: 5px 20px 5px 0; }
 
-/* line 916, ../components/sass/_styles_jscc_screen4.scss */
+/* line 882, ../components/sass/_styles_jscc_screen4.scss */
 a[href$='.pdf'] { background: transparent url(/_resources/images/icons/icon_pdf.gif) no-repeat center right; padding: 5px 20px 5px 0; }
 
-/* line 921, ../components/sass/_styles_jscc_screen4.scss */
+/* line 887, ../components/sass/_styles_jscc_screen4.scss */
 a.ical, a[href$='.ical'] { background: transparent url(/_resources/images/icons/icon_ical.gif) no-repeat center right; padding: 5px 20px 5px 0; }
 
-/* line 927, ../components/sass/_styles_jscc_screen4.scss */
+/* line 893, ../components/sass/_styles_jscc_screen4.scss */
 a.facebook { background: transparent url(/_resources/images/icons/facebook-icon.jpg) no-repeat center right; padding: 5px 20px 5px 5px; }
 
-/* line 932, ../components/sass/_styles_jscc_screen4.scss */
+/* line 898, ../components/sass/_styles_jscc_screen4.scss */
 a[href^="mailto:"] { background: transparent url(/_resources/images/icons/icon_mailto.gif) no-repeat center right; padding: 5px 20px 5px 0; }
 
-/* line 937, ../components/sass/_styles_jscc_screen4.scss */
+/* line 903, ../components/sass/_styles_jscc_screen4.scss */
 .imageLink { padding-right: 0 !important; background: none !important; }
 
-/* line 942, ../components/sass/_styles_jscc_screen4.scss */
+/* line 908, ../components/sass/_styles_jscc_screen4.scss */
 a[class~="external"] { padding-right: 18px; background: url(/_resources/images/icons/external6.gif) no-repeat right center; }
 
-/* line 947, ../components/sass/_styles_jscc_screen4.scss */
+/* line 913, ../components/sass/_styles_jscc_screen4.scss */
 .action { background-image: url(/_resources/images/icons/roundarrow.png); background-repeat: no-repeat; background-position: 0 center; padding-left: 1.31em; }
 
-/* line 954, ../components/sass/_styles_jscc_screen4.scss */
+/* line 920, ../components/sass/_styles_jscc_screen4.scss */
 #acrobat { font-size: 1em; background-image: url(/_resources/images/icons/acroback.jpg); background-repeat: repeat-x; height: 31px; margin-top: 12px; margin-bottom: 12px; border: solid 1px #d8d8d8; line-height: 1.2em; padding: 4px; }
 
-/* line 966, ../components/sass/_styles_jscc_screen4.scss */
+/* line 932, ../components/sass/_styles_jscc_screen4.scss */
 #acrobat img { float: left; margin-right: 10px; }
 
-/* line 971, ../components/sass/_styles_jscc_screen4.scss */
+/* line 937, ../components/sass/_styles_jscc_screen4.scss */
 table#academiccal td { white-space: nowrap; vertical-align: top; }
 
-/* line 976, ../components/sass/_styles_jscc_screen4.scss */
+/* line 942, ../components/sass/_styles_jscc_screen4.scss */
 table#academiccal td + td { white-space: normal; vertical-align: top; }
 
-/* line 981, ../components/sass/_styles_jscc_screen4.scss */
+/* line 947, ../components/sass/_styles_jscc_screen4.scss */
 div#businesscal { border: 1px solid silver; background: #FFF; padding: 1em; width: 350px; float: right; margin-left: 2em; }
 
-/* line 990, ../components/sass/_styles_jscc_screen4.scss */
+/* line 956, ../components/sass/_styles_jscc_screen4.scss */
 div#businesscal table { font-size: 1.1em; font-weight: normal; margin-top: 10px; border-style: none; }
 
-/* line 997, ../components/sass/_styles_jscc_screen4.scss */
+/* line 963, ../components/sass/_styles_jscc_screen4.scss */
 div#businesscal tr { border-style: none; }
 
-/* line 1001, ../components/sass/_styles_jscc_screen4.scss */
+/* line 967, ../components/sass/_styles_jscc_screen4.scss */
 div#businesscal tr + tr { border-top: 1px solid silver; }
 
-/* line 1005, ../components/sass/_styles_jscc_screen4.scss */
+/* line 971, ../components/sass/_styles_jscc_screen4.scss */
 div#businesscal td { font-weight: bold; border-style: none; padding: 6px; }
 
-/* line 1011, ../components/sass/_styles_jscc_screen4.scss */
+/* line 977, ../components/sass/_styles_jscc_screen4.scss */
 h2 + table { margin-top: 0.5em; }
 
-/* line 1015, ../components/sass/_styles_jscc_screen4.scss */
+/* line 981, ../components/sass/_styles_jscc_screen4.scss */
 .studentblogs { font-size: 1.2em; clear: both; border: 1px solid #000; height: 118px; width: 350px; margin-bottom: 1em; background-color: #FFF; padding: 4px; }
 
-/* line 1026, ../components/sass/_styles_jscc_screen4.scss */
+/* line 992, ../components/sass/_styles_jscc_screen4.scss */
 .studentblogs img { float: left; margin-right: 1em; }
 
-/* line 1031, ../components/sass/_styles_jscc_screen4.scss */
+/* line 997, ../components/sass/_styles_jscc_screen4.scss */
 .studentblogs a { font-size: 1.2em; }
 
-/* line 1035, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1001, ../components/sass/_styles_jscc_screen4.scss */
 #breadcrumbs a:visited, #breadcrumbs a:active { color: #666; }
 
-/* line 1040, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1006, ../components/sass/_styles_jscc_screen4.scss */
 h3, h4, table.curriculum + table.curriculum + table.curriculum, table.curriculum + table.curriculum + table.curriculum + table.curriculum + table.curriculum, table.curriculum + p, .column2 + p { clear: both; }
 
-/* line 1049, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1015, ../components/sass/_styles_jscc_screen4.scss */
 #footer #copyright a:link, #footer #copyright a:visited { font-weight: bold; }
 
-/* line 1054, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1020, ../components/sass/_styles_jscc_screen4.scss */
 #content a:hover, #content a:active, #footer a:hover, #footer a:active { color: #69645c; text-decoration: underline; }
 
-/* line 1062, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1028, ../components/sass/_styles_jscc_screen4.scss */
 #search_form #submit, ul#nav li, ul#follow li { display: block; float: left; }
 
-/* line 1069, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1035, ../components/sass/_styles_jscc_screen4.scss */
 ul#nav li:first-child a, #utilitybar li.last { margin-right: 0; }
 
-/* line 1074, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1040, ../components/sass/_styles_jscc_screen4.scss */
 ul#nav li a:hover, ul#nav li#nav-acad a:hover, ul#follow li a:hover { background-position: 0 -20px; }
 
-/* line 1080, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1046, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav li, #sidenav li li { border-top: 1px solid #6699A6; }
 
-/* line 1085, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1051, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav ul li:hover ul, #content ul.col3list li a { display: block; }
 
-/* line 1092, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1058, ../components/sass/_styles_jscc_screen4.scss */
 body#index #rightcolumn a:hover, body#index #leftcolumn a:hover, body#index #rightcolumn a:active, body#index #leftcolumn a:active, #content .staff .more:hover, #content #content .staff .more:hover, #content .staff .more:active { text-decoration: underline; }
 
-/* line 1102, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1068, ../components/sass/_styles_jscc_screen4.scss */
 #content .column2 p, div#businesscal h2 { margin-top: 0; }
 
-/* line 1107, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1073, ../components/sass/_styles_jscc_screen4.scss */
 a[href*="youtube.com/watch?"], a[href*="sevenload.com/videos/"], a[href*="metacafe.com/watch/"], a[href*="video.google.com"], a[href$='.mov'], a[href$='.wmv'], a[href$='.mp4'], a[href$='.avi'], a[href$='.mpg'] { background: transparent url(/_resources/images/icons/icon_film.gif) no-repeat center right; padding: 5px 20px 5px 0; }
 
-/* line 1120, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1086, ../components/sass/_styles_jscc_screen4.scss */
 #acrobat a:link, #acrobat a:visited { color: #999; text-decoration: underline; }
 
-/* line 1126, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1092, ../components/sass/_styles_jscc_screen4.scss */
 #acrobat a:hover, #acrobat a:active { color: #f33; text-decoration: underline; }
 
-/* line 1132, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1098, ../components/sass/_styles_jscc_screen4.scss */
 p.imagecaption { font-size: .8em; text-align: right; position: relative; top: -1em; font-style: italic; }
 
-/* line 1140, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1106, ../components/sass/_styles_jscc_screen4.scss */
 body #content form.elearnform { font-family: sans-serif; border: gray 1px solid; width: 180px; }
 
-/* line 1146, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1112, ../components/sass/_styles_jscc_screen4.scss */
 body #content form.elearnform #title { background-color: green; color: white; font-weight: bold; padding: 6px; font-size: 1.5em; }
 
-/* line 1154, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1120, ../components/sass/_styles_jscc_screen4.scss */
 body #content form.elearnform #eform { padding: 2em 8px 8px 8px; }
 
-/* line 1158, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1124, ../components/sass/_styles_jscc_screen4.scss */
 body #content form.elearnform #eform label { padding-left: 0; float: none; text-align: left; width: auto; font-size: 1.4em; }
 
-/* line 1166, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1132, ../components/sass/_styles_jscc_screen4.scss */
 body #content form.elearnform #eform input[type="submit"] { font-size: 1.6em; }
 
-/* line 1170, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1136, ../components/sass/_styles_jscc_screen4.scss */
 body #content form.elearnform #eform input[type="text"], form.elearnform #eform input[type="password"] { width: 140px; margin: 0; margin-bottom: 1em; }
 
-/* line 1177, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1143, ../components/sass/_styles_jscc_screen4.scss */
 body #content form.elearnform #eform p { font-size: 1.2em; margin: 0; margin-bottom: 1em; }
 
-/* line 1183, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1149, ../components/sass/_styles_jscc_screen4.scss */
 ul#microevents { visibility: hidden; }
 
-/* line 1187, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1153, ../components/sass/_styles_jscc_screen4.scss */
 .question { font-size: 1.2em; font-weight: bold; }
 
-/* line 1192, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1158, ../components/sass/_styles_jscc_screen4.scss */
 div#complaints, a:visited div#complaints { background-image: url(/_resources/images/complaints.png); background-repeat: no-repeat; background-position: 0% 50%; font-size: 1.2em; border: 1px #bfbfb6 solid; margin-bottom: 2em; background-color: #f2f2e8; padding: 6px 6px 6px 100px; }
 
-/* line 1204, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1170, ../components/sass/_styles_jscc_screen4.scss */
 table.emtemp { width: 600px; }
 
-/* line 1208, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1174, ../components/sass/_styles_jscc_screen4.scss */
 table.emtemp td { width: 200px; }
 
-/* line 1212, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1178, ../components/sass/_styles_jscc_screen4.scss */
 table.emtemp td + td { width: 400px; }
 
-/* line 1216, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1182, ../components/sass/_styles_jscc_screen4.scss */
 #box { border: 1px #dcdcd4 solid; background-color: #f1f1e7; padding: 0 1em; }
 
-/* line 1222, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1188, ../components/sass/_styles_jscc_screen4.scss */
 span#netcalc { background: url(/_resources/images/calculator-icon.png) no-repeat #f1f1e7; padding: 4px 4px 4px 65px; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border: 1px solid #808080; width: 330px; height: 50px; line-height: 50px; font-size: 1.4em; font-weight: bold; vertical-align: middle; display: block; }
 
-/* line 1238, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1204, ../components/sass/_styles_jscc_screen4.scss */
 .show_hide { display: none; }
 
-/* line 1242, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1208, ../components/sass/_styles_jscc_screen4.scss */
 .area1 { border: #2787ad 4px solid; }
 
-/* line 1246, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1212, ../components/sass/_styles_jscc_screen4.scss */
 .area2 { border: #93B81D 4px solid; }
 
-/* line 1250, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1216, ../components/sass/_styles_jscc_screen4.scss */
 .area3 { border: #99288B 4px solid; }
 
-/* line 1254, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1220, ../components/sass/_styles_jscc_screen4.scss */
 .madison { border: #797970 4px solid; }
 
-/* line 1258, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1224, ../components/sass/_styles_jscc_screen4.scss */
 .recruiterpopup { background-color: white; padding: 10px; font-size: .9em; width: 300px; }
 
-/* line 1265, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1231, ../components/sass/_styles_jscc_screen4.scss */
 #content .recruiterpopup p { margin-bottom: 0; padding-bottom: 0; margin-top: .5em; line-height: 1.5em; }
 
-/* line 1272, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1238, ../components/sass/_styles_jscc_screen4.scss */
 #content .recruiterpopup p.small { font-size: 1.3em; line-height: 1.4em; margin-bottom: 1em; }
 
-/* line 1278, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1244, ../components/sass/_styles_jscc_screen4.scss */
 .recruiterpopup h2 { margin: 0 0 1em 0; padding: 0; }
 
-/* line 1283, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1249, ../components/sass/_styles_jscc_screen4.scss */
 .recruiter { padding: 10px; background-color: #f1f1e8; }
 
-/* line 1288, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1254, ../components/sass/_styles_jscc_screen4.scss */
 .recruiter { font-size: 1.3em; line-height: 1.6em; height: 77px; }
 
-/* line 1294, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1260, ../components/sass/_styles_jscc_screen4.scss */
 div#highlightbox { padding: 4px 4px 4px 14px; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border: 1px solid #808080; width: 300px; height: 50px; line-height: 50px; font-size: 1.4em; font-weight: bold; vertical-align: middle; background-color: #eeeee4; }
 
-/* line 1309, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1275, ../components/sass/_styles_jscc_screen4.scss */
 div#highlightbox:hover { background-color: #dcdcd4; }
 
-/* line 1313, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1279, ../components/sass/_styles_jscc_screen4.scss */
 .show_hide { display: none; }
 
-/* line 1317, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1283, ../components/sass/_styles_jscc_screen4.scss */
 pre { font-family: "Lucida Console", Monaco, monospace; font-size: 1.3em; line-height: 1.9em; }
 
-/* line 1323, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1289, ../components/sass/_styles_jscc_screen4.scss */
 .nomargin { margin: 0; }
 
-/* line 1327, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1293, ../components/sass/_styles_jscc_screen4.scss */
 .center { text-align: center; }
 
-/* line 1331, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1297, ../components/sass/_styles_jscc_screen4.scss */
 .right { text-align: right; }
 
-/* line 1335, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1301, ../components/sass/_styles_jscc_screen4.scss */
 .valigntop { vertical-align: top; }
 
-/* line 1339, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1305, ../components/sass/_styles_jscc_screen4.scss */
 .absmiddle { vertical-align: middle; }
 
-/* line 1343, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1309, ../components/sass/_styles_jscc_screen4.scss */
 .valignbottom { vertical-align: top; }
 
-/* line 1347, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1313, ../components/sass/_styles_jscc_screen4.scss */
 .clearall { clear: both; }
 
-/* line 1351, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1317, ../components/sass/_styles_jscc_screen4.scss */
 .statstable { clear: both; width: 600px; }
 
-/* line 1356, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1322, ../components/sass/_styles_jscc_screen4.scss */
 div.pullquote, blockquote { border-top: solid 1px #7e7e4c; border-bottom: solid 1px #7e7e4c; padding: 2em 0; color: #7e7e4c; text-align: center; clear: both; margin-top: 1em; }
 
-/* line 1367, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1333, ../components/sass/_styles_jscc_screen4.scss */
 div.pullquote p, div.pullquote h2, blockquote h2 { margin: 0; padding: 0; margin-bottom: 1em; }
 
-/* line 1375, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1341, ../components/sass/_styles_jscc_screen4.scss */
 .pullquote.large { font-size: 1.8em; font-style: italic; font-family: 'Droid Serif', Georgia, Times, serif; padding: .5em 0; }
 
-/* line 1382, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1348, ../components/sass/_styles_jscc_screen4.scss */
 .pullquote.large p { margin: 0; }
 
-/* line 1386, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1352, ../components/sass/_styles_jscc_screen4.scss */
 ul#ancillary { list-style-type: none; text-align: left; position: absolute; width: 200px; right: 28em; top: 8px; }
 
-/* line 1395, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1361, ../components/sass/_styles_jscc_screen4.scss */
 ul#ancillary li { display: inline; border-left: 1px solid #000; float: left; line-height: 1.1em; margin: 0 .5em 0 -.5em; padding: 0 .5em 0 .5em; }
 
-/* line 1404, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1370, ../components/sass/_styles_jscc_screen4.scss */
 ul#ancillary li.first { border-left: 0 solid #000; }
 
-/* line 1408, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1374, ../components/sass/_styles_jscc_screen4.scss */
 ul#ancillary li a:link, ul#ancillary li a:visited { color: #006637; text-decoration: none; }
 
-/* line 1414, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1380, ../components/sass/_styles_jscc_screen4.scss */
 ul#ancillary li a:hover, ul#ancillary li a:active { text-decoration: underline; }
 
-/* line 1419, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1385, ../components/sass/_styles_jscc_screen4.scss */
 .playercard { border: solid 1px #016a32; padding: 1em; width: 450px; height: 300px; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; background-color: #f2f2e8; margin-bottom: 1em; }
 
-/* line 1431, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1397, ../components/sass/_styles_jscc_screen4.scss */
 .playernumber { font-size: 4em; color: white; background: #016a32; padding: 0 .3em; text-align: center; margin-right: .2em; }
 
-/* line 1440, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1406, ../components/sass/_styles_jscc_screen4.scss */
 .playername { font-size: 2em; color: #016a32; margin-right: .3em; }
 
-/* line 1446, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1412, ../components/sass/_styles_jscc_screen4.scss */
 .playerclass { font-size: 1em; color: gray; font-style: italic; }
 
-/* line 1452, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1418, ../components/sass/_styles_jscc_screen4.scss */
 .playerinfo { border-top: 4px solid #016a32; padding-top: 8px; color: #016a32; font-size: 1.2em; position: relative; }
 
-/* line 1460, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1426, ../components/sass/_styles_jscc_screen4.scss */
 .playerinfo img { float: left; }
 
-/* line 1464, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1430, ../components/sass/_styles_jscc_screen4.scss */
 .playerdetails { float: right; width: 300px; }
 
-/* line 1469, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1435, ../components/sass/_styles_jscc_screen4.scss */
 #content .playerdetails p { line-height: 1em; margin: 0px 0px 20px 10px; }
 
-/* line 1474, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1440, ../components/sass/_styles_jscc_screen4.scss */
 .playerdetails .label { font-size: .7em; font-style: italic; color: #777; }
 
-/* line 1480, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1446, ../components/sass/_styles_jscc_screen4.scss */
 .grow { display: inline-block; -webkit-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-property: transform; transition-property: transform; -webkit-transform: translateZ(0); transform: translateZ(0); box-shadow: 0 0 1px transparent; }
 
-/* line 1491, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1457, ../components/sass/_styles_jscc_screen4.scss */
 .grow:hover, .grow:focus, .grow:active { -webkit-transform: scale(1.1); transform: scale(1.1); }
 
-/* line 1498, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1464, ../components/sass/_styles_jscc_screen4.scss */
 #ttp { background-color: #f2f2e8; border: solid 1px #c7c7bd; padding: 1em; font-size: 1.35em; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
 
-/* line 1508, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1474, ../components/sass/_styles_jscc_screen4.scss */
 #ttp img { margin-right: 1em; vertical-align: middle; }
 
-/* line 1513, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1479, ../components/sass/_styles_jscc_screen4.scss */
 a:link #ttp, a:visited #ttp { text-decoration: none; color: #666; }
 
-/* line 1519, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1485, ../components/sass/_styles_jscc_screen4.scss */
 .mission { float: right; border: 1px solid gray; padding: 10px; margin-left: 1em; width: 300px; font-size: .9em; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
 
-/* line 1531, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1497, ../components/sass/_styles_jscc_screen4.scss */
 .mission p, .mission h2 { margin: 0; padding: 0; }
 
-/* line 1537, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1503, ../components/sass/_styles_jscc_screen4.scss */
 .mission h2 { font-size: 1.7em; font-weight: bold; margin-bottom: .5em; line-height: 1.5em; }
 
-/* line 1544, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1510, ../components/sass/_styles_jscc_screen4.scss */
 .notice { font-size: 1.1em; padding: 6px 6px 6px 14px; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border: 1px solid #808080; background-color: #eeeee4; box-shadow: 2px 2px 2px 0px #999; }
 
-/* line 1555, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1521, ../components/sass/_styles_jscc_screen4.scss */
 #regwrapper { float: right; width: 250px; margin: 20px 10px 20px 30px; }
 
-/* line 1561, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1527, ../components/sass/_styles_jscc_screen4.scss */
 #regwrapper p { font-size: 1.2em; color: #7f7a51; }
 
-/* line 1566, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1532, ../components/sass/_styles_jscc_screen4.scss */
 #regwrapper a:link, #regwrapper a:visited { text-decoration: none; }
 
-/* line 1571, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1537, ../components/sass/_styles_jscc_screen4.scss */
 a:link #regbox, a:visited #regbox { padding: 10px; font-size: 2em; border-radius: 10px; -webkit-box-shadow: 2px 2px 2px 0px #999; -moz-box-shadow: 2px 2px 2px 0px #999; box-shadow: 2px 2px 2px 0px #999; text-shadow: 2px 2px 1px #a8a379; background-color: #d0cba5; text-align: center; color: white; margin-bottom: 1em; }
 
-/* line 1586, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1552, ../components/sass/_styles_jscc_screen4.scss */
 .lighttext { color: #b6b6ac; }
 
-/* line 1590, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1556, ../components/sass/_styles_jscc_screen4.scss */
 .bold { font-weight: bold; }
 
-/* line 1594, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1560, ../components/sass/_styles_jscc_screen4.scss */
 .hide { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
 
-/* line 1603, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1569, ../components/sass/_styles_jscc_screen4.scss */
 .clip-circle { clip-path: circle(30px at center); }
 
-/* line 1607, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1573, ../components/sass/_styles_jscc_screen4.scss */
 .applybtn { background: #219421; background-image: -webkit-linear-gradient(top, #219421, #247a20); background-image: -moz-linear-gradient(top, #219421, #247a20); background-image: -ms-linear-gradient(top, #219421, #247a20); background-image: -o-linear-gradient(top, #219421, #247a20); background-image: linear-gradient(to bottom, #219421, #247a20); -webkit-border-radius: 6; -moz-border-radius: 6; border-radius: 6px; text-shadow: 1px 1px 2px #636363; font-family: Arial; color: #ffffff; font-size: 14px; padding: 10px 16px 10px 16px; text-decoration: none; }
 
-/* line 1625, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1591, ../components/sass/_styles_jscc_screen4.scss */
 .applybtn:hover, .applybtn.btn-primary:hover { background: #d69e2f; background-image: -webkit-linear-gradient(top, #d69e2f, #c78500); background-image: -moz-linear-gradient(top, #d69e2f, #c78500); background-image: -ms-linear-gradient(top, #d69e2f, #c78500); background-image: -o-linear-gradient(top, #d69e2f, #c78500); background-image: linear-gradient(to bottom, #d69e2f, #c78500); border-color: #c78500; text-decoration: none; }
 
-/* line 1637, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1603, ../components/sass/_styles_jscc_screen4.scss */
 div#apply { position: absolute; top: 24px; right: 200px; }
 
-/* line 1643, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1609, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo { width: 230px; float: right; border-radius: 10px; border: 2px solid #ce7325; padding: 10px; margin-left: 20px; margin-bottom: 20px; background-color: #f2f2e8; background-image: url("/_resources/images/degreeinfo.png"); }
 
-/* line 1655, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1621, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo p { margin: 0; }
 
 /*div#degreeinfo label {float:none; width:8em;text-align:left;margin-right:0;display:inline;}*/
-/* line 1662, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1628, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo label { float: left; width: 4em; text-align: right; margin-right: 0; display: block; }
 
-/* line 1670, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1636, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo input { width: 11em; }
 
-/* line 1674, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1640, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo .controls { display: inline; }
 
-/* line 1678, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1644, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo div.form-actions { padding: 0; margin: 0; }
 
-/* line 1683, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1649, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo h2 { color: white; margin: 0 0 20px 40px; padding: 0; font-size: 2em; }
 
-/* line 1690, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1656, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo .alert { font-size: 1.3em; }
 
-/* line 1694, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1660, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo .form-actions { text-align: center; }
 
-/* line 1698, ../components/sass/_styles_jscc_screen4.scss */
+/* line 1664, ../components/sass/_styles_jscc_screen4.scss */
 div#degreeinfo form { margin-bottom: 0; }

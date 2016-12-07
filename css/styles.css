@@ -4021,118 +4021,124 @@ hr.white { border: 0; height: 0; border-top: 1px solid black; }
 
 @media (max-width: 767px) { /* line 415, ../components/sass/_styles_base.scss */
   .hidemobile { display: none; } }
+/* line 418, ../components/sass/_styles_base.scss */
+#breadcrumbs { font-size: .9rem; padding: 10px 0; }
+
+/* line 422, ../components/sass/_styles_base.scss */
+#content { padding-top: 40px; padding-bottom: 20px; }
+
 /* line 1, ../components/sass/_styles_topnav.scss */
 .topnav { background: #ddddd5; z-index: 2; position: relative; background-image: url("../_resources/images/backgrounds/top.jpg"); background-position: bottom; background-repeat: repeat-x; }
 /* line 8, ../components/sass/_styles_topnav.scss */
 .topnav a { text-decoration: none; font-size: 1rem; }
 /* line 16, ../components/sass/_styles_topnav.scss */
-.topnav ul { list-style: none; display: inline-block; padding: 0; }
-/* line 20, ../components/sass/_styles_topnav.scss */
+.topnav ul { cursor: pointer; list-style: none; display: inline-block; padding: 0; }
+/* line 21, ../components/sass/_styles_topnav.scss */
 .topnav ul li { display: inline; }
-/* line 24, ../components/sass/_styles_topnav.scss */
+/* line 25, ../components/sass/_styles_topnav.scss */
 .topnav ul li:last-child a { border-right: 0; }
-/* line 29, ../components/sass/_styles_topnav.scss */
+/* line 30, ../components/sass/_styles_topnav.scss */
 .topnav .input-group-btn .btn-primary { background-color: #535353; border-color: #505050; }
-/* line 34, ../components/sass/_styles_topnav.scss */
+/* line 35, ../components/sass/_styles_topnav.scss */
 .topnav .toggle-drop .dropdown-menu { border: 0; border-radius: 0; box-shadow: none; top: 32px; z-index: 3; clear: both; float: none; display: none; width: 100%; }
-/* line 45, ../components/sass/_styles_topnav.scss */
+/* line 46, ../components/sass/_styles_topnav.scss */
 .topnav .toggle-drop .open .dropdown-menu { display: block; }
 
-@media (max-width: 767px) { /* line 52, ../components/sass/_styles_topnav.scss */
+@media (max-width: 767px) { /* line 53, ../components/sass/_styles_topnav.scss */
   .input-group.custom-search-form { padding-bottom: 10px; }
-  /* line 55, ../components/sass/_styles_topnav.scss */
-  .input-group { width: 100%; }
   /* line 56, ../components/sass/_styles_topnav.scss */
+  .input-group { width: 100%; }
+  /* line 57, ../components/sass/_styles_topnav.scss */
   a.btn.btn-primary.applybtn { width: 100%; margin-bottom: 10px; text-align: center; }
-  /* line 60, ../components/sass/_styles_topnav.scss */
+  /* line 61, ../components/sass/_styles_topnav.scss */
   a.btn.btn-primary.applybtn:hover { color: #fff; }
-  /* line 63, ../components/sass/_styles_topnav.scss */
+  /* line 64, ../components/sass/_styles_topnav.scss */
   ul.nav.navbar.navbar-nav.navbar-right { /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c7c3e+0,52a564+100 */ background: #797a73; /* Old browsers */ background: -moz-linear-gradient(top, #797a73 0%, #666 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(top, #797a73 0%, #666 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to bottom, #797a73 0%, #666666 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c7c3e', endColorstr='#52a564',GradientType=0 ); /* IE6-9 */ }
-  /* line 75, ../components/sass/_styles_topnav.scss */
-  .buffer-top { padding-top: 0; }
   /* line 76, ../components/sass/_styles_topnav.scss */
-  .nav .open > a, .nav .open > a:hover, .nav .open > a:focus { border-bottom: 0; }
+  .buffer-top { padding-top: 0; }
   /* line 77, ../components/sass/_styles_topnav.scss */
+  .nav .open > a, .nav .open > a:hover, .nav .open > a:focus { border-bottom: 0; }
+  /* line 78, ../components/sass/_styles_topnav.scss */
   .topnav-action { padding: 0; margin-bottom: 15px; }
-  /* line 81, ../components/sass/_styles_topnav.scss */
+  /* line 82, ../components/sass/_styles_topnav.scss */
   .topnav { padding: 0; margin: 0; margin-bottom: 25px; background: #d6d6d0; color: #797a73; }
-  /* line 91, ../components/sass/_styles_topnav.scss */
+  /* line 92, ../components/sass/_styles_topnav.scss */
   .topnav .btn { color: #fff; }
-  /* line 93, ../components/sass/_styles_topnav.scss */
+  /* line 94, ../components/sass/_styles_topnav.scss */
   .topnav .toggle-drop { margin-bottom: 0; }
-  /* line 95, ../components/sass/_styles_topnav.scss */
+  /* line 96, ../components/sass/_styles_topnav.scss */
   .topnav .toggle-drop .fa { display: none; }
-  /* line 101, ../components/sass/_styles_topnav.scss */
+  /* line 102, ../components/sass/_styles_topnav.scss */
   .topnav ul a { padding: 8px; border: 0; }
-  /* line 105, ../components/sass/_styles_topnav.scss */
+  /* line 106, ../components/sass/_styles_topnav.scss */
   .topnav .yamm { clear: both; padding: 0; margin-bottom: 10px; }
-  /* line 109, ../components/sass/_styles_topnav.scss */
-  .topnav .yamm p { margin: 0; }
   /* line 110, ../components/sass/_styles_topnav.scss */
+  .topnav .yamm p { margin: 0; }
+  /* line 111, ../components/sass/_styles_topnav.scss */
   .topnav .yamm .fa-caret-down { float: right; }
-  /* line 114, ../components/sass/_styles_topnav.scss */
+  /* line 115, ../components/sass/_styles_topnav.scss */
   .topnav .yamm .yamm-fw .dropdown-menu { background-color: #eeeeee; display: none; }
-  /* line 116, ../components/sass/_styles_topnav.scss */
-  .topnav .yamm .yamm-fw .dropdown-menu h2 { padding-top: 10px; margin: 0; font-size: 14px; font-weight: 600; }
   /* line 117, ../components/sass/_styles_topnav.scss */
+  .topnav .yamm .yamm-fw .dropdown-menu h2 { padding-top: 10px; margin: 0; font-size: 14px; font-weight: 600; }
+  /* line 118, ../components/sass/_styles_topnav.scss */
   .topnav .yamm .yamm-fw .dropdown-menu h2 a { padding: 0; color: #1c7c3e; font-size: 14px; }
-  /* line 121, ../components/sass/_styles_topnav.scss */
+  /* line 122, ../components/sass/_styles_topnav.scss */
   .topnav .yamm .yamm-fw .dropdown-menu > li > a:hover, .topnav .yamm .yamm-fw .dropdown-menu > li > a:focus { background: transparent; color: inherit; text-decoration: underline; }
-  /* line 130, ../components/sass/_styles_topnav.scss */
+  /* line 131, ../components/sass/_styles_topnav.scss */
   .topnav .yamm .yamm-fw.open p a { color: #1c7c3e; }
-  /* line 132, ../components/sass/_styles_topnav.scss */
-  .topnav .yamm .yamm-fw.open > a { background-color: #1c7c3e; color: #fff; border-top-color: #135229; }
   /* line 133, ../components/sass/_styles_topnav.scss */
+  .topnav .yamm .yamm-fw.open > a { background-color: #1c7c3e; color: #fff; border-top-color: #135229; }
+  /* line 134, ../components/sass/_styles_topnav.scss */
   .topnav .yamm .yamm-fw.open .dropdown-menu { display: block; }
-  /* line 140, ../components/sass/_styles_topnav.scss */
+  /* line 141, ../components/sass/_styles_topnav.scss */
   .topnav #navbar-collapse-1 .nav { width: 100%; margin: 0; border: 0; }
-  /* line 148, ../components/sass/_styles_topnav.scss */
+  /* line 149, ../components/sass/_styles_topnav.scss */
   .topnav a { color: inherit; }
-  /* line 152, ../components/sass/_styles_topnav.scss */
+  /* line 153, ../components/sass/_styles_topnav.scss */
   .topnav .btn { text-align: left; }
-  /* line 154, ../components/sass/_styles_topnav.scss */
+  /* line 155, ../components/sass/_styles_topnav.scss */
   .topnav .btn:hover, .topnav .btn:focus, .topnav .btn.focus { box-shadow: none; color: #ce812c; }
-  /* line 161, ../components/sass/_styles_topnav.scss */
+  /* line 162, ../components/sass/_styles_topnav.scss */
   .topnav .container-fluid { padding: 0; }
-  /* line 164, ../components/sass/_styles_topnav.scss */
+  /* line 165, ../components/sass/_styles_topnav.scss */
   .topnav ul.nav > li > a { font-size: 18px; font-weight: 600; padding: 8px 15px; }
-  /* line 171, ../components/sass/_styles_topnav.scss */
+  /* line 172, ../components/sass/_styles_topnav.scss */
   .topnav ul { display: block; }
-  /* line 173, ../components/sass/_styles_topnav.scss */
+  /* line 174, ../components/sass/_styles_topnav.scss */
   .topnav ul a { display: block; width: 100%; border-right: 0; }
-  /* line 182, ../components/sass/_styles_topnav.scss */
+  /* line 183, ../components/sass/_styles_topnav.scss */
   .topnav ul ul li > a { font-weight: 400; font-size: 16px; border-bottom: 0; }
-  /* line 185, ../components/sass/_styles_topnav.scss */
-  .topnav ul a.action { padding-left: 17px; color: #1c7c3e; font-size: 1rem; font-weight: 600; }
   /* line 186, ../components/sass/_styles_topnav.scss */
-  .topnav ul h3 { border-bottom: 0; font-weight: 600; margin-left: 0; font-size: 13px; padding-top: 15px; padding-bottom: 3px; text-transform: uppercase; margin-top: 0; }
+  .topnav ul a.action { padding-left: 17px; color: #1c7c3e; font-size: 1rem; font-weight: 600; }
   /* line 187, ../components/sass/_styles_topnav.scss */
+  .topnav ul h3 { border-bottom: 0; font-weight: 600; margin-left: 0; font-size: 13px; padding-top: 15px; padding-bottom: 3px; text-transform: uppercase; margin-top: 0; }
+  /* line 188, ../components/sass/_styles_topnav.scss */
   .topnav ul ul h3 a { color: #1c7c3e; font-size: 13px; border-bottom: 0; padding: 0; margin: 0; }
-  /* line 189, ../components/sass/_styles_topnav.scss */
-  .topnav .custom-inline-input { margin-top: 15px; }
   /* line 190, ../components/sass/_styles_topnav.scss */
+  .topnav .custom-inline-input { margin-top: 15px; }
+  /* line 191, ../components/sass/_styles_topnav.scss */
   .topnav .custom-inline-input .fa.fa-search { font-size: 1.7rem; }
-  /* line 197, ../components/sass/_styles_topnav.scss */
+  /* line 198, ../components/sass/_styles_topnav.scss */
   .topnav-action { font-size: 14px; width: 100%; clear: both; background: #ddddd5; width: 100%; margin: 0; display: none; }
-  /* line 208, ../components/sass/_styles_topnav.scss */
-  .mobile-heading { margin-left: 0; margin-right: 0; padding: 8px 15px; }
   /* line 209, ../components/sass/_styles_topnav.scss */
+  .mobile-heading { margin-left: 0; margin-right: 0; padding: 8px 15px; }
+  /* line 210, ../components/sass/_styles_topnav.scss */
   .mobile-heading img.logo { width: 120px; }
-  /* line 213, ../components/sass/_styles_topnav.scss */
+  /* line 214, ../components/sass/_styles_topnav.scss */
   .mobile-heading .sm { width: 220px; float: left; }
-  /* line 216, ../components/sass/_styles_topnav.scss */
+  /* line 217, ../components/sass/_styles_topnav.scss */
   .mobile-heading .sm svg { max-height: 38px; }
-  /* line 220, ../components/sass/_styles_topnav.scss */
+  /* line 221, ../components/sass/_styles_topnav.scss */
   .mobile-heading > div { padding-left: 0; padding-right: 0; } }
-@media (min-width: 768px) { /* line 230, ../components/sass/_styles_topnav.scss */
+@media (min-width: 768px) { /* line 231, ../components/sass/_styles_topnav.scss */
   .custom-inline-input .fa.fa-search { margin-top: 3px; }
-  /* line 233, ../components/sass/_styles_topnav.scss */
+  /* line 234, ../components/sass/_styles_topnav.scss */
   .mobile-heading { display: none; }
-  /* line 236, ../components/sass/_styles_topnav.scss */
+  /* line 237, ../components/sass/_styles_topnav.scss */
   .topnav-action { padding: 16px 10px 26px 10px; }
-  /* line 238, ../components/sass/_styles_topnav.scss */
+  /* line 239, ../components/sass/_styles_topnav.scss */
   .topnav input.form-query.form-control { border: 0; padding-top: 4px; padding-bottom: 4px; height: 30px; -webkit-box-shadow: none; box-shadow: none; }
-  /* line 248, ../components/sass/_styles_topnav.scss */
+  /* line 249, ../components/sass/_styles_topnav.scss */
   .topnav .input-group-btn a { font-size: 1rem; } }
 /* line 1, ../components/sass/_styles_header.scss */
 #header { position: relative; margin-top: -60px; background-color: #f2f2e8; width: 100%; padding: 0; }
@@ -4404,6 +4410,118 @@ table#indexcal td { border-bottom: 0; }
 @media (min-width: 1000px) { /* line 151, ../components/sass/_styles_subfeature.scss */
   .flex-items > .flex-item { width: 23%; } }
 /* events */
+/* line 1, ../components/sass/_styles_nav.scss */
+.nav > li > a > img { max-width: none; float: left; }
+
+/* line 6, ../components/sass/_styles_nav.scss */
+#left .custom-inline-input a { padding: 0 5px; }
+
+@media (min-width: 768px) { /* line 12, ../components/sass/_styles_nav.scss */
+  #expandme { display: none; }
+  /* line 13, ../components/sass/_styles_nav.scss */
+  #left { word-wrap: break-word; padding-top: 40px; }
+  /* line 16, ../components/sass/_styles_nav.scss */
+  #left ul { margin: 0; padding: 0; }
+  /* line 19, ../components/sass/_styles_nav.scss */
+  #left ul li { display: block; }
+  /* line 22, ../components/sass/_styles_nav.scss */
+  #left ul > li .btn { margin-bottom: 10px; }
+  /* line 23, ../components/sass/_styles_nav.scss */
+  #left ul > li .btn a { color: inherit; }
+  /* line 25, ../components/sass/_styles_nav.scss */
+  #left ul > li:last-child .btn { margin-bottom: 0; }
+  /* line 27, ../components/sass/_styles_nav.scss */
+  #left a { color: #6d6654; padding: 5px 0; display: block; }
+  /* line 33, ../components/sass/_styles_nav.scss */
+  #left h2, #left h3, #left p { color: #00355A; font-size: 14px; margin-top: 0; margin-bottom: 0; }
+  /* line 38, ../components/sass/_styles_nav.scss */
+  #left h2 a, #left h3 a, #left p a { color: inherit; }
+  /* line 42, ../components/sass/_styles_nav.scss */
+  #left p { color: #6d6654; }
+  /* line 45, ../components/sass/_styles_nav.scss */
+  #left h2 { font-size: 15px; }
+  /* ul borders between */
+  /* line 50, ../components/sass/_styles_nav.scss */
+  #left nav div > ul { border-bottom: 1px solid #ccc; clear: both; display: block; padding: 15px 0; content: ""; display: table; clear: both; width: 100%; }
+  /* line 60, ../components/sass/_styles_nav.scss */
+  #left nav div > ul:first-of-type { padding-top: 0; }
+  /* line 61, ../components/sass/_styles_nav.scss */
+  #left nav div > ul:last-of-type { border-bottom: 0; margin-bottom: 0; }
+  /* toggles */
+  /* line 67, ../components/sass/_styles_nav.scss */
+  #left nav ul > li.togopen, #left nav ul > li.opendrop, #left nav ul > li.drop { background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navon-h2.png"); background-position: right top; background-repeat: no-repeat; cursor: pointer; }
+  /* line 72, ../components/sass/_styles_nav.scss */
+  #left nav ul > li.togopen > a, #left nav ul > li.togopen > h3 a, #left nav ul > li.togopen > p a, #left nav ul > li.togopen > h2 a, #left nav ul > li.opendrop > a, #left nav ul > li.opendrop > h3 a, #left nav ul > li.opendrop > p a, #left nav ul > li.opendrop > h2 a, #left nav ul > li.drop > a, #left nav ul > li.drop > h3 a, #left nav ul > li.drop > p a, #left nav ul > li.drop > h2 a { font-weight: bold; width: 90%; }
+  /* line 77, ../components/sass/_styles_nav.scss */
+  #left nav ul > li.togopen ul, #left nav ul > li.opendrop ul, #left nav ul > li.drop ul { border-left: 1px dashed #ddddd5; content: ""; padding-left: 5px; display: table; clear: both; width: 100%; }
+  /* line 86, ../components/sass/_styles_nav.scss */
+  #left nav ul > li.drop { background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navoff-h2.png"); }
+  /* line 88, ../components/sass/_styles_nav.scss */
+  #left nav ul > li.drop ul { display: none; } }
+@media (max-width: 767px) { /* line 8, ../components/sass/_styles_mobilenav.scss */
+  #left nav .box-shadow-menu { padding: 5px 15px; font-weight: bold; cursor: pointer; background: #4ba4d8; color: #fff; border-top: 1px solid #00355A; }
+  /* line 16, ../components/sass/_styles_mobilenav.scss */
+  #menu-nav { display: none; }
+  /* line 24, ../components/sass/_styles_mobilenav.scss */
+  .mainnav { float: none; background: #363636; }
+  /* line 29, ../components/sass/_styles_mobilenav.scss */
+  #left nav ul { border-bottom: 1px solid #6d6654; clear: both; display: block; padding: 0; content: ""; display: table; width: 100%; }
+  /* line 38, ../components/sass/_styles_mobilenav.scss */
+  #left nav #expand_section > ul.nolink { padding: 15px 16px; }
+  /* line 42, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li:last-child { margin-bottom: 0; }
+  /* line 43, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li { margin-bottom: 1px; color: #fff; float: left; padding: 0; clear: both; display: block; width: 100%; }
+  /* line 51, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li a { color: #fff; display: block; }
+  /* line 56, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li form a { color: #333; }
+  /* line 57, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li form input { padding: 3px 5px; }
+  /* line 60, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li h2, #left nav div > ul li h3 { position: relative; padding-top: 5px; padding-bottom: 5px; padding-bottom: 0; margin-top: 0; color: #fff; font-size: 15px; text-transform: uppercase; display: inline-block; }
+  /* line 70, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li h2 a, #left nav div > ul li h3 a { padding-right: 20px !important; }
+  /* line 73, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li h2 a:before, #left nav div > ul li h2 a:after, #left nav div > ul li h3 a:before, #left nav div > ul li h3 a:after { border-right: 2px solid; content: ''; display: inline-block; height: 8px; margin-top: -6px; position: absolute; -moz-transform: rotate(135deg); -o-transform: rotate(135deg); -webkit-transform: rotate(135deg); transform: rotate(135deg); right: 10px; top: 50%; width: 0; }
+  /* line 88, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li h2 a:after, #left nav div > ul li h3 a:after { margin-top: -1px; -moz-transform: rotate(45deg); -o-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(45deg); }
+  /* line 95, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li h2 a:hover, #left nav div > ul li h2 a:focus, #left nav div > ul li h2 a:hover:before, #left nav div > ul li h2 a:hover:after, #left nav div > ul li h2 a:focus:before, #left nav div > ul li h2 a:focus:after, #left nav div > ul li h3 a:hover, #left nav div > ul li h3 a:focus, #left nav div > ul li h3 a:hover:before, #left nav div > ul li h3 a:hover:after, #left nav div > ul li h3 a:focus:before, #left nav div > ul li h3 a:focus:after { color: #f9bc24; }
+  /* line 99, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li > ul > li { padding: 0; }
+  /* line 106, ../components/sass/_styles_mobilenav.scss */
+  #left nav.mainnav ul li.opendrop1 ul li a, #left nav.mainnav ul li.opendrop ul li a { padding-left: 0; }
+  /* line 109, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section { display: none; }
+  /* line 111, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li { background: #000000; }
+  /* line 113, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li > a, #left #expand_section li > * > a { padding: 10px 10px 10px 14px; }
+  /* line 117, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li > ul > li { background: #333333; }
+  /* line 119, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li > ul > li > ul > li { background: #666666; }
+  /* line 121, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li > ul > li > ul > li > ul > li { background: #999999; }
+  /* line 123, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li > ul > li > ul > li > ul > li > ul > li { background: #cccccc; }
+  /* line 129, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li > .btn { width: 100%; text-align: left; border-radius: 0; border-top: 1px solid #00355A; border-bottom: 1px solid #2792f1; margin: 0; margin-top: -1px; }
+  /* line 140, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li.togopen1, #left #expand_section li.drop, #left #expand_section li.opendrop, #left #expand_section ul li.togopen, #left #expand_section ul li.opendrop { background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navon5l-alt2.png"); background-position: right top; background-repeat: no-repeat; cursor: pointer; font-weight: bold !important; margin-top: 0; }
+  /* line 149, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li.opendrop > a { display: inline-block; clear: both; }
+  /* line 150, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li.drop { background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navoff5l-alt2.png"); padding-right: 50px; }
+  /* line 156, ../components/sass/_styles_mobilenav.scss */
+  #left nav ul { list-style: none; font-weight: normal; }
+  /* line 159, ../components/sass/_styles_mobilenav.scss */
+  #left nav ul li { list-style: none; font-weight: normal; }
+  /* line 163, ../components/sass/_styles_mobilenav.scss */
+  #left nav ul li ul { display: none; width: 100%; }
+  /* line 169, ../components/sass/_styles_mobilenav.scss */
+  #left nav * { padding: 0; margin: 0; } }
 /* line 1, ../components/sass/_styles_megamenu.scss */
 nav { clear: both; text-shadow: 1px 1px 1px #fff; top: 0; position: relative; }
 /* line 6, ../components/sass/_styles_megamenu.scss */
@@ -4531,9 +4649,9 @@ nav h3 { font-size: 0.9rem; }
 @media (min-width: 768px) and (max-width: 850px) { /* line 325, ../components/sass/_styles_megamenu.scss */
   .nav > li > a { padding: 15px 4px; font-size: .82rem; line-height: .82rem; } }
 /* line 3, ../components/sass/_styles_mega-mobilenav.scss */
-.menu-button { display: inline-block; padding: .5em; }
+.menu-button { display: inline-block; }
 
-/* line 9, ../components/sass/_styles_mega-mobilenav.scss */
+/* line 8, ../components/sass/_styles_mega-mobilenav.scss */
 .burger-icon { position: relative; margin-top: 8px; margin-bottom: 8px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 /* line 27, ../components/sass/mixins/_burger.scss */
 .burger-icon, .burger-icon:before, .burger-icon:after { display: block; width: 20px; height: 3px; background-color: #797a73; -webkit-transition-property: background-color, -webkit-transform; -moz-transition-property: background-color, -moz-transform; -o-transition-property: background-color, -o-transform; transition-property: background-color, transform; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
@@ -4544,7 +4662,7 @@ nav h3 { font-size: 0.9rem; }
 /* line 60, ../components/sass/mixins/_burger.scss */
 .burger-icon:after { top: 8px; }
 
-/* line 12, ../components/sass/_styles_mega-mobilenav.scss */
+/* line 11, ../components/sass/_styles_mega-mobilenav.scss */
 a#menu-nav { padding-top: 16px; }
 
 /* line 94, ../components/sass/mixins/_burger.scss */
@@ -4554,25 +4672,25 @@ a#menu-nav { padding-top: 16px; }
 /* line 106, ../components/sass/mixins/_burger.scss */
 .mobile-active .burger-icon:after { -webkit-transform: translateY(-8px) rotate(-45deg); -moz-transform: translateY(-8px) rotate(-45deg); -ms-transform: translateY(-8px) rotate(-45deg); -o-transform: translateY(-8px) rotate(-45deg); transform: translateY(-8px) rotate(-45deg); }
 
-@media (max-width: 767px) { /* line 21, ../components/sass/_styles_mega-mobilenav.scss */
+@media (max-width: 767px) { /* line 20, ../components/sass/_styles_mega-mobilenav.scss */
   .dropdown-menu { -moz-border-radius: 0 0 0 0; -webkit-border-radius: 0; border-radius: 0 0 0 0; }
-  /* line 23, ../components/sass/_styles_mega-mobilenav.scss */
+  /* line 22, ../components/sass/_styles_mega-mobilenav.scss */
   #yamm-placeholder { display: none; }
-  /* line 27, ../components/sass/_styles_mega-mobilenav.scss */
+  /* line 26, ../components/sass/_styles_mega-mobilenav.scss */
   .topnav-action > .container { padding-left: 0; padding-right: 0; }
-  /* line 29, ../components/sass/_styles_mega-mobilenav.scss */
+  /* line 28, ../components/sass/_styles_mega-mobilenav.scss */
   .yamm .fa-caret-right { display: inline-block; }
-  /* line 30, ../components/sass/_styles_mega-mobilenav.scss */
+  /* line 29, ../components/sass/_styles_mega-mobilenav.scss */
   .yamm .yamm-fw > a { border-top: 1px solid #fff; color: #fff; text-shadow: none; font-weight: 400; }
-  /* line 37, ../components/sass/_styles_mega-mobilenav.scss */
+  /* line 36, ../components/sass/_styles_mega-mobilenav.scss */
   .yamm .yamm-content { padding: 0; }
-  /* line 40, ../components/sass/_styles_mega-mobilenav.scss */
+  /* line 39, ../components/sass/_styles_mega-mobilenav.scss */
   .yamm .yamm-content a:focus, .yamm .yamm-content a:hover { color: inherit; text-decoration: underline; }
-  /* line 47, ../components/sass/_styles_mega-mobilenav.scss */
+  /* line 46, ../components/sass/_styles_mega-mobilenav.scss */
   .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus { text-decoration: underline; }
-  /* line 51, ../components/sass/_styles_mega-mobilenav.scss */
+  /* line 50, ../components/sass/_styles_mega-mobilenav.scss */
   .nav > li > a:hover, .nav > li > a:focus { text-decoration: underline; }
-  /* line 55, ../components/sass/_styles_mega-mobilenav.scss */
+  /* line 54, ../components/sass/_styles_mega-mobilenav.scss */
   .nav > #menu-nav > a:hover, .nav > #menu-nav > a:focus { text-decoration: none; } }
 /* line 1, ../components/sass/_styles_inlineinput.scss */
 .custom-inline-input { margin: 0; padding: 0; }

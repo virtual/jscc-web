@@ -31,36 +31,10 @@ hr {
     clear: both
 }
 
-#content {
-    float: right;
-    display: inline;
-    width: 100%;
-    min-height: 470px;
-    margin-bottom: 50px;
-    margin-top: 24px;
-}
+ 
 
-#sidenav+#content {
-    width: 717px
-}
-
-.noside #content {
-    width: 950px;
-    min-height: 470px;
-    margin-bottom: 50px
-}
-
-#content p {
-    font-size: 1.4em;
-    line-height: 1.8em;
-    font-weight: normal;
-}
-
-#content h1+p,
-#content h1+div#subnav+p,
-#content h1+h2+p {
-    font-size: 1.5em;
-}
+ 
+  
 
 #content a:link,
 #content a:visited {
@@ -70,20 +44,15 @@ hr {
 
 #content ul,
 #content ol {
-    font-size: 1.3em;
+//    font-size: 1.3em;
     margin-left: 2em
 }
-
-#content ul p,
-#content ol p {
-    font-size: 1em
-}
-
+ 
 #content ul ul,
 #content ol ol,
 #content ul ol,
 #content ol ul {
-    font-size: 1em;
+   // font-size: 1em;
     margin-left: 2em
 }
 
@@ -95,15 +64,12 @@ hr {
     list-style: decimal outside
 }
 
-#content li {
-    margin-bottom: 1em;
-    line-height: 1.3em
-}
+ 
 
 #content address {
     font-size: 1.3em;
     line-height: 1.6em;
-    background: url(/_resources/images/letter.png) no-repeat left top;
+    background: url(./_resources/images/letter.png) no-repeat left top;
     padding-left: 60px
 }
 
@@ -114,7 +80,7 @@ hr {
 #content dt {
     font-size: 1.5em;
     font-weight: bold;
-    background-image: url(/_resources/images/icons/roundarrow.png);
+    background-image: url(./_resources/images/icons/roundarrow.png);
     background-repeat: no-repeat;
     background-position: 0 center;
     padding-left: 16px;

@@ -1,102 +1,93 @@
 .nav > li > a > img {
-    max-width: none;
-    float: left;
+  max-width: none;
+  float: left;
 }
-
 #left {
-    .custom-inline-input a {
-        padding: 0 5px;
+  .custom-inline-input a {
+      padding: 0 5px;
     }
 }
 
 @media (min-width: $screen-sm-min) {
-    #expandme {
-        display: none;
-    }
-    #left {
-        word-wrap: break-word;
-        padding-top: 10px;
-        ul {
-            margin: 0;
-            padding: 0;
-            li {
-                display: block;
-            }
-            >li .btn {
-                margin-bottom: 10px;
-            }
-            >li:last-child .btn {
-                margin-bottom: 0;
-            }
-        }
-        a {
-            color: $color-heathergrey;
-            padding: 5px 0;
-            display: block;
-        }
-        h2,
-        h3,
-        p {
-            color: $color-blue;
-            font-size: 14px;
-            margin-top: 0;
-            margin-bottom: 0;
-            a {
-                color: inherit;
-            }
-        }
-        p {
-            color: $color-heathergrey;
-        }
-        h2 {
-            font-size: 15px;
-        }
-    }
-    /* ul borders between */
-    #left nav div > ul {
-        border-bottom: 1px solid #ccc;
-        clear: both;
+  #expandme { display:none;}
+  #left {
+    word-wrap: break-word;
+    padding-top: 40px;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
         display: block;
-        padding: 15px 0;
+      }
+      >li .btn { margin-bottom:10px; 
+        a { color:inherit}
+      }
+      >li:last-child .btn { margin-bottom:0;}
+    }
+    a {
+      color: $color-heathergrey;
+      padding: 5px 0;
+      display: block;
+    }
+    
+    h2, h3, p {
+      color: $color-blue;
+      font-size: 14px;
+      margin-top: 0;
+      margin-bottom: 0;
+      a {
+        color: inherit;
+      }
+    }
+    p {
+      color: $color-heathergrey;
+    }
+    h2 {
+      font-size: 15px;
+    }
+  }
+  /* ul borders between */
+  #left nav div > ul {
+    border-bottom: 1px solid #ccc;
+    clear: both;
+    display: block;
+    padding: 15px 0;
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+  }
+    #left nav div > ul:first-of-type { padding-top:0;}
+  #left nav div > ul:last-of-type {
+    border-bottom: 0; 
+    margin-bottom:0;
+  }
+  /* toggles */
+  #left nav ul {
+    > li.togopen, > li.opendrop, > li.drop {
+      background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navon-h2.png");
+      background-position: right top;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      > a, > h3 a, > p a, > h2 a {
+        font-weight: bold;
+        width: 90%;
+      }
+      
+      ul {
+        border-left: 1px dashed $color-grey;
         content: "";
+        padding-left: 5px;
         display: table;
         clear: both;
         width: 100%;
+      }
     }
-    #left nav div > ul:last-of-type {
-        border-bottom: 0;
-        margin-bottom: 0;
+    > li.drop {
+      background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navoff-h2.png");
+      ul {
+        display: none;
+      }
     }
-    /* toggles */
-    #left nav ul {
-        > li.togopen,
-        > li.opendrop,
-        > li.drop {
-            background-image: url("./resources/images/structure/nav/navon-h2.png");
-            background-position: right top;
-            background-repeat: no-repeat;
-            cursor: pointer;
-            > a,
-            > h3 a,
-            > p a,
-            > h2 a {
-                //font-weight: bold;
-                width: 90%;
-            }
-            ul {
-                border-left: 1px dashed $color-grey;
-                content: "";
-                padding-left: 5px;
-                display: table;
-                clear: both;
-                width: 100%;
-            }
-        }
-        > li.drop {
-            background-image: url("./resources/images/structure/nav/navoff-h2.png");
-            ul {
-                display: none;
-            }
-        }
-    }
+  }
 }

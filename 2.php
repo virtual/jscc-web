@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jackson State Community College</title>
+    <title>Subsection | Jackson State Community College</title>
     <link href="css/legacy.css?v=4" rel="stylesheet" />
     <link href="css/styles.css?v=4" rel="stylesheet" />
-    
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet" />  
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="theme-color" content="#006401" />
@@ -36,36 +37,52 @@
         })();
     </script>
 </head>
+
 <body>
     <?php include ('include-header.php'); ?>
-    
 
-    <?php include ('include-slider.php'); ?>
-    
-    <div class="wrapper background-grey clearfix">
+
+
+
+
+
         <div class="container">
-            <?php include ('include-subfeature.php'); ?>
-        </div>
-    </div>
-   
-    <main class="container" role="main">
-        <div class="row">
-            <div class="col-sm-6">
-                <?php include ('include-news.php'); ?>
-            </div>
-            <div class="col-sm-6">
-                <?php include ('include-events.php'); ?>
-            </div>
-            
-        </div>
-       
-    </main>
- 
+            <div class="row">
+                <aside class="col-sm-3" id="left">
+                    <div class="sidenav-background">
+                        <div class="sidenav">
+                            <?php
+					include ('include-sidenav.php');
+                    ?>
 
-<?php include ('include-prefooter.php'); ?>
-<?php include ('include-footer.php'); ?>
+                        </div>
+                    </div>
+                </aside>
+                <main id="content" role="main" class="col-sm-9">
+                    <div id="breadcrumbs"><span><a href="/">Home</a></span>&nbsp;&gt;&nbsp;<span><a href="/academics/">Academics</a></span>&nbsp;&gt;&nbsp;<span><a href="/academics/areas/">Focus Areas</a></span>&nbsp;&gt;&nbsp;Applied Technology
+                    </div>
+                    <div class="page-title">
+                        <h1>Applied Technology</h1>
+                    </div>
+                    <div class="row">
 
-  
-<script src="scripts/script.js"></script>
+                        <div class="page-content has-side-content col-sm-12">
+                            <!-- example content -->
+                            <?php include('include-content.php'); ?>
+                        </div>
+                        
+                    </div>
+
+                </main>
+            </div>
+        </div>
+
+
+        <?php include ('include-prefooter.php'); ?>
+            <?php include ('include-footer.php'); ?>
+
+
+                <script src="scripts/script.js"></script>
 </body>
+
 </html>
