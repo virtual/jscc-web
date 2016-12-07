@@ -10,7 +10,16 @@
             <li>
                 <h2>Focus Areas Menu</h2>
             </li>
-            <ul><li><a href="/academics/areas/applied-tech.html">Applied Technology</a></li><li><a href="/academics/areas/business.html">Business</a></li><li><a href="/academics/areas/education.html">Education</a></li><li><a href="/academics/areas/general-studies.html">General Studies</a></li><li><a href="/academics/areas/health.html">Health Interest</a></li><li><a href="/academics/areas/humanities.html">Humanities</a></li><li><a href="/academics/areas/social-sciences.html">Social Sciences</a></li><li><a href="/academics/areas/stem.html">STEM</a></li></ul>
+            <ul>
+                <li><a href="/academics/areas/applied-tech.html">Applied Technology</a></li>
+                <li><a href="/academics/areas/business.html">Business</a></li>
+                <li><a href="/academics/areas/education.html">Education</a></li>
+                <li><a href="/academics/areas/general-studies.html">General Studies</a></li>
+                <li><a href="/academics/areas/health.html">Health Interest</a></li>
+                <li><a href="/academics/areas/humanities.html">Humanities</a></li>
+                <li><a href="/academics/areas/social-sciences.html">Social Sciences</a></li>
+                <li><a href="/academics/areas/stem.html">STEM</a></li>
+            </ul>
         </ul>
     </div>
 </nav>

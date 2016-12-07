@@ -18,33 +18,39 @@
       padding: 0;
       li {
         display: block;
+          
       }
       >li .btn { margin-bottom:10px; 
         a { color:inherit}
       }
       >li:last-child .btn { margin-bottom:0;}
     }
+     
     a {
+        font-size: .95rem;
       color: $color-heathergrey;
-      padding: 5px 0;
+      padding: .7em 0;
+        border-bottom: 1px solid #6699A6;
+        text-decoration: none;
       display: block;
-    }
+        &:hover, &:active {
+            color: #000;
+            background: url('../_resources/images/backgrounds/sidenavgrad.jpg') repeat-y top right #c5d1d4; 
+        }
     
-    h2, h3, p {
-      color: $color-blue;
-      font-size: 14px;
+    }
+      li:last-child a { border-bottom: 0}
+    
+    h2, h3 {
+      font-family: $font-family-serif;
+      font-size: 1.3rem;
       margin-top: 0;
-      margin-bottom: 0;
+      margin-bottom: 15px;
       a {
         color: inherit;
       }
     }
-    p {
-      color: $color-heathergrey;
-    }
-    h2 {
-      font-size: 15px;
-    }
+    
   }
   /* ul borders between */
   #left nav div > ul {
@@ -62,32 +68,5 @@
     border-bottom: 0; 
     margin-bottom:0;
   }
-  /* toggles */
-  #left nav ul {
-    > li.togopen, > li.opendrop, > li.drop {
-      background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navon-h2.png");
-      background-position: right top;
-      background-repeat: no-repeat;
-      cursor: pointer;
-      > a, > h3 a, > p a, > h2 a {
-        font-weight: bold;
-        width: 90%;
-      }
-      
-      ul {
-        border-left: 1px dashed $color-grey;
-        content: "";
-        padding-left: 5px;
-        display: table;
-        clear: both;
-        width: 100%;
-      }
-    }
-    > li.drop {
-      background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navoff-h2.png");
-      ul {
-        display: none;
-      }
-    }
-  }
+  
 }
