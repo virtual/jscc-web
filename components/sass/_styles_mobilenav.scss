@@ -144,6 +144,44 @@ $level5bg : lighten($level4bg, 20%);
                 } 
             }
            
+            
+            
+            
+
+            li.togopen1, li.drop, li.opendrop, ul li.togopen, ul li.opendrop {
+                //background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navon5l-alt2.png");
+                background-position: right top;
+                background-repeat: no-repeat;
+                cursor: pointer;
+                //font-weight: bold !important;
+                margin-top:0;
+                //margin-bottom:0
+            }
+            li.opendrop > a { display:inline-block; clear:both;}
+            li.drop {
+                //background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navoff5l-alt2.png");
+                //padding-right: 50px; //touch area for toggle
+            }
+            
+           li.togopen1, li.drop, li.opendrop, ul li.togopen, ul li.opendrop {
+               &:before {
+                content: "+";
+                float: right;
+                padding: 10px 20px;
+                font-size: 22px;
+                font-weight: 900;
+                }
+               
+            }
+            li.drop:hover:before {  color:$brand-primary !important; }
+            li.opendrop {
+                &:before {
+                content: "\2212" !important;
+                    color: $brand-primary;
+                }
+                > a {color: $brand-primary; }
+                
+            }
         }
         nav {
             ul {
@@ -172,5 +210,8 @@ $level5bg : lighten($level4bg, 20%);
         min-width: 50px;
         text-align: right;
     }
-    .sidenav-background { display: inline-block;}
+    .sidenav-background { 
+        // uncomment if you don't want full-width mobile nav (left)
+        //display: inline-block;
+    }
 }

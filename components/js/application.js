@@ -33,6 +33,12 @@ $(document).ready(function() {
 		event.stopPropagation();
 	});
     
+    ($('nav.mainnav li').has('ul')).each(function() {
+		$(this).addClass("drop");
+		$(".exnav>li:has(ul)>a").css("display", "block");
+		$(this).show("fast");
+	});
+    
     
     /* Menu accessibility for Enter */
     $('.dropdown > a[tabindex]').keydown(function(event) {
