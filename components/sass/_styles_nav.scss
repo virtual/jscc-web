@@ -1,101 +1,135 @@
 .nav > li > a > img {
-  max-width: none;
-  float: left;
+    max-width: none;
+    float: left;
 }
+
 #left {
-  .custom-inline-input a {
-      padding: 0 5px;
+    .custom-inline-input a {
+        padding: 0 5px;
     }
 }
 
 @media (min-width: $screen-sm-min) {
-  #expandme { display:none;}
-  #left {
-    word-wrap: break-word;
-    padding-top: 40px;
-    ul {
-      margin: 0;
-      padding: 0;
-      li {
-        display: block;
-          
-      }
-      >li .btn { margin-bottom:10px; 
-        a { color:inherit}
-      }
-      >li:last-child .btn { margin-bottom:0;}
+    #expandme {
+        display: none;
     }
-     
-    a {
-        font-size: .95rem;
-      color: $color-heathergrey;
-      padding: .7em 0;
-        border-bottom: 1px solid #6699A6;
-        text-decoration: none;
-      display: block;
-        &:hover, &:active {
-            color: #000;
-            background: url('../_resources/images/backgrounds/sidenavgrad.jpg') repeat-y top right #c5d1d4; 
+    #left {
+        word-wrap: break-word;
+        padding-top: 40px;
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                display: block;
+            }
+            >li .btn {
+                margin-bottom: 10px;
+                a {
+                    color: inherit
+                }
+            }
+            >li:last-child .btn {
+                margin-bottom: 0;
+            }
         }
-    
+        a {
+            font-size: .95rem;
+            color: $color-heathergrey;
+            padding: .7em 0;
+            border-top: 1px solid #6699A6;
+            text-decoration: none;
+            display: block;
+            &:hover,
+            &:active {
+                color: #000;
+                background: url('../_resources/images/backgrounds/sidenavgrad.jpg') repeat-y top right #c5d1d4;
+            }
+        }
+        li:first-child a {
+            border-top: 0
+        }
+        h2,
+        h3 {
+            font-family: $font-family-serif;
+            font-size: 1.3rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+            a {
+                color: inherit;
+            }
+        }
     }
-      li:last-child a { border-bottom: 0}
-    
-    h2, h3 {
-      font-family: $font-family-serif;
-      font-size: 1.3rem;
-      margin-top: 0;
-      margin-bottom: 15px;
-      a {
-        color: inherit;
-      }
-    }
-    
-  }
-  /* ul borders between */
-  #left nav div > ul {
-    border-bottom: 1px solid #ccc;
-    clear: both;
-    display: block;
-    padding: 15px 0;
-    content: "";
-    display: table;
-    clear: both;
-    width: 100%;
-  }
-    #left nav div > ul:first-of-type { padding-top:0;}
-  #left nav div > ul:last-of-type {
-    border-bottom: 0; 
-    margin-bottom:0;
-  }
-  
-    
-    /* toggles */
-  #left nav ul {
-    > li.togopen, > li.opendrop, > li.drop {
-      background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navon-h2.png");
-      background-position: right top;
-      background-repeat: no-repeat;
-      cursor: pointer;
-      > a, > h3 a, > p a, > h2 a {
-        font-weight: bold;
-        width: 90%;
-      }
-      
-      ul {
-        border-left: 1px dashed $color-grey;
+    /* ul borders between */
+    #left nav div > ul {
+        border-bottom: 1px solid #ccc;
+        clear: both;
+        display: block;
+        padding: 15px 0;
         content: "";
-        padding-left: 5px;
         display: table;
         clear: both;
         width: 100%;
-      }
     }
-    > li.drop {
-      background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navoff-h2.png");
-      ul {
-        display: none;
-      }
+    #left nav div > ul:first-of-type {
+        padding-top: 0;
     }
-  }
+    #left nav div > ul:last-of-type {
+        border-bottom: 0;
+        margin-bottom: 0;
+    }
+    /* toggles */
+    #left nav ul {
+        > li.togopen,
+        > li.opendrop,
+        > li.drop {
+            cursor: pointer;
+            > a,
+            > h3 a,
+            > p a,
+            > h2 a {
+                //font-weight: bold;
+                width: 100%;
+            }
+            ul {
+                display: table;
+                clear: both;
+                width: 100%;
+            }
+        }
+        > li.drop {
+            ul {
+                display: none;
+            }
+        }
+    }
+    li.togopen1,
+    li.drop,
+    li.opendrop,
+    ul li.togopen,
+    ul li.opendrop {
+        &:before {
+            font-family: FontAwesome;
+            content: "\f0da";
+            float: right;
+            color: #6699A6;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: 900;
+        }
+    }
+     #left li.opendrop >a { color:#6699a6}
+    li.opendrop {
+        &:before {
+            content: "\f0d7" !important;
+        }
+        
+    }
+    #left li.opendrop>ul {
+        border-top: 0;
+        a {
+            border-top: 0;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
 }

@@ -4413,51 +4413,59 @@ table#indexcal td { border-bottom: 0; }
 /* line 1, ../components/sass/_styles_nav.scss */
 .nav > li > a > img { max-width: none; float: left; }
 
-/* line 6, ../components/sass/_styles_nav.scss */
+/* line 7, ../components/sass/_styles_nav.scss */
 #left .custom-inline-input a { padding: 0 5px; }
 
-@media (min-width: 768px) { /* line 12, ../components/sass/_styles_nav.scss */
+@media (min-width: 768px) { /* line 13, ../components/sass/_styles_nav.scss */
   #expandme { display: none; }
-  /* line 13, ../components/sass/_styles_nav.scss */
-  #left { word-wrap: break-word; padding-top: 40px; }
   /* line 16, ../components/sass/_styles_nav.scss */
-  #left ul { margin: 0; padding: 0; }
+  #left { word-wrap: break-word; padding-top: 40px; }
   /* line 19, ../components/sass/_styles_nav.scss */
+  #left ul { margin: 0; padding: 0; }
+  /* line 22, ../components/sass/_styles_nav.scss */
   #left ul li { display: block; }
-  /* line 23, ../components/sass/_styles_nav.scss */
+  /* line 25, ../components/sass/_styles_nav.scss */
   #left ul > li .btn { margin-bottom: 10px; }
-  /* line 24, ../components/sass/_styles_nav.scss */
+  /* line 27, ../components/sass/_styles_nav.scss */
   #left ul > li .btn a { color: inherit; }
-  /* line 26, ../components/sass/_styles_nav.scss */
+  /* line 31, ../components/sass/_styles_nav.scss */
   #left ul > li:last-child .btn { margin-bottom: 0; }
-  /* line 29, ../components/sass/_styles_nav.scss */
-  #left a { font-size: .95rem; color: #6d6654; padding: .7em 0; border-bottom: 1px solid #6699A6; text-decoration: none; display: block; }
-  /* line 36, ../components/sass/_styles_nav.scss */
-  #left a:hover, #left a:active { color: #000; background: url("../_resources/images/backgrounds/sidenavgrad.jpg") repeat-y top right #c5d1d4; }
+  /* line 35, ../components/sass/_styles_nav.scss */
+  #left a { font-size: .95rem; color: #6d6654; padding: .7em 0; border-top: 1px solid #6699A6; text-decoration: none; display: block; }
   /* line 42, ../components/sass/_styles_nav.scss */
-  #left li:last-child a { border-bottom: 0; }
-  /* line 44, ../components/sass/_styles_nav.scss */
+  #left a:hover, #left a:active { color: #000; background: url("../_resources/images/backgrounds/sidenavgrad.jpg") repeat-y top right #c5d1d4; }
+  /* line 48, ../components/sass/_styles_nav.scss */
+  #left li:first-child a { border-top: 0; }
+  /* line 51, ../components/sass/_styles_nav.scss */
   #left h2, #left h3 { font-family: "Droid Serif", Georgia, Times, serif; font-size: 1.3rem; margin-top: 0; margin-bottom: 15px; }
-  /* line 49, ../components/sass/_styles_nav.scss */
+  /* line 57, ../components/sass/_styles_nav.scss */
   #left h2 a, #left h3 a { color: inherit; }
   /* ul borders between */
-  /* line 56, ../components/sass/_styles_nav.scss */
+  /* line 63, ../components/sass/_styles_nav.scss */
   #left nav div > ul { border-bottom: 1px solid #ccc; clear: both; display: block; padding: 15px 0; content: ""; display: table; clear: both; width: 100%; }
-  /* line 66, ../components/sass/_styles_nav.scss */
+  /* line 73, ../components/sass/_styles_nav.scss */
   #left nav div > ul:first-of-type { padding-top: 0; }
-  /* line 67, ../components/sass/_styles_nav.scss */
+  /* line 76, ../components/sass/_styles_nav.scss */
   #left nav div > ul:last-of-type { border-bottom: 0; margin-bottom: 0; }
   /* toggles */
-  /* line 75, ../components/sass/_styles_nav.scss */
-  #left nav ul > li.togopen, #left nav ul > li.opendrop, #left nav ul > li.drop { background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navon-h2.png"); background-position: right top; background-repeat: no-repeat; cursor: pointer; }
-  /* line 80, ../components/sass/_styles_nav.scss */
-  #left nav ul > li.togopen > a, #left nav ul > li.togopen > h3 a, #left nav ul > li.togopen > p a, #left nav ul > li.togopen > h2 a, #left nav ul > li.opendrop > a, #left nav ul > li.opendrop > h3 a, #left nav ul > li.opendrop > p a, #left nav ul > li.opendrop > h2 a, #left nav ul > li.drop > a, #left nav ul > li.drop > h3 a, #left nav ul > li.drop > p a, #left nav ul > li.drop > h2 a { font-weight: bold; width: 90%; }
-  /* line 85, ../components/sass/_styles_nav.scss */
-  #left nav ul > li.togopen ul, #left nav ul > li.opendrop ul, #left nav ul > li.drop ul { border-left: 1px dashed #ddddd5; content: ""; padding-left: 5px; display: table; clear: both; width: 100%; }
-  /* line 94, ../components/sass/_styles_nav.scss */
-  #left nav ul > li.drop { background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navoff-h2.png"); }
-  /* line 96, ../components/sass/_styles_nav.scss */
-  #left nav ul > li.drop ul { display: none; } }
+  /* line 82, ../components/sass/_styles_nav.scss */
+  #left nav ul > li.togopen, #left nav ul > li.opendrop, #left nav ul > li.drop { cursor: pointer; }
+  /* line 86, ../components/sass/_styles_nav.scss */
+  #left nav ul > li.togopen > a, #left nav ul > li.togopen > h3 a, #left nav ul > li.togopen > p a, #left nav ul > li.togopen > h2 a, #left nav ul > li.opendrop > a, #left nav ul > li.opendrop > h3 a, #left nav ul > li.opendrop > p a, #left nav ul > li.opendrop > h2 a, #left nav ul > li.drop > a, #left nav ul > li.drop > h3 a, #left nav ul > li.drop > p a, #left nav ul > li.drop > h2 a { width: 100%; }
+  /* line 93, ../components/sass/_styles_nav.scss */
+  #left nav ul > li.togopen ul, #left nav ul > li.opendrop ul, #left nav ul > li.drop ul { display: table; clear: both; width: 100%; }
+  /* line 100, ../components/sass/_styles_nav.scss */
+  #left nav ul > li.drop ul { display: none; }
+  /* line 110, ../components/sass/_styles_nav.scss */
+  li.togopen1:before, li.drop:before, li.opendrop:before, ul li.togopen:before, ul li.opendrop:before { font-family: FontAwesome; content: "\f0da"; float: right; color: #6699A6; padding: 10px 20px; font-size: 18px; font-weight: 900; }
+  /* line 120, ../components/sass/_styles_nav.scss */
+  #left li.opendrop > a { color: #6699a6; }
+  /* line 122, ../components/sass/_styles_nav.scss */
+  li.opendrop:before { content: "\f0d7" !important; }
+  /* line 127, ../components/sass/_styles_nav.scss */
+  #left li.opendrop > ul { border-top: 0; }
+  /* line 129, ../components/sass/_styles_nav.scss */
+  #left li.opendrop > ul a { border-top: 0; padding-left: 10px; padding-right: 10px; } }
 @media (max-width: 767px) { /* line 8, ../components/sass/_styles_mobilenav.scss */
   #left nav .box-shadow-menu { padding: 5px 15px; font-weight: bold; cursor: pointer; background: #b7dbac; color: #1c7c3e; border: 1px solid #1c7c3e; }
   /* line 16, ../components/sass/_styles_mobilenav.scss */
