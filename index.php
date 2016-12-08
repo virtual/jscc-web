@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Jackson State Community College</title>
-    <link href="css/legacy.css?v=4" rel="stylesheet" />
-    <link href="css/styles.css?v=4" rel="stylesheet" />
+    <link href="css/legacy.css?v=5" rel="stylesheet" />
+    <link href="css/styles.css?v=5" rel="stylesheet" />
     
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet" />  
     <meta name="description" content="" />

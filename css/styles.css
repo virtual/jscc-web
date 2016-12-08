@@ -5260,11 +5260,11 @@ table.noborder, table.noborder td { border: 0; background: transparent; backgrou
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print { /* line 8, ../components/sass/_styles_print.scss */
-  .mobile-heading, .breadcrumb, .pre-footer-social { display: none; }
+  .mobile-heading, .breadcrumb, .pre-footer-social, #left, #expand_section { display: none; }
   /* line 13, ../components/sass/_styles_print.scss */
   #header, #banner { display: block !important; }
   /* line 17, ../components/sass/_styles_print.scss */
-  .page-title-background h1, h1 { font-size: 2.5rem; padding: 10px 15px; text-align: left; margin-top: 0; margin-bottom: 0; line-height: 2.5rem; }
+  .page-title-background h1, h1 { font-size: 2.5rem; padding: 10px 0; text-align: left; margin-top: 0; margin-bottom: 0; line-height: 2.5rem; }
   /* line 26, ../components/sass/_styles_print.scss */
   .alert-message, .main-banner { display: none; }
   /* line 30, ../components/sass/_styles_print.scss */
