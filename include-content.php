@@ -19,9 +19,7 @@
             <li>Aliquam tincidunt mauris eu risus.</li>
         </ol>
 
-        <blockquote>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p>
-        </blockquote>
+        
 
         <h3>Header Level 3</h3>
 
@@ -30,13 +28,7 @@
             <li>Aliquam tincidunt mauris eu risus.</li>
         </ul>
 
-        <pre><code>
-                    #header h1 a { 
-                        display: block; 
-                        width: 300px; 
-                        height: 80px; 
-                    }
-                    </code></pre>
+        
     </div>
       <div class="col-sm-4">
         <ul>
