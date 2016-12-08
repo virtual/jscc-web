@@ -4470,7 +4470,7 @@ table#indexcal td { border-bottom: 0; }
   /* line 129, ../components/sass/_styles_nav.scss */
   #left li.opendrop > ul a { border-top: 0; padding-left: 10px; padding-right: 10px; }
   /* line 136, ../components/sass/_styles_nav.scss */
-  #expand_section ul ul ul { display: none; } }
+  #expand_section ul ul { display: none; } }
 @media (max-width: 767px) { /* line 8, ../components/sass/_styles_mobilenav.scss */
   #left nav .box-shadow-menu { padding: 5px 15px; font-weight: bold; cursor: pointer; background: #b7dbac; color: #1c7c3e; border: 1px solid #1c7c3e; }
   /* line 16, ../components/sass/_styles_mobilenav.scss */

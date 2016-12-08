@@ -1,6 +1,6 @@
 <nav class="mainnav clearfix" role="navigation">
     <div id="expandme" class="cf">
-        <p class="box-shadow-menu"> Academics Menu <i class="fa fa-chevron-down"><span class="sr-only">expand</span> </i></p>
+        <p class="box-shadow-menu"> Academics Menu <span class="fa fa-chevron-down"><span class="sr-only">expand</span> </span></p>
     </div>
     <div id="expand_section">
         <ul class="sr-only">
@@ -10,7 +10,7 @@
             <li>
                 <h2>Focus Areas Menu</h2>
             </li>
-            <ul>
+             
                 <li><a href="/academics/areas/applied-tech.html">Applied Technology</a></li>
                <li><a href="/about-jackson-state/student-services/business-services/index.html">Business Services</a><ul><li><a href="/about-jackson-state/student-services/business-services/index.html">About Business Services</a></li><li><a href="/about-jackson-state/student-services/business-services/fees-tuition/index.html">Fees and Tuition</a></li><li><a href="/about-jackson-state/student-services/business-services/confirmation-of-registration.html">Confirmation of Registration</a></li><li><a href="/about-jackson-state/student-services/business-services/payments/">Payments</a></li><li><a href="/about-jackson-state/student-services/business-services/student-privacy-rights.html">Privacy Rights</a></li><li><a href="/about-jackson-state/student-services/business-services/tax-information.html">Tax Information</a></li><li><a href="/about-jackson-state/student-services/business-services/refunds/">Refunds</a></li><li><a href="/about-jackson-state/student-services/business-services/refund-cards.html">eRefunds</a></li><li><a href="/about-jackson-state/student-services/business-services/business-office-contact.html">Comments/Questions</a></li><li><a href="/about-jackson-state/student-services/business-services/business-staff.html">Staff</a></li></ul></li>
                 <li><a href="/academics/areas/education.html">Education</a></li>
@@ -20,6 +20,6 @@
                 <li><a href="/academics/areas/social-sciences.html">Social Sciences</a></li>
                 <li><a href="/academics/areas/stem.html">STEM</a></li>
             </ul>
-        </ul>
+         
     </div>
 </nav>
