@@ -1,23 +1,16 @@
-<!--<div class="wrapper clearfix alert alert-danger alert-message">
+<div class="wrapper clearfix alert alert-danger alert-message">
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
                 <ul class="list-horizontal list-inline list-unstyled">
                     <li>View: </li>
-                    <li><a href="#">Homepage</a></li>
-                    <li><a href="#">2.1A</a></li>
-                    <li><a href="#">2.1B</a></li>
-                    <li><a href="#">2.2A</a></li>
-                    <li><a href="#">2.2B</a></li>
-                    <li><a href="#">2.2C</a></li>
-                    <li><a href="#">2.3A</a></li>
-                    <li><a href="#">2.3B</a></li>
-                    <li><a href="#">2.4</a></li>
+                    <li><a href="index.php">Homepage</a></li>
+                    <li><a href="2.php">Secondary</a></li>
                 </ul>
             </div>
         </div>
     </div>
-</div>-->
+</div> 
 <div class="wrapper clearfix">
 
     <div class="topnav visible-xs visible-sm visible-md visible-lg">

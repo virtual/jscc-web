@@ -15,9 +15,7 @@
     <meta name="theme-color" content="#006401" />
     <link rel="icon" sizes="192x192" href="images/structure/logos/icon.png" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <link rel="stylesheet" href="http://cdn.jsdelivr.net/jquery.slick/1.6/slick.css" media="screen" />
-    <link rel="stylesheet" href="http://cdn.jsdelivr.net/jquery.slick/1.6/slick-theme.css" media="screen" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
 
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
