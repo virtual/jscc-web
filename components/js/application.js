@@ -1,22 +1,18 @@
 //= require bootstrap
 $(document).ready(function() { 
     
-    
-    
     $("#expandme").click(function() {
         if (currentW == 'small') {
 		$('#expand_section').toggle();
             }
 	});
    
-
 	window.prettyPrint && prettyPrint();
 	$(document).on('click', '.yamm .dropdown-menu', function(e) {
 		e.stopPropagation();
 	});
 
 	$('#expand_section ul>li:has(ul)').click(function(event) {
-		//alert("onclick="+$(this).attr('class'));
 		$newul = $(this).find("ul:first");
 		if ($newul.css("display") == "none") {
 			$newul = $(this).find("ul:first");
@@ -40,15 +36,13 @@ $(document).ready(function() {
 		$(this).show("fast");
 	});
     
-    
     /* Menu accessibility for Enter */
     $('.dropdown > a[tabindex]').keydown(function(event) {
         if (event.keyCode == 13) {
           $(this).dropdown('toggle');
         }
     });
-    $('.dropdown-submenu > a').submenupicker();
-    
+  
     window.prettyPrint && prettyPrint();
 	$(document).on('click', '.yamm .dropdown-menu', function(e) {
 		e.stopPropagation();
@@ -69,8 +63,6 @@ $(document).ready(function() {
 	$(window).resize(function() {
 		//confirm window was actually resized
 		if (Math.max(document.documentElement.clientWidth, window.innerWidth || 0) != lastWindowWidth) {
-
-			
 			lastWindowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 
 			//call my function
@@ -85,8 +77,6 @@ $(document).ready(function() {
 			} 
         }
 	});
-
-	
 
 	if ((Math.max(document.documentElement.clientWidth, window.innerWidth || 0)) < 768) {
 	 	smallWindow(); 
@@ -105,28 +95,6 @@ $(document).ready(function() {
         $('#yamm-placeholder').append($('.yamm'));
         $('.topnav-action').show();
     }
-
-	//Direct Edit swap code to make ob work in dynamic templates:
-	$('#ouc-direct-edit-wrapper a').attr('href', $('#ouc-ob-fill a').attr('href'));
-	$('#ouc-ob-fill').remove();
-	$('#ouc-direct-edit-wrapper').contents().unwrap();
-	$('footer div.maxwidth').append($('#de'));
-    
-    /* Quicklinks even columns on tablet */
-    var varcount = $(".subfeature-quicklinks ul li").length;
-     $(".subfeature-quicklinks ul li").slice(0,Math.ceil(varcount/2)).addClass('first-col');
-
-    
-    function addButtonCaret() {
-    
-    
-        $('.btn.orange-caret').each(function () {
-            $(this).append(' <span class="fa color-brand fa-caret-right" aria-hidden="false"><span class="sr-only">Expand</span></span>');
-        });
-    }
-    
-    
-    addButtonCaret();
     
      $( "#expand_section .drop > a" ).click(function( event ) {
         event.preventDefault();
@@ -134,6 +102,4 @@ $(document).ready(function() {
     $( "#expand_section .opendrop > a" ).click(function( event ) {
         event.preventDefault();
     });
-    
 }); 
-
