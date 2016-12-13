@@ -1,58 +1,83 @@
-/*
-Error: File to import not found or unreadable: styles_slickslider.
-       Load paths:
-         Compass::SpriteImporter
-         C:/wamp/www/jscc/components/sass
-         C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets
-        on line 2 of C:/wamp/www/jscc/components/sass/slickslider.scss
+/* COLORS */
+/* line 1, ../components/sass/_styles_slickslider.scss */
+.main-banner { color: #000; margin-bottom: 5px; }
+/* line 3, ../components/sass/_styles_slickslider.scss */
+.main-banner img { max-width: none; width: 100%; }
+/* line 7, ../components/sass/_styles_slickslider.scss */
+.main-banner p { padding: 5px 10px; text-align: center; }
+/* line 9, ../components/sass/_styles_slickslider.scss */
+.main-banner p a { text-transform: uppercase; font-size: .85rem; font-weight: bold; color: #1c7c3e; }
+/* line 14, ../components/sass/_styles_slickslider.scss */
+.main-banner p a:hover { text-decoration: underline; }
 
-1: @import "variables";
-2: @import "styles_slickslider";
+/* support for edge-to-edge banner */
+/* line 22, ../components/sass/_styles_slickslider.scss */
+.container-fluid.main-banner { padding-left: 15px; padding-right: 15px; margin-bottom: 0; }
 
-Backtrace:
-C:/wamp/www/jscc/components/sass/slickslider.scss:2
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/import_node.rb:67:in `rescue in import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/import_node.rb:45:in `import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:20:in `render'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:278:in `render'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/bin/compass:44:in `call'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
-C:/Ruby22-x64/bin/compass:22:in `load'
-C:/Ruby22-x64/bin/compass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: styles_slickslider.\A        Load paths:\A          Compass::SpriteImporter\A          C:/wamp/www/jscc/components/sass\A          C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets\A         on line 2 of C:/wamp/www/jscc/components/sass/slickslider.scss\A \A 1: @import \"variables\";\A 2: @import \"styles_slickslider\";"; }
+/* line 28, ../components/sass/_styles_slickslider.scss */
+.slick-slide, .slick-slide > div { width: 100%; position: relative; padding: 0; margin: 0; }
+/* line 34, ../components/sass/_styles_slickslider.scss */
+.slick-slide img, .slick-slide > div img { width: 100%; }
+
+/* line 39, ../components/sass/_styles_slickslider.scss */
+.slick-slide { position: relative; }
+
+/* caption styles */
+/* line 47, ../components/sass/_styles_slickslider.scss */
+.slick-next, .slick-prev { display: none; }
+
+/* line 53, ../components/sass/_styles_slickslider.scss */
+.slick-slide .caption { margin: 0 auto; text-align: center; max-width: 1100px; position: relative; color: #fff; font-family: "Droid Sans", Helvetica, Arial, sans-serif; font-size: 5rem; text-shadow: 0 0 15px #333; width: 100%; display: block; padding: 0; }
+/* line 69, ../components/sass/_styles_slickslider.scss */
+.slick-slide .caption a { -webkit-transition-property: color, text; -webkit-transition-duration: .3s, .3s; -webkit-transition-timing-function: linear, ease-in; -moz-transition-property: color, text; -moz-transition-duration: .3s; -moz-transition-timing-function: linear, ease-in; -ms-transition-property: color, text; -ms-transition-duration: .3s; -ms-transition-timing-function: linear, ease-in; -o-transition-property: color, text; -o-transition-duration: .3s; -o-transition-timing-function: linear, ease-in; transition-property: color, text; transition-duration: .3s; transition-timing-function: linear, ease-in; color: inherit; }
+/* line 86, ../components/sass/_styles_slickslider.scss */
+.slick-slide .caption a:hover { color: #ce812c; }
+/* line 90, ../components/sass/_styles_slickslider.scss */
+.slick-slide .caption .read-more { text-transform: uppercase; font-size: .7rem; letter-spacing: .02em; margin-left: .5rem; }
+/* line 97, ../components/sass/_styles_slickslider.scss */
+.slick-slide .caption > div { position: absolute; right: 0; left: auto; padding: 50px; bottom: 0; margin-bottom: 10%; right: auto; display: block; width: 100%; }
+/* line 108, ../components/sass/_styles_slickslider.scss */
+.slick-slide .embed-responsive { padding-bottom: 33.5%; }
+/* line 111, ../components/sass/_styles_slickslider.scss */
+.slick-slide video::-webkit-media-controls-panel { display: none !important; }
+
+@media (min-width: 1400px) { /* line 117, ../components/sass/_styles_slickslider.scss */
+  .slick-slide .caption > div { margin-bottom: 22%; } }
+@media (max-width: 768px) { /* line 123, ../components/sass/_styles_slickslider.scss */
+  .slick-slide .caption > div { margin-bottom: 5%; }
+  /* line 126, ../components/sass/_styles_slickslider.scss */
+  .video-container { display: none; } }
+@media (max-width: 991px) { /* line 133, ../components/sass/_styles_slickslider.scss */
+  .slick-slide .caption { font-family: "Droid Sans", Helvetica, Arial, sans-serif; } }
+@media (max-width: 991px) { /* line 141, ../components/sass/_styles_slickslider.scss */
+  .slick-slide .caption { font-size: 3rem; line-height: 3rem; } }
+@media (max-width: 479px) { /* line 152, ../components/sass/_styles_slickslider.scss */
+  .slick-slide .caption > div { text-align: right; padding: 20px; margin-bottom: 0; } }
+@media (min-width: 768px) { /* line 161, ../components/sass/_styles_slickslider.scss */
+  .slick-slide .caption { position: relative; z-index: 30; height: auto; padding: 0; display: block; } }
+/* line 172, ../components/sass/_styles_slickslider.scss */
+.caption-theme-light { color: #000; font-size: 1rem; background-color: rgba(248, 248, 248, 0.8); text-shadow: none; width: 100%; display: block; }
+/* line 179, ../components/sass/_styles_slickslider.scss */
+.caption-theme-light a { color: #09589a; }
+
+/* feature themes */
+/* line 187, ../components/sass/_styles_slickslider.scss */
+.slick-slider { width: 100%; height: auto; clear: both; display: block; }
+
+/* line 194, ../components/sass/_styles_slickslider.scss */
+.slick-slider { background-position: 50% 50%; background-image: url("../_resources/images/slider/ajax-loader.gif"); background-repeat: no-repeat; }
+
+/* line 200, ../components/sass/_styles_slickslider.scss */
+.slick-slider.slick-initialized { background: none; }
+
+/* line 204, ../components/sass/_styles_slickslider.scss */
+.slick-slider > div > .caption, .slick-slider > div { display: none; -moz-opacity: 0; -khtml-opacity: 0; opacity: 0; }
+
+/* line 212, ../components/sass/_styles_slickslider.scss */
+.slick-slider > div:first-child { display: block; }
+
+/* line 216, ../components/sass/_styles_slickslider.scss */
+.slick-slider.slick-initialized .slick-list, .slick-slider.slick-initialized .slick-track { -moz-opacity: 1; -khtml-opacity: 1; opacity: 1; position: relative; -webkit-transition: opacity 0.5s ease-in; -moz-transition: opacity 0.5s ease-in; -o-transition: opacity 0.5s ease-in; -ms-transition: opacity 0.5s ease-in; transition: opacity 0.5s ease-in; }
+
+/* line 230, ../components/sass/_styles_slickslider.scss */
+.slick-slider a[href*="youtube.com/watch?"], .slick-slider a[href*="sevenload.com/videos/"], .slick-slider a[href*="metacafe.com/watch/"], .slick-slider a[href*="video.google.com"], .slick-slider a[href$='.mov'], .slick-slider a[href$='.wmv'], .slick-slider a[href$='.mp4'], .slick-slider a[href$='.avi'], .slick-slider a[href$='.mpg'] { padding: 0; }
