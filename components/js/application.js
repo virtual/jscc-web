@@ -4,10 +4,11 @@ $(document).ready(function() {
     
     
     $("#expandme").click(function() {
+        if (currentW == 'small') {
 		$('#expand_section').toggle();
+            }
 	});
-
-	$('#expand_section ul').find((':has(div)')).parent().addClass('nolink');
+   
 
 	window.prettyPrint && prettyPrint();
 	$(document).on('click', '.yamm .dropdown-menu', function(e) {
@@ -127,6 +128,12 @@ $(document).ready(function() {
     
     addButtonCaret();
     
+     $( "#expand_section .drop > a" ).click(function( event ) {
+        event.preventDefault();
+    });
+    $( "#expand_section .opendrop > a" ).click(function( event ) {
+        event.preventDefault();
+    });
     
 }); 
 

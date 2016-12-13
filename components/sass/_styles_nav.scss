@@ -9,8 +9,8 @@
     }
 }
 
-@media (min-width: $screen-sm-min) {
-    #expandme {
+@media (min-width: $screen-sm-min) { 
+    #expandme .fa {
         display: none;
     }
     #left {
@@ -53,7 +53,7 @@
             font-family: $font-family-serif;
             font-size: 1.3rem;
             margin-top: 0;
-            margin-bottom: 15px;
+            margin-bottom: 0;
             a {
                 color: inherit;
             }

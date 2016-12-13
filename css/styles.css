@@ -4420,7 +4420,7 @@ table#indexcal td { border-bottom: 0; }
 #left .custom-inline-input a { padding: 0 5px; }
 
 @media (min-width: 768px) { /* line 13, ../components/sass/_styles_nav.scss */
-  #expandme { display: none; }
+  #expandme .fa { display: none; }
   /* line 16, ../components/sass/_styles_nav.scss */
   #left { word-wrap: break-word; padding-top: 40px; }
   /* line 19, ../components/sass/_styles_nav.scss */
@@ -4440,7 +4440,7 @@ table#indexcal td { border-bottom: 0; }
   /* line 48, ../components/sass/_styles_nav.scss */
   #left li:first-child a { border-top: 0; }
   /* line 51, ../components/sass/_styles_nav.scss */
-  #left h2, #left h3 { font-family: "Droid Serif", Georgia, Times, serif; font-size: 1.3rem; margin-top: 0; margin-bottom: 15px; }
+  #left h2, #left h3 { font-family: "Droid Serif", Georgia, Times, serif; font-size: 1.3rem; margin-top: 0; margin-bottom: 0; }
   /* line 57, ../components/sass/_styles_nav.scss */
   #left h2 a, #left h3 a { color: inherit; }
   /* ul borders between */
@@ -4472,80 +4472,80 @@ table#indexcal td { border-bottom: 0; }
   /* line 136, ../components/sass/_styles_nav.scss */
   #expand_section ul ul { display: none; } }
 @media (max-width: 767px) { /* line 8, ../components/sass/_styles_mobilenav.scss */
-  #left nav .box-shadow-menu { padding: 5px 15px; font-weight: bold; cursor: pointer; background: #b7dbac; color: #1c7c3e; border: 1px solid #1c7c3e; }
-  /* line 16, ../components/sass/_styles_mobilenav.scss */
+  #left nav .box-shadow-menu { padding: 5px 15px; font-weight: bold; cursor: pointer; background: #b7dbac; color: #1c7c3e; border: 1px solid #1c7c3e; font-family: "Droid Sans", Helvetica, Arial, sans-serif; font-size: 1rem; }
+  /* line 18, ../components/sass/_styles_mobilenav.scss */
   #menu-nav { display: none; }
-  /* line 24, ../components/sass/_styles_mobilenav.scss */
+  /* line 26, ../components/sass/_styles_mobilenav.scss */
   .mainnav { float: none; background: #363636; }
-  /* line 29, ../components/sass/_styles_mobilenav.scss */
+  /* line 31, ../components/sass/_styles_mobilenav.scss */
   #left nav ul { clear: both; display: block; padding: 0; content: ""; display: table; width: 100%; position: relative; }
-  /* line 38, ../components/sass/_styles_mobilenav.scss */
+  /* line 40, ../components/sass/_styles_mobilenav.scss */
   #left nav ul.sr-only { position: absolute; left: -99999px; }
-  /* line 39, ../components/sass/_styles_mobilenav.scss */
+  /* line 41, ../components/sass/_styles_mobilenav.scss */
   #left nav #expand_section > ul.nolink { padding: 15px 16px; }
-  /* line 42, ../components/sass/_styles_mobilenav.scss */
+  /* line 44, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul { border: 1px solid #1c7c3e; border-top: 0; }
-  /* line 43, ../components/sass/_styles_mobilenav.scss */
+  /* line 45, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul li:last-child { margin-bottom: 0; }
-  /* line 47, ../components/sass/_styles_mobilenav.scss */
+  /* line 49, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul li { float: left; padding: 0; clear: both; display: block; width: 100%; }
-  /* line 56, ../components/sass/_styles_mobilenav.scss */
+  /* line 58, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul li a { color: #000; display: block; text-decoration: none; }
-  /* line 62, ../components/sass/_styles_mobilenav.scss */
-  #left nav div > ul li a:hover { border-left: 3px solid #1c7c3e; padding-left: 11px !important; color: #1c7c3e; background: rgba(255, 255, 255, 0.55); }
   /* line 64, ../components/sass/_styles_mobilenav.scss */
+  #left nav div > ul li a:hover { border-left: 3px solid #1c7c3e; padding-left: 11px !important; color: #1c7c3e; background: rgba(255, 255, 255, 0.55); }
+  /* line 66, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul li form a { color: #333; }
-  /* line 65, ../components/sass/_styles_mobilenav.scss */
+  /* line 67, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul li form input { padding: 3px 5px; }
-  /* line 68, ../components/sass/_styles_mobilenav.scss */
+  /* line 70, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul li h2, #left nav div > ul li h3 { font-family: "Droid Sans", Helvetica, Arial, sans-serif; position: relative; padding: 8px 10px; margin-top: 0; color: #000; font-size: .85rem; text-transform: uppercase; display: inline-block; }
-  /* line 77, ../components/sass/_styles_mobilenav.scss */
+  /* line 79, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul li h2 a, #left nav div > ul li h3 a { padding-right: 20px !important; }
-  /* line 80, ../components/sass/_styles_mobilenav.scss */
+  /* line 82, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul li h2 a:before, #left nav div > ul li h2 a:after, #left nav div > ul li h3 a:before, #left nav div > ul li h3 a:after { border-right: 2px solid; content: ''; display: inline-block; height: 8px; margin-top: -6px; position: absolute; -moz-transform: rotate(135deg); -o-transform: rotate(135deg); -webkit-transform: rotate(135deg); transform: rotate(135deg); right: 10px; top: 50%; width: 0; }
-  /* line 95, ../components/sass/_styles_mobilenav.scss */
+  /* line 97, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul li h2 a:after, #left nav div > ul li h3 a:after { margin-top: -1px; -moz-transform: rotate(45deg); -o-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(45deg); }
-  /* line 104, ../components/sass/_styles_mobilenav.scss */
+  /* line 106, ../components/sass/_styles_mobilenav.scss */
   #left nav div > ul li > ul > li { padding: 0; }
-  /* line 111, ../components/sass/_styles_mobilenav.scss */
+  /* line 113, ../components/sass/_styles_mobilenav.scss */
   #left nav.mainnav ul li.opendrop1 ul li a, #left nav.mainnav ul li.opendrop ul li a { padding-left: 0; }
-  /* line 114, ../components/sass/_styles_mobilenav.scss */
-  #left #expand_section { display: none; }
   /* line 116, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section { display: none; }
+  /* line 118, ../components/sass/_styles_mobilenav.scss */
   #left #expand_section li { background: #b3c3ad; }
-  /* line 119, ../components/sass/_styles_mobilenav.scss */
+  /* line 121, ../components/sass/_styles_mobilenav.scss */
   #left #expand_section li > a, #left #expand_section li > * > a { padding: 10px 10px 10px 14px; }
-  /* line 123, ../components/sass/_styles_mobilenav.scss */
-  #left #expand_section li > ul > li { background: #eaeee8; }
   /* line 125, ../components/sass/_styles_mobilenav.scss */
-  #left #expand_section li > ul > li > ul > li { background: white; }
+  #left #expand_section li > ul > li { background: #eaeee8; }
   /* line 127, ../components/sass/_styles_mobilenav.scss */
-  #left #expand_section li > ul > li > ul > li > ul > li { background: white; }
+  #left #expand_section li > ul > li > ul > li { background: white; }
   /* line 129, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li > ul > li > ul > li > ul > li { background: white; }
+  /* line 131, ../components/sass/_styles_mobilenav.scss */
   #left #expand_section li > ul > li > ul > li > ul > li > ul > li { background: white; }
-  /* line 135, ../components/sass/_styles_mobilenav.scss */
+  /* line 137, ../components/sass/_styles_mobilenav.scss */
   #left #expand_section li > .btn { width: 100%; text-align: left; border-radius: 0; border-top: 1px solid #00355A; border-bottom: 1px solid #2792f1; margin: 0; margin-top: -1px; }
-  /* line 151, ../components/sass/_styles_mobilenav.scss */
+  /* line 153, ../components/sass/_styles_mobilenav.scss */
   #left #expand_section li.togopen1, #left #expand_section li.drop, #left #expand_section li.opendrop, #left #expand_section ul li.togopen, #left #expand_section ul li.opendrop { background-position: right top; background-repeat: no-repeat; cursor: pointer; margin-top: 0; }
-  /* line 160, ../components/sass/_styles_mobilenav.scss */
+  /* line 162, ../components/sass/_styles_mobilenav.scss */
   #left #expand_section li.opendrop > a { display: inline-block; clear: both; }
-  /* line 167, ../components/sass/_styles_mobilenav.scss */
+  /* line 169, ../components/sass/_styles_mobilenav.scss */
   #left #expand_section li.togopen1:before, #left #expand_section li.drop:before, #left #expand_section li.opendrop:before, #left #expand_section ul li.togopen:before, #left #expand_section ul li.opendrop:before { content: "+"; float: right; padding: 10px 20px; font-size: 22px; font-weight: 900; }
-  /* line 176, ../components/sass/_styles_mobilenav.scss */
-  #left #expand_section li.drop:hover:before { color: #1c7c3e !important; }
   /* line 178, ../components/sass/_styles_mobilenav.scss */
+  #left #expand_section li.drop:hover:before { color: #1c7c3e !important; }
+  /* line 180, ../components/sass/_styles_mobilenav.scss */
   #left #expand_section li.opendrop:before { content: "\2212" !important; color: #1c7c3e; }
-  /* line 182, ../components/sass/_styles_mobilenav.scss */
+  /* line 184, ../components/sass/_styles_mobilenav.scss */
   #left #expand_section li.opendrop > a { color: #1c7c3e; }
-  /* line 187, ../components/sass/_styles_mobilenav.scss */
+  /* line 189, ../components/sass/_styles_mobilenav.scss */
   #left nav ul { list-style: none; font-weight: normal; }
-  /* line 190, ../components/sass/_styles_mobilenav.scss */
+  /* line 192, ../components/sass/_styles_mobilenav.scss */
   #left nav ul li { list-style: none; font-weight: normal; }
-  /* line 194, ../components/sass/_styles_mobilenav.scss */
+  /* line 196, ../components/sass/_styles_mobilenav.scss */
   #left nav ul li ul { display: none; width: 100%; }
-  /* line 200, ../components/sass/_styles_mobilenav.scss */
+  /* line 202, ../components/sass/_styles_mobilenav.scss */
   #left nav * { padding: 0; margin: 0; }
-  /* line 206, ../components/sass/_styles_mobilenav.scss */
+  /* line 208, ../components/sass/_styles_mobilenav.scss */
   .fa.fa-chevron-down { float: right; top: 1px; position: relative; min-width: 50px; text-align: right; } }
 /* line 1, ../components/sass/_styles_megamenu.scss */
 nav#navbar-collapse-1 { clear: both; text-shadow: 1px 1px 1px #fff; top: 0; position: relative; }
