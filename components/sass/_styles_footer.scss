@@ -37,7 +37,7 @@ footer {
             padding: 3px 0;
             color: inherit;
             display: block;
-            font-family: $font-family-bold;
+            //font-family: $font-family-bold;
             text-decoration: none;
             &:hover {
                 //color: $brand-primary;
@@ -269,3 +269,4 @@ a[href$='.pdf'] {
 }
 
 
+footer .vcard p a { font-weight: 600;}

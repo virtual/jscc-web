@@ -151,7 +151,6 @@ $level5bg : lighten($level4bg, 20%);
             
 
             li.togopen1, li.drop, li.opendrop, ul li.togopen, ul li.opendrop {
-                //background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navon5l-alt2.png");
                 background-position: right top;
                 background-repeat: no-repeat;
                 cursor: pointer;
@@ -161,7 +160,6 @@ $level5bg : lighten($level4bg, 20%);
             }
             li.opendrop > a { display:inline-block; clear:both;}
             li.drop {
-                //background-image: url("http://www.montana.edu/msucommon/home/resources/images/structure/nav/navoff5l-alt2.png");
                 //padding-right: 50px; //touch area for toggle
             }
             

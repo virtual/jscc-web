@@ -167,9 +167,6 @@ hr { color: #ddddd5; background-color: #ddddd5; height: 1px; clear: both; }
 /* line 39, ../components/sass/_styles_jscc_screen4.scss */
 #content a:link, #content a:visited { color: #1c7c3e; text-decoration: underline; }
 
-/* line 45, ../components/sass/_styles_jscc_screen4.scss */
-#content ul, #content ol { margin-left: 2em; }
-
 /* line 51, ../components/sass/_styles_jscc_screen4.scss */
 #content ul ul, #content ol ol, #content ul ol, #content ol ul { margin-left: 2em; }
 
@@ -180,19 +177,19 @@ hr { color: #ddddd5; background-color: #ddddd5; height: 1px; clear: both; }
 #content ol { list-style: decimal outside; }
 
 /* line 69, ../components/sass/_styles_jscc_screen4.scss */
-#content address { font-size: 1.3em; line-height: 1.6em; background: url(./_resources/images/letter.png) no-repeat left top; padding-left: 60px; }
+#content address { line-height: 1.6em; background: url(/_resources/images/letter.png) no-repeat left top; padding-left: 60px; }
 
 /* line 76, ../components/sass/_styles_jscc_screen4.scss */
 #content dl { margin-left: 2em; }
 
 /* line 80, ../components/sass/_styles_jscc_screen4.scss */
-#content dt { font-size: 1.5em; font-weight: bold; background-image: url(./_resources/images/icons/roundarrow.png); background-repeat: no-repeat; background-position: 0 center; padding-left: 16px; margin-bottom: 0.5em; }
+#content dt { font-weight: bold; background-image: url(/_resources/images/icons/roundarrow.png); background-repeat: no-repeat; background-position: 0 center; padding-left: 16px; margin-bottom: 0.5em; }
 
 /* line 90, ../components/sass/_styles_jscc_screen4.scss */
-#content dd { font-size: 1.4em; line-height: 1.5em; margin: 0 0 1.5em 16px; }
+#content dd { line-height: 1.5em; margin: 0 0 1.5em 16px; }
 
 /* line 96, ../components/sass/_styles_jscc_screen4.scss */
-#content blockquote { background-color: #f2f2e8; font-size: 1.4em; line-height: 1.6em; margin: 1em 4em; padding: 1em; }
+#content blockquote { background-color: #f2f2e8; line-height: 1.6em; margin: 1em 4em; padding: 1em; }
 
 /* line 104, ../components/sass/_styles_jscc_screen4.scss */
 #skip { text-align: right; }
@@ -316,13 +313,13 @@ p.required, span.required { color: red; }
 #subnav { width: 226px; float: right; background: #ddddd5 url(/_resources/images/hot-bottom.gif) no-repeat bottom; min-height: 175px; margin: 0 0 20px 20px; }
 
 /* line 329, ../components/sass/_styles_jscc_screen4.scss */
-#subnav h2 { border-bottom: #FFF 2px solid; background: no-repeat top; color: #FFF; font-size: 1.7em; background-color: #ce812c; background-image: url("/_resources/images/hot-orange-top.gif"); font-family: 'Droid Sans', Helvetica, Arial, sans-serif; font-weight: 700; margin: 0; padding: 8px; }
+#subnav h2 { border-bottom: #FFF 2px solid; background: no-repeat top; color: #FFF; font-size: 1.2em; background-color: #ce812c; background-image: url("/_resources/images/hot-orange-top.gif"); font-family: 'Droid Sans', Helvetica, Arial, sans-serif; font-weight: 700; margin: 0; padding: 8px; }
 
 /* line 342, ../components/sass/_styles_jscc_screen4.scss */
 #subnav h4 { padding: 0 0 0 .9em; margin-bottom: 0; }
 
 /* line 347, ../components/sass/_styles_jscc_screen4.scss */
-#subnav ul { list-style-type: none; font-size: 1.3em; margin: 0; padding: 1em; }
+#subnav ul { list-style-type: none; margin: 0; padding: 1em; }
 
 /* line 354, ../components/sass/_styles_jscc_screen4.scss */
 #subnav p { font-size: 1.2em; }

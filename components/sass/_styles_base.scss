@@ -35,14 +35,14 @@ body {
 .container,
 .container-fluid,
 .wrapper {
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 
 #{headings(all)} {
     color: #000;
     font-family: $font-family-serif;
     padding: 4px 0 2px 0;
-    line-height: 1.5em;
+    line-height: 1.7em;
     a, a:visited, a:focus {
         color: inherit;
     }

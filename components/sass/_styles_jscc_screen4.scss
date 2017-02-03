@@ -45,7 +45,7 @@ hr {
 #content ul,
 #content ol {
 //    font-size: 1.3em;
-    margin-left: 2em
+//    margin-left: 2em
 }
  
 #content ul ul,
@@ -67,9 +67,9 @@ hr {
  
 
 #content address {
-    font-size: 1.3em;
+//    font-size: 1.3em;
     line-height: 1.6em;
-    background: url(./_resources/images/letter.png) no-repeat left top;
+    background: url(/_resources/images/letter.png) no-repeat left top;
     padding-left: 60px
 }
 
@@ -78,9 +78,9 @@ hr {
 }
 
 #content dt {
-    font-size: 1.5em;
+//    font-size: 1.5em;
     font-weight: bold;
-    background-image: url(./_resources/images/icons/roundarrow.png);
+    background-image: url(/_resources/images/icons/roundarrow.png);
     background-repeat: no-repeat;
     background-position: 0 center;
     padding-left: 16px;
@@ -88,14 +88,14 @@ hr {
 }
 
 #content dd {
-    font-size: 1.4em;
-    line-height: 1.5em;
+    //font-size: 1.4em;
+    line-height: 1.5em; 
     margin: 0 0 1.5em 16px
 }
 
 #content blockquote {
     background-color: #f2f2e8;
-    font-size: 1.4em;
+   // font-size: 1.4em;
     line-height: 1.6em;
     margin: 1em 4em;
     padding: 1em
@@ -330,7 +330,7 @@ span.required {
     border-bottom: #FFF 2px solid;
     background: no-repeat top;
     color: #FFF;
-    font-size: 1.7em;
+    font-size: 1.2em;
     background-color: #ce812c;
     background-image: url('/_resources/images/hot-orange-top.gif');
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
@@ -346,7 +346,7 @@ span.required {
 
 #subnav ul {
     list-style-type: none;
-    font-size: 1.3em;
+    //font-size: 1.3em;
     margin: 0;
     padding: 1em
 }
