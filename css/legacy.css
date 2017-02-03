@@ -150,7 +150,7 @@ li.hottopic .action { background-image: url(/_resources/images/hotarrow.png); }
 body { font-family: 'Droid Sans', Helvetica, Arial, sans-serif; font-weight: 400; }
 
 /* line 6, ../components/sass/_styles_jscc_screen4.scss */
-#breadcrumbs { color: #666; font-size: 1.1em; }
+#breadcrumbs { color: #666; }
 
 /* line 11, ../components/sass/_styles_jscc_screen4.scss */
 #breadcrumbs a:link { text-decoration: none; color: #666; }
@@ -214,7 +214,7 @@ td { border-bottom: #ddddd5 solid 1px; }
 tbody tr:hover { background-color: #f2f2e8; }
 
 /* line 146, ../components/sass/_styles_jscc_screen4.scss */
-caption { font-size: 1.4em; margin-top: 1.5em; margin-bottom: 1em; font-style: italic; }
+caption { margin-top: 1.5em; margin-bottom: 1em; font-style: italic; }
 
 /* line 153, ../components/sass/_styles_jscc_screen4.scss */
 th:last-child, td:last-child { padding-right: 0; }
@@ -238,19 +238,19 @@ table.curriculum td + td + td { width: 10%; text-align: right; }
 table.curriculum + table.curriculum + table.curriculum + table.curriculum, table.curriculum + table.curriculum + table.curriculum + table.curriculum + table.curriculum + table.curriculum { clear: none; }
 
 /* line 187, ../components/sass/_styles_jscc_screen4.scss */
-table.curriculum caption { font-size: 1.3em; color: #4e4e25; }
+table.curriculum caption { color: #4e4e25; }
 
 /* line 192, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav { position: absolute; width: 180px; margin-right: 50px; top: 24px; left: 35px; }
 
 /* line 200, ../components/sass/_styles_jscc_screen4.scss */
-#sidenav .navtitle { font-size: 1.8em; font-family: 'Droid Serif', Georgia, Times, serif; font-weight: 400; }
+#sidenav .navtitle { font-family: 'Droid Serif', Georgia, Times, serif; font-weight: 400; }
 
 /* line 206, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav ul { list-style: none; width: 100%; }
 
 /* line 211, ../components/sass/_styles_jscc_screen4.scss */
-#sidenav ul a { font-size: 1.3em; display: block; padding: 1em 10px 1em 0; }
+#sidenav ul a { display: block; padding: 1em 10px 1em 0; }
 
 /* line 217, ../components/sass/_styles_jscc_screen4.scss */
 #sidenav li:first-child { border-top-style: none; }
@@ -292,7 +292,7 @@ table.curriculum caption { font-size: 1.3em; color: #4e4e25; }
 p.required, span.required { color: red; }
 
 /* line 290, ../components/sass/_styles_jscc_screen4.scss */
-.fbtextinput { margin-bottom: 1em; font-size: 1.3em; }
+.fbtextinput { margin-bottom: 1em; }
 
 /* line 295, ../components/sass/_styles_jscc_screen4.scss */
 .textfieldRequiredMsg { font-style: italic; font-size: .8em; color: red; }
@@ -313,16 +313,13 @@ p.required, span.required { color: red; }
 #subnav { width: 226px; float: right; background: #ddddd5 url(/_resources/images/hot-bottom.gif) no-repeat bottom; min-height: 175px; margin: 0 0 20px 20px; }
 
 /* line 329, ../components/sass/_styles_jscc_screen4.scss */
-#subnav h2 { border-bottom: #FFF 2px solid; background: no-repeat top; color: #FFF; font-size: 1.2em; background-color: #ce812c; background-image: url("/_resources/images/hot-orange-top.gif"); font-family: 'Droid Sans', Helvetica, Arial, sans-serif; font-weight: 700; margin: 0; padding: 8px; }
+#subnav h2 { border-bottom: #FFF 2px solid; background: no-repeat top; color: #FFF; background-color: #ce812c; background-image: url("/_resources/images/hot-orange-top.gif"); font-family: 'Droid Sans', Helvetica, Arial, sans-serif; font-weight: 700; margin: 0; padding: 8px; }
 
 /* line 342, ../components/sass/_styles_jscc_screen4.scss */
 #subnav h4 { padding: 0 0 0 .9em; margin-bottom: 0; }
 
 /* line 347, ../components/sass/_styles_jscc_screen4.scss */
 #subnav ul { list-style-type: none; margin: 0; padding: 1em; }
-
-/* line 354, ../components/sass/_styles_jscc_screen4.scss */
-#subnav p { font-size: 1.2em; }
 
 /* line 358, ../components/sass/_styles_jscc_screen4.scss */
 #utilitybarWrap { background: #f2f2e8; clear: both; overflow: hidden; width: 100%; margin: 0 auto; padding: 16px 0 18px; }
@@ -337,10 +334,10 @@ p.required, span.required { color: red; }
 #utilitybar li { float: left; margin-right: 50px; padding-left: 52px; position: relative; }
 
 /* line 383, ../components/sass/_styles_jscc_screen4.scss */
-#utilitybar p.footerheading { font-size: 1.3em; font-weight: bold; margin: 1px 0 0; padding: 0; color: black; }
+#utilitybar p.footerheading { font-weight: bold; margin: 1px 0 0; padding: 0; color: black; }
 
 /* line 391, ../components/sass/_styles_jscc_screen4.scss */
-#utilitybar p { font-size: 1em; color: #666; margin-top: 3px; }
+#utilitybar p { color: #666; margin-top: 3px; }
 
 /* line 397, ../components/sass/_styles_jscc_screen4.scss */
 #utilitybar img { position: absolute; top: -6px; left: 0; }
@@ -403,7 +400,7 @@ ul#follow li#follow-plus { margin-top: 0; }
 body#index #notice { margin: 0 20px; padding: 150px 360px 30px 50px; background-repeat: no-repeat; }
 
 /* line 496, ../components/sass/_styles_jscc_screen4.scss */
-body#index #notice { font-family: helvetica, arial, sans-serif; font-size: 1.4em; }
+body#index #notice { font-family: helvetica, arial, sans-serif; }
 
 /* line 501, ../components/sass/_styles_jscc_screen4.scss */
 body#index #notice p { line-height: 1.4em; margin-bottom: 2em; }
@@ -415,10 +412,10 @@ body#index #notice a:link, body#index #notice a:visited { color: #2d597f; text-d
 body#index #notice a:hover { text-decoration: underline; }
 
 /* line 516, ../components/sass/_styles_jscc_screen4.scss */
-body#index #notice2 { font-family: helvetica, arial, sans-serif; font-size: 1.4em; margin: 0 20px; padding: 10px 50px 50px 110px; }
+body#index #notice2 { font-family: helvetica, arial, sans-serif; margin: 0 20px; padding: 10px 50px 50px 110px; }
 
 /* line 523, ../components/sass/_styles_jscc_screen4.scss */
-body#index #notice2 h2 { font-size: 200%; margin-bottom: 70px; }
+body#index #notice2 h2 { margin-bottom: 70px; }
 
 /* line 528, ../components/sass/_styles_jscc_screen4.scss */
 body#index #notice2 a:link, body#index #notice2 a:visited { color: black; text-decoration: underline; }
@@ -481,13 +478,13 @@ body#index #featurenews h3 { line-height: 1.4em; padding-top: 27px; margin-top: 
 #sidenews { font-size: .9em; padding: 0; width: 250px; float: right; margin-left: 1em; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border: 1px solid #DDDDD5; padding: 1em; }
 
 /* line 651, ../components/sass/_styles_jscc_screen4.scss */
-#sidenews p { font-family: arial, helvetica, sans-serif; color: #6d6654; margin-top: 0; padding-top: 0; font-size: 1.3em; line-height: 1.5em; }
+#sidenews p { font-family: arial, helvetica, sans-serif; color: #6d6654; margin-top: 0; padding-top: 0; line-height: 1.5em; }
 
 /* line 660, ../components/sass/_styles_jscc_screen4.scss */
 #sidenews h2 { margin: 0 0 1em 0; }
 
 /* line 664, ../components/sass/_styles_jscc_screen4.scss */
-#sidenews h3 { font-family: arial, helvetica, sans-serif; line-height: 1.4em; margin-top: 0; font-size: 1.5em; margin-bottom: .5em; }
+#sidenews h3 { font-family: arial, helvetica, sans-serif; line-height: 1.4em; margin-top: 0; margin-bottom: .5em; }
 
 /* line 672, ../components/sass/_styles_jscc_screen4.scss */
 #sidenews span { margin-bottom: 1em; padding-bottom: 1em; height: 105px; display: block; }
@@ -511,7 +508,7 @@ body#index #featurenews h3 { line-height: 1.4em; padding-top: 27px; margin-top: 
 .picboxright { margin-right: 16px; margin-bottom: 1px; float: left; width: 180px; color: #999; text-align: center; }
 
 /* line 716, ../components/sass/_styles_jscc_screen4.scss */
-.degree { color: #666; font-size: 1.5em; margin-top: -1.8em; margin-bottom: 2em; }
+.degree { color: #666; margin-top: -1.8em; margin-bottom: 2em; }
 
 /* line 723, ../components/sass/_styles_jscc_screen4.scss */
 .credit { float: right; }
@@ -553,13 +550,10 @@ img.floatleft.photo { margin-right: 2em; }
 .smallertext { font-size: 80%; }
 
 /* line 788, ../components/sass/_styles_jscc_screen4.scss */
-p.courses { font-size: 1.5em; line-height: 1.8em; }
+p.courses { line-height: 1.8em; }
 
 /* line 793, ../components/sass/_styles_jscc_screen4.scss */
 .staff { float: left; width: 330px; margin-bottom: 1em; padding-right: 2em; height: 120px; }
-
-/* line 801, ../components/sass/_styles_jscc_screen4.scss */
-#content .staff p { font-size: 1.3em; line-height: 1.6em; }
 
 /* line 806, ../components/sass/_styles_jscc_screen4.scss */
 a.more { background: transparent url(/_resources/images/icons/glass.png) no-repeat center right; font-weight: bold; padding: 5px 16px 5px 0; }
@@ -568,7 +562,7 @@ a.more { background: transparent url(/_resources/images/icons/glass.png) no-repe
 #content .staff .more:link, #content .staff .more:visited { color: #000; text-decoration: none; }
 
 /* line 818, ../components/sass/_styles_jscc_screen4.scss */
-.title { font-size: 1.6em; color: #999; margin-top: -24px; font-style: italic; }
+.title { color: #999; margin-top: -24px; font-style: italic; }
 
 /* line 825, ../components/sass/_styles_jscc_screen4.scss */
 .nowrap { white-space: nowrap; }
@@ -622,7 +616,7 @@ a[class~="external"] { padding-right: 18px; background: url(/_resources/images/i
 .action { background-image: url(/_resources/images/icons/roundarrow.png); background-repeat: no-repeat; background-position: 0 center; padding-left: 1.31em; }
 
 /* line 920, ../components/sass/_styles_jscc_screen4.scss */
-#acrobat { font-size: 1em; background-image: url(/_resources/images/icons/acroback.jpg); background-repeat: repeat-x; height: 31px; margin-top: 12px; margin-bottom: 12px; border: solid 1px #d8d8d8; line-height: 1.2em; padding: 4px; }
+#acrobat { background-image: url(/_resources/images/icons/acroback.jpg); background-repeat: repeat-x; height: 31px; margin-top: 12px; margin-bottom: 12px; border: solid 1px #d8d8d8; line-height: 1.2em; padding: 4px; }
 
 /* line 932, ../components/sass/_styles_jscc_screen4.scss */
 #acrobat img { float: left; margin-right: 10px; }
@@ -637,7 +631,7 @@ table#academiccal td + td { white-space: normal; vertical-align: top; }
 div#businesscal { border: 1px solid silver; background: #FFF; padding: 1em; width: 350px; float: right; margin-left: 2em; }
 
 /* line 956, ../components/sass/_styles_jscc_screen4.scss */
-div#businesscal table { font-size: 1.1em; font-weight: normal; margin-top: 10px; border-style: none; }
+div#businesscal table { font-weight: normal; margin-top: 10px; border-style: none; }
 
 /* line 963, ../components/sass/_styles_jscc_screen4.scss */
 div#businesscal tr { border-style: none; }
@@ -652,13 +646,10 @@ div#businesscal td { font-weight: bold; border-style: none; padding: 6px; }
 h2 + table { margin-top: 0.5em; }
 
 /* line 981, ../components/sass/_styles_jscc_screen4.scss */
-.studentblogs { font-size: 1.2em; clear: both; border: 1px solid #000; height: 118px; width: 350px; margin-bottom: 1em; background-color: #FFF; padding: 4px; }
+.studentblogs { clear: both; border: 1px solid #000; height: 118px; width: 350px; margin-bottom: 1em; background-color: #FFF; padding: 4px; }
 
 /* line 992, ../components/sass/_styles_jscc_screen4.scss */
 .studentblogs img { float: left; margin-right: 1em; }
-
-/* line 997, ../components/sass/_styles_jscc_screen4.scss */
-.studentblogs a { font-size: 1.2em; }
 
 /* line 1001, ../components/sass/_styles_jscc_screen4.scss */
 #breadcrumbs a:visited, #breadcrumbs a:active { color: #666; }
